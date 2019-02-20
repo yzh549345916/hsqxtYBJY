@@ -1,0 +1,2826 @@
+2018/11/15 8:48:52保存201811148时区局智能网格数据：
+2018/11/15 8:48:52保存201811118时区局智能网格数据：
+2018/11/15 8:48:52保存201811108时区局智能网格数据：
+2018/11/15 8:48:52保存201811138时区局智能网格数据：
+2018/11/15 8:48:52保存201811128时区局智能网格数据：
+2018/11/15 8:55:34保存201811128时区局智能网格数据：
+returnCode="-3001" returnMessage="Incorrect Parameter. detail: the fcstele TMIN variable [Maximum_temperature_height_above_ground_24_Hour_Maximum] isn't find in file" rowCount="0" colCount="0" requestParams="dataCode=NAFP_NWFD_SPCC&time=20181112080000&maxLat=41.45&minLat=39.53&minLon=110.55&maxLon=112.41&fcstEle=TMIN" requestTime="2018-11-15 00:55:41" responseTime="2018-11-15 00:55:41" takeTime="0.085"
+
+returnCode="-3001" returnMessage="Incorrect Parameter. detail: the fcstele TMIN variable [Maximum_temperature_height_above_ground_24_Hour_Maximum] isn't find in file" rowCount="0" colCount="0" requestParams="dataCode=NAFP_NWFD_SPCC&time=20181112080000&maxLat=41.45&minLat=39.53&minLon=110.55&maxLon=112.41&fcstEle=TMIN" requestTime="2018-11-15 00:55:42" responseTime="2018-11-15 00:55:42" takeTime="0.012"
+
+returnCode="-3001" returnMessage="Incorrect Parameter. detail: the fcstele TMIN variable [Maximum_temperature_height_above_ground_24_Hour_Maximum] isn't find in file" rowCount="0" colCount="0" requestParams="dataCode=NAFP_NWFD_SPCC&time=20181112080000&maxLat=41.45&minLat=39.53&minLon=110.55&maxLon=112.41&fcstEle=TMIN" requestTime="2018-11-15 00:55:42" responseTime="2018-11-15 00:55:42" takeTime="0.038"
+
+2018/11/15 8:55:35保存201811108时区局智能网格数据：
+returnCode="-3001" returnMessage="Incorrect Parameter. detail: the fcstele TMIN variable [Maximum_temperature_height_above_ground_24_Hour_Maximum] isn't find in file" rowCount="0" colCount="0" requestParams="dataCode=NAFP_NWFD_SPCC&time=20181110080000&maxLat=41.45&minLat=39.53&minLon=110.55&maxLon=112.41&fcstEle=TMIN" requestTime="2018-11-15 00:55:42" responseTime="2018-11-15 00:55:42" takeTime="0.091"
+
+returnCode="-3001" returnMessage="Incorrect Parameter. detail: the fcstele TMIN variable [Maximum_temperature_height_above_ground_24_Hour_Maximum] isn't find in file" rowCount="0" colCount="0" requestParams="dataCode=NAFP_NWFD_SPCC&time=20181110080000&maxLat=41.45&minLat=39.53&minLon=110.55&maxLon=112.41&fcstEle=TMIN" requestTime="2018-11-15 00:55:42" responseTime="2018-11-15 00:55:42" takeTime="0.013"
+
+returnCode="-3001" returnMessage="Incorrect Parameter. detail: the fcstele TMIN variable [Maximum_temperature_height_above_ground_24_Hour_Maximum] isn't find in file" rowCount="0" colCount="0" requestParams="dataCode=NAFP_NWFD_SPCC&time=20181110080000&maxLat=41.45&minLat=39.53&minLon=110.55&maxLon=112.41&fcstEle=TMIN" requestTime="2018-11-15 00:55:42" responseTime="2018-11-15 00:55:42" takeTime="0.011"
+
+2018/11/15 9:00:32：2018年11月15日08时中央指导自动入库成功
+2018/11/15 8:55:35保存201811118时区局智能网格数据：
+returnCode="-3001" returnMessage="Incorrect Parameter. detail: the fcstele TMIN variable [Maximum_temperature_height_above_ground_24_Hour_Maximum] isn't find in file" rowCount="0" colCount="0" requestParams="dataCode=NAFP_NWFD_SPCC&time=20181111080000&maxLat=41.45&minLat=39.53&minLon=110.55&maxLon=112.41&fcstEle=TMIN" requestTime="2018-11-15 00:55:42" responseTime="2018-11-15 00:55:42" takeTime="0.062"
+
+returnCode="-3001" returnMessage="Incorrect Parameter. detail: the fcstele TMIN variable [Maximum_temperature_height_above_ground_24_Hour_Maximum] isn't find in file" rowCount="0" colCount="0" requestParams="dataCode=NAFP_NWFD_SPCC&time=20181111080000&maxLat=41.45&minLat=39.53&minLon=110.55&maxLon=112.41&fcstEle=TMIN" requestTime="2018-11-15 00:55:42" responseTime="2018-11-15 00:55:42" takeTime="0.011"
+
+returnCode="-3001" returnMessage="Incorrect Parameter. detail: the fcstele TMIN variable [Maximum_temperature_height_above_ground_24_Hour_Maximum] isn't find in file" rowCount="0" colCount="0" requestParams="dataCode=NAFP_NWFD_SPCC&time=20181111080000&maxLat=41.45&minLat=39.53&minLon=110.55&maxLon=112.41&fcstEle=TMIN" requestTime="2018-11-15 00:55:42" responseTime="2018-11-15 00:55:42" takeTime="0.012"
+
+2018/11/15 8:55:28保存201811138时区局智能网格数据：
+returnCode="-3001" returnMessage="Incorrect Parameter. detail: the fcstele TMIN variable [Maximum_temperature_height_above_ground_24_Hour_Maximum] isn't find in file" rowCount="0" colCount="0" requestParams="dataCode=NAFP_NWFD_SPCC&time=20181113080000&maxLat=41.45&minLat=39.53&minLon=110.55&maxLon=112.41&fcstEle=TMIN" requestTime="2018-11-15 00:55:42" responseTime="2018-11-15 00:55:42" takeTime="0.083"
+
+returnCode="-3001" returnMessage="Incorrect Parameter. detail: the fcstele TMIN variable [Maximum_temperature_height_above_ground_24_Hour_Maximum] isn't find in file" rowCount="0" colCount="0" requestParams="dataCode=NAFP_NWFD_SPCC&time=20181113080000&maxLat=41.45&minLat=39.53&minLon=110.55&maxLon=112.41&fcstEle=TMIN" requestTime="2018-11-15 00:55:43" responseTime="2018-11-15 00:55:43" takeTime="0.046"
+
+returnCode="-3001" returnMessage="Incorrect Parameter. detail: the fcstele TMIN variable [Maximum_temperature_height_above_ground_24_Hour_Maximum] isn't find in file" rowCount="0" colCount="0" requestParams="dataCode=NAFP_NWFD_SPCC&time=20181113080000&maxLat=41.45&minLat=39.53&minLon=110.55&maxLon=112.41&fcstEle=TMIN" requestTime="2018-11-15 00:55:43" responseTime="2018-11-15 00:55:43" takeTime="0.012"
+
+20181114日08时中央指导预报成功入库
+2018/11/15 8:55:25保存201811148时区局智能网格数据：
+returnCode="-3001" returnMessage="Incorrect Parameter. detail: the fcstele TMIN variable [Maximum_temperature_height_above_ground_24_Hour_Maximum] isn't find in file" rowCount="0" colCount="0" requestParams="dataCode=NAFP_NWFD_SPCC&time=20181114080000&maxLat=41.45&minLat=39.53&minLon=110.55&maxLon=112.41&fcstEle=TMIN" requestTime="2018-11-15 00:55:45" responseTime="2018-11-15 00:55:45" takeTime="0.063"
+
+returnCode="-3001" returnMessage="Incorrect Parameter. detail: the fcstele TMIN variable [Maximum_temperature_height_above_ground_24_Hour_Maximum] isn't find in file" rowCount="0" colCount="0" requestParams="dataCode=NAFP_NWFD_SPCC&time=20181114080000&maxLat=41.45&minLat=39.53&minLon=110.55&maxLon=112.41&fcstEle=TMIN" requestTime="2018-11-15 00:55:45" responseTime="2018-11-15 00:55:45" takeTime="0.011"
+
+returnCode="-3001" returnMessage="Incorrect Parameter. detail: the fcstele TMIN variable [Maximum_temperature_height_above_ground_24_Hour_Maximum] isn't find in file" rowCount="0" colCount="0" requestParams="dataCode=NAFP_NWFD_SPCC&time=20181114080000&maxLat=41.45&minLat=39.53&minLon=110.55&maxLon=112.41&fcstEle=TMIN" requestTime="2018-11-15 00:55:46" responseTime="2018-11-15 00:55:46" takeTime="0.008"
+
+违反了 PRIMARY KEY 约束“PK_ZYZD”。不能在对象“dbo.ZYZD”中插入重复键。重复键值为 (53368, 2018-11-13, 08)。
+语句已终止。
+20181113日08时中央指导预报已入库，入库失败
+违反了 PRIMARY KEY 约束“PK_ZYZD”。不能在对象“dbo.ZYZD”中插入重复键。重复键值为 (53368, 2018-11-12, 08)。
+语句已终止。
+20181112日08时中央指导预报已入库，入库失败
+违反了 PRIMARY KEY 约束“PK_ZYZD”。不能在对象“dbo.ZYZD”中插入重复键。重复键值为 (53368, 2018-11-11, 08)。
+语句已终止。
+20181111日08时中央指导预报已入库，入库失败
+违反了 PRIMARY KEY 约束“PK_ZYZD”。不能在对象“dbo.ZYZD”中插入重复键。重复键值为 (53368, 2018-11-10, 08)。
+语句已终止。
+20181110日08时中央指导预报已入库，入库失败
+违反了 PRIMARY KEY 约束“PK_ZYZD”。不能在对象“dbo.ZYZD”中插入重复键。重复键值为 (53368, 2018-11-09, 08)。
+语句已终止。
+20181109日08时中央指导预报已入库，入库失败
+2018/11/15 9:19:30保存2018111308时区局智能网格数据：
+returnCode="-3001" returnMessage="Incorrect Parameter. detail: the fcstele TMIN variable [Maximum_temperature_height_above_ground_24_Hour_Maximum] isn't find in file" rowCount="0" colCount="0" requestParams="dataCode=NAFP_NWFD_SPCC&time=20181113080000&maxLat=41.45&minLat=39.53&minLon=110.55&maxLon=112.41&fcstEle=TMIN" requestTime="2018-11-15 01:19:43" responseTime="2018-11-15 01:19:43" takeTime="0.018"
+
+returnCode="-3001" returnMessage="Incorrect Parameter. detail: the fcstele TMIN variable [Maximum_temperature_height_above_ground_24_Hour_Maximum] isn't find in file" rowCount="0" colCount="0" requestParams="dataCode=NAFP_NWFD_SPCC&time=20181113080000&maxLat=41.45&minLat=39.53&minLon=110.55&maxLon=112.41&fcstEle=TMIN" requestTime="2018-11-15 01:19:44" responseTime="2018-11-15 01:19:44" takeTime="0.012"
+
+returnCode="-3001" returnMessage="Incorrect Parameter. detail: the fcstele TMIN variable [Maximum_temperature_height_above_ground_24_Hour_Maximum] isn't find in file" rowCount="0" colCount="0" requestParams="dataCode=NAFP_NWFD_SPCC&time=20181113080000&maxLat=41.45&minLat=39.53&minLon=110.55&maxLon=112.41&fcstEle=TMIN" requestTime="2018-11-15 01:19:44" responseTime="2018-11-15 01:19:44" takeTime="0.012"
+
+2018/11/15 9:19:30保存2018111408时区局智能网格数据：
+returnCode="-3001" returnMessage="Incorrect Parameter. detail: the fcstele TMIN variable [Maximum_temperature_height_above_ground_24_Hour_Maximum] isn't find in file" rowCount="0" colCount="0" requestParams="dataCode=NAFP_NWFD_SPCC&time=20181114080000&maxLat=41.45&minLat=39.53&minLon=110.55&maxLon=112.41&fcstEle=TMIN" requestTime="2018-11-15 01:19:43" responseTime="2018-11-15 01:19:43" takeTime="0.022"
+
+returnCode="-3001" returnMessage="Incorrect Parameter. detail: the fcstele TMIN variable [Maximum_temperature_height_above_ground_24_Hour_Maximum] isn't find in file" rowCount="0" colCount="0" requestParams="dataCode=NAFP_NWFD_SPCC&time=20181114080000&maxLat=41.45&minLat=39.53&minLon=110.55&maxLon=112.41&fcstEle=TMIN" requestTime="2018-11-15 01:19:43" responseTime="2018-11-15 01:19:43" takeTime="0.01"
+
+returnCode="-3001" returnMessage="Incorrect Parameter. detail: the fcstele TMIN variable [Maximum_temperature_height_above_ground_24_Hour_Maximum] isn't find in file" rowCount="0" colCount="0" requestParams="dataCode=NAFP_NWFD_SPCC&time=20181114080000&maxLat=41.45&minLat=39.53&minLon=110.55&maxLon=112.41&fcstEle=TMIN" requestTime="2018-11-15 01:19:44" responseTime="2018-11-15 01:19:44" takeTime="0.013"
+
+2018/11/15 9:19:30保存2018111208时区局智能网格数据：
+returnCode="-3001" returnMessage="Incorrect Parameter. detail: the fcstele TMIN variable [Maximum_temperature_height_above_ground_24_Hour_Maximum] isn't find in file" rowCount="0" colCount="0" requestParams="dataCode=NAFP_NWFD_SPCC&time=20181112080000&maxLat=41.45&minLat=39.53&minLon=110.55&maxLon=112.41&fcstEle=TMIN" requestTime="2018-11-15 01:19:43" responseTime="2018-11-15 01:19:43" takeTime="0.019"
+
+returnCode="-3001" returnMessage="Incorrect Parameter. detail: the fcstele TMIN variable [Maximum_temperature_height_above_ground_24_Hour_Maximum] isn't find in file" rowCount="0" colCount="0" requestParams="dataCode=NAFP_NWFD_SPCC&time=20181112080000&maxLat=41.45&minLat=39.53&minLon=110.55&maxLon=112.41&fcstEle=TMIN" requestTime="2018-11-15 01:19:43" responseTime="2018-11-15 01:19:43" takeTime="0.012"
+
+returnCode="-3001" returnMessage="Incorrect Parameter. detail: the fcstele TMIN variable [Maximum_temperature_height_above_ground_24_Hour_Maximum] isn't find in file" rowCount="0" colCount="0" requestParams="dataCode=NAFP_NWFD_SPCC&time=20181112080000&maxLat=41.45&minLat=39.53&minLon=110.55&maxLon=112.41&fcstEle=TMIN" requestTime="2018-11-15 01:19:44" responseTime="2018-11-15 01:19:44" takeTime="0.013"
+
+2018/11/15 9:19:31保存2018111108时区局智能网格数据：
+returnCode="-3001" returnMessage="Incorrect Parameter. detail: the fcstele TMIN variable [Maximum_temperature_height_above_ground_24_Hour_Maximum] isn't find in file" rowCount="0" colCount="0" requestParams="dataCode=NAFP_NWFD_SPCC&time=20181111080000&maxLat=41.45&minLat=39.53&minLon=110.55&maxLon=112.41&fcstEle=TMIN" requestTime="2018-11-15 01:19:45" responseTime="2018-11-15 01:19:45" takeTime="0.082"
+
+returnCode="-3001" returnMessage="Incorrect Parameter. detail: the fcstele TMIN variable [Maximum_temperature_height_above_ground_24_Hour_Maximum] isn't find in file" rowCount="0" colCount="0" requestParams="dataCode=NAFP_NWFD_SPCC&time=20181111080000&maxLat=41.45&minLat=39.53&minLon=110.55&maxLon=112.41&fcstEle=TMIN" requestTime="2018-11-15 01:19:45" responseTime="2018-11-15 01:19:45" takeTime="0.033"
+
+returnCode="-3001" returnMessage="Incorrect Parameter. detail: the fcstele TMIN variable [Maximum_temperature_height_above_ground_24_Hour_Maximum] isn't find in file" rowCount="0" colCount="0" requestParams="dataCode=NAFP_NWFD_SPCC&time=20181111080000&maxLat=41.45&minLat=39.53&minLon=110.55&maxLon=112.41&fcstEle=TMIN" requestTime="2018-11-15 01:19:46" responseTime="2018-11-15 01:19:46" takeTime="0.01"
+
+2018/11/15 9:19:31保存2018111008时区局智能网格数据：
+returnCode="-3001" returnMessage="Incorrect Parameter. detail: the fcstele TMIN variable [Maximum_temperature_height_above_ground_24_Hour_Maximum] isn't find in file" rowCount="0" colCount="0" requestParams="dataCode=NAFP_NWFD_SPCC&time=20181110080000&maxLat=41.45&minLat=39.53&minLon=110.55&maxLon=112.41&fcstEle=TMIN" requestTime="2018-11-15 01:19:47" responseTime="2018-11-15 01:19:47" takeTime="0.016"
+
+returnCode="-3001" returnMessage="Incorrect Parameter. detail: the fcstele TMIN variable [Maximum_temperature_height_above_ground_24_Hour_Maximum] isn't find in file" rowCount="0" colCount="0" requestParams="dataCode=NAFP_NWFD_SPCC&time=20181110080000&maxLat=41.45&minLat=39.53&minLon=110.55&maxLon=112.41&fcstEle=TMIN" requestTime="2018-11-15 01:19:47" responseTime="2018-11-15 01:19:47" takeTime="0.013"
+
+returnCode="-3001" returnMessage="Incorrect Parameter. detail: the fcstele TMIN variable [Maximum_temperature_height_above_ground_24_Hour_Maximum] isn't find in file" rowCount="0" colCount="0" requestParams="dataCode=NAFP_NWFD_SPCC&time=20181110080000&maxLat=41.45&minLat=39.53&minLon=110.55&maxLon=112.41&fcstEle=TMIN" requestTime="2018-11-15 01:19:47" responseTime="2018-11-15 01:19:48" takeTime="0.026"
+
+2018/11/15 9:50:22保存2018111408时区局智能网格数据成功！
+2018/11/15 9:50:23保存2018111308时区局智能网格数据成功！
+2018/11/15 9:50:23保存2018111208时区局智能网格数据成功！
+2018/11/15 9:50:23保存2018111008时区局智能网格数据成功！
+2018/11/15 9:50:23保存2018111108时区局智能网格数据成功！
+2018/11/15 9:57:15保存2018111408时区局智能网格数据成功！
+2018/11/15 9:57:15保存2018111308时区局智能网格数据成功！
+2018/11/15 9:57:15保存2018111208时区局智能网格数据成功！
+2018/11/15 9:57:15保存2018111108时区局智能网格数据成功！
+2018/11/15 9:57:15保存2018111008时区局智能网格数据成功！
+2018/11/15 9:58:51保存2018111408时区局智能网格数据成功！
+2018/11/15 9:58:51保存2018111308时区局智能网格数据成功！
+2018/11/15 9:58:51保存2018111208时区局智能网格数据成功！
+2018/11/15 9:58:52保存2018111108时区局智能网格数据成功！
+2018/11/15 9:58:52保存2018111008时区局智能网格数据成功！
+2018/11/15 10:30:33保存2018111208时区局智能网格数据成功！
+2018/11/15 10:30:33保存2018111408时区局智能网格数据成功！
+2018/11/15 10:30:33保存2018111308时区局智能网格数据成功！
+2018/11/15 10:30:33保存2018111108时区局智能网格数据成功！
+2018/11/15 10:30:39保存2018111008时区局智能网格数据成功！
+2018/11/15 10:31:05保存2018111408时区局智能网格数据成功！
+2018/11/15 10:31:05保存2018111308时区局智能网格数据成功！
+2018/11/15 10:31:06保存2018111208时区局智能网格数据成功！
+2018/11/15 10:31:06保存2018111008时区局智能网格数据成功！
+2018/11/15 10:31:06保存2018111108时区局智能网格数据成功！
+2018/11/15 10:31:31保存2018111408时区局智能网格数据成功！
+2018/11/15 10:31:32保存2018111308时区局智能网格数据成功！
+2018/11/15 10:31:32保存2018111108时区局智能网格数据成功！
+2018/11/15 10:31:32保存2018111208时区局智能网格数据成功！
+2018/11/15 10:31:32保存2018111008时区局智能网格数据成功！
+2018/11/15 10:32:17保存2018111408时区局智能网格数据成功！
+2018/11/15 10:32:18保存2018111108时区局智能网格数据成功！
+2018/11/15 10:32:18保存2018111208时区局智能网格数据成功！
+2018/11/15 10:32:18保存2018111308时区局智能网格数据成功！
+2018/11/15 10:32:18保存2018111008时区局智能网格数据成功！
+2018/11/15 10:33:04保存2018111208时区局智能网格数据成功！
+2018/11/15 10:33:04保存2018111408时区局智能网格数据成功！
+2018/11/15 10:33:04保存2018111308时区局智能网格数据成功！
+2018/11/15 10:33:04保存2018111108时区局智能网格数据成功！
+2018/11/15 10:33:05保存2018111008时区局智能网格数据成功！
+2018/11/15 10:35:16保存2018111408时区局智能网格数据成功！
+2018/11/15 10:35:16保存2018111208时区局智能网格数据成功！
+2018/11/15 10:35:16保存2018111308时区局智能网格数据成功！
+2018/11/15 10:35:16保存2018111008时区局智能网格数据成功！
+2018/11/15 10:35:17保存2018111108时区局智能网格数据成功！
+2018/11/15 10:36:35保存2018111508时区局智能网格数据成功！
+2018/11/15 10:46:42保存2018111308时区局智能网格数据成功！
+2018/11/15 10:46:43保存2018111408时区局智能网格数据成功！
+2018/11/15 10:46:43保存2018111208时区局智能网格数据成功！
+2018/11/15 10:46:43保存2018111108时区局智能网格数据成功！
+2018/11/15 10:46:43保存2018111008时区局智能网格数据成功！
+2018/11/15 10:47:49保存2018111208时区局智能网格数据成功！
+2018/11/15 10:47:49保存2018111308时区局智能网格数据成功！
+2018/11/15 10:47:50保存2018111008时区局智能网格数据成功！
+2018/11/15 10:47:50保存2018111108时区局智能网格数据成功！
+2018/11/15 10:52:32保存2018111308时区局智能网格数据成功！
+2018/11/15 10:52:33保存2018111208时区局智能网格数据成功！
+2018/11/15 10:52:33保存2018111008时区局智能网格数据成功！
+2018/11/15 10:52:33保存2018111008时区局智能网格数据成功！
+2018/11/15 11:01:13保存2018111308时区局智能网格数据成功！
+2018/11/15 11:01:13保存2018111208时区局智能网格数据成功！
+2018/11/15 11:01:14保存2018111108时区局智能网格数据成功！
+2018/11/15 11:01:14保存2018111008时区局智能网格数据成功！
+2018/11/15 11:01:27保存2018111408时区局智能网格数据：
+连接未关闭。 连接的当前状态为打开。
+连接未关闭。 连接的当前状态为打开。
+连接未关闭。 连接的当前状态为打开。
+连接未关闭。 连接的当前状态为打开。
+连接未关闭。 连接的当前状态为打开。
+连接未关闭。 连接的当前状态为打开。
+连接未关闭。 连接的当前状态为打开。
+连接未关闭。 连接的当前状态为打开。
+连接未关闭。 连接的当前状态为打开。
+连接未关闭。 连接的当前状态为打开。
+连接未关闭。 连接的当前状态为打开。
+连接未关闭。 连接的当前状态为打开。
+连接未关闭。 连接的当前状态为打开。
+连接未关闭。 连接的当前状态为打开。
+连接未关闭。 连接的当前状态为打开。
+连接未关闭。 连接的当前状态为打开。
+连接未关闭。 连接的当前状态为打开。
+连接未关闭。 连接的当前状态为打开。
+连接未关闭。 连接的当前状态为打开。
+连接未关闭。 连接的当前状态为打开。
+连接未关闭。 连接的当前状态为打开。
+连接未关闭。 连接的当前状态为打开。
+连接未关闭。 连接的当前状态为打开。
+连接未关闭。 连接的当前状态为打开。
+连接未关闭。 连接的当前状态为打开。
+连接未关闭。 连接的当前状态为打开。
+连接未关闭。 连接的当前状态为打开。
+连接未关闭。 连接的当前状态为打开。
+连接未关闭。 连接的当前状态为打开。
+连接未关闭。 连接的当前状态为打开。
+连接未关闭。 连接的当前状态为打开。
+连接未关闭。 连接的当前状态为打开。
+连接未关闭。 连接的当前状态为打开。
+连接未关闭。 连接的当前状态为打开。
+连接未关闭。 连接的当前状态为打开。
+连接未关闭。 连接的当前状态为打开。
+连接未关闭。 连接的当前状态为打开。
+连接未关闭。 连接的当前状态为打开。
+连接未关闭。 连接的当前状态为打开。
+连接未关闭。 连接的当前状态为打开。
+连接未关闭。 连接的当前状态为打开。
+连接未关闭。 连接的当前状态为打开。
+连接未关闭。 连接的当前状态为打开。
+连接未关闭。 连接的当前状态为打开。
+连接未关闭。 连接的当前状态为打开。
+连接未关闭。 连接的当前状态为打开。
+连接未关闭。 连接的当前状态为打开。
+连接未关闭。 连接的当前状态为打开。
+连接未关闭。 连接的当前状态为打开。
+连接未关闭。 连接的当前状态为打开。
+连接未关闭。 连接的当前状态为打开。
+连接未关闭。 连接的当前状态为打开。
+连接未关闭。 连接的当前状态为打开。
+连接未关闭。 连接的当前状态为打开。
+连接未关闭。 连接的当前状态为打开。
+连接未关闭。 连接的当前状态为打开。
+连接未关闭。 连接的当前状态为打开。
+连接未关闭。 连接的当前状态为打开。
+连接未关闭。 连接的当前状态为打开。
+连接未关闭。 连接的当前状态为打开。
+连接未关闭。 连接的当前状态为打开。
+连接未关闭。 连接的当前状态为打开。
+连接未关闭。 连接的当前状态为打开。
+连接未关闭。 连接的当前状态为打开。
+连接未关闭。 连接的当前状态为打开。
+连接未关闭。 连接的当前状态为打开。
+连接未关闭。 连接的当前状态为打开。
+连接未关闭。 连接的当前状态为打开。
+连接未关闭。 连接的当前状态为打开。
+连接未关闭。 连接的当前状态为打开。
+连接未关闭。 连接的当前状态为打开。
+连接未关闭。 连接的当前状态为打开。
+连接未关闭。 连接的当前状态为打开。
+连接未关闭。 连接的当前状态为打开。
+连接未关闭。 连接的当前状态为打开。
+连接未关闭。 连接的当前状态为打开。
+连接未关闭。 连接的当前状态为打开。
+连接未关闭。 连接的当前状态为打开。
+连接未关闭。 连接的当前状态为打开。
+连接未关闭。 连接的当前状态为打开。
+连接未关闭。 连接的当前状态为打开。
+连接未关闭。 连接的当前状态为打开。
+连接未关闭。 连接的当前状态为打开。
+连接未关闭。 连接的当前状态为打开。
+连接未关闭。 连接的当前状态为打开。
+连接未关闭。 连接的当前状态为打开。
+连接未关闭。 连接的当前状态为打开。
+连接未关闭。 连接的当前状态为打开。
+连接未关闭。 连接的当前状态为打开。
+连接未关闭。 连接的当前状态为打开。
+连接未关闭。 连接的当前状态为打开。
+连接未关闭。 连接的当前状态为打开。
+连接未关闭。 连接的当前状态为打开。
+连接未关闭。 连接的当前状态为打开。
+连接未关闭。 连接的当前状态为打开。
+连接未关闭。 连接的当前状态为打开。
+连接未关闭。 连接的当前状态为打开。
+连接未关闭。 连接的当前状态为打开。
+连接未关闭。 连接的当前状态为打开。
+连接未关闭。 连接的当前状态为打开。
+连接未关闭。 连接的当前状态为打开。
+连接未关闭。 连接的当前状态为打开。
+连接未关闭。 连接的当前状态为打开。
+连接未关闭。 连接的当前状态为打开。
+连接未关闭。 连接的当前状态为打开。
+连接未关闭。 连接的当前状态为打开。
+连接未关闭。 连接的当前状态为打开。
+连接未关闭。 连接的当前状态为打开。
+连接未关闭。 连接的当前状态为打开。
+连接未关闭。 连接的当前状态为打开。
+连接未关闭。 连接的当前状态为打开。
+连接未关闭。 连接的当前状态为打开。
+连接未关闭。 连接的当前状态为打开。
+连接未关闭。 连接的当前状态为打开。
+连接未关闭。 连接的当前状态为打开。
+连接未关闭。 连接的当前状态为打开。
+连接未关闭。 连接的当前状态为打开。
+连接未关闭。 连接的当前状态为打开。
+连接未关闭。 连接的当前状态为打开。
+连接未关闭。 连接的当前状态为打开。
+连接未关闭。 连接的当前状态为打开。
+连接未关闭。 连接的当前状态为打开。
+连接未关闭。 连接的当前状态为打开。
+连接未关闭。 连接的当前状态为打开。
+连接未关闭。 连接的当前状态为打开。
+连接未关闭。 连接的当前状态为打开。
+2018/11/15 11:02:21保存2018111308时区局智能网格数据成功！
+2018/11/15 11:02:21保存2018111208时区局智能网格数据成功！
+2018/11/15 11:02:21保存2018111108时区局智能网格数据成功！
+2018/11/15 11:02:21保存2018111008时区局智能网格数据成功！
+2018/11/15 11:03:41保存2018111408时区局智能网格数据成功！
+2018/11/15 11:05:11保存2018111408时区局智能网格数据成功！
+2018/11/15 11:05:11保存2018111308时区局智能网格数据成功！
+2018/11/15 11:05:11保存2018111008时区局智能网格数据成功！
+2018/11/15 11:05:11保存2018111208时区局智能网格数据成功！
+2018/11/15 11:05:11保存2018111108时区局智能网格数据成功！
+2018/11/15 11:06:06保存2018111308时区局智能网格数据成功！
+2018/11/15 11:06:06保存2018111208时区局智能网格数据成功！
+2018/11/15 11:06:06保存2018111108时区局智能网格数据成功！
+2018/11/15 11:06:07保存2018111008时区局智能网格数据成功！
+2018/11/15 11:11:50保存2018111208时区局智能网格数据成功！
+2018/11/15 11:11:50保存2018111108时区局智能网格数据成功！
+2018/11/15 11:11:50保存2018111308时区局智能网格数据成功！
+2018/11/15 11:11:50保存2018111008时区局智能网格数据成功！
+2018/11/15 11:13:24保存2018111208时区局智能网格数据成功！
+2018/11/15 11:13:24保存2018111108时区局智能网格数据成功！
+2018/11/15 11:13:24保存2018111308时区局智能网格数据成功！
+2018/11/15 11:18:12保存2018111208时区局智能网格数据成功！
+2018/11/15 11:18:13保存2018111308时区局智能网格数据成功！
+2018/11/15 11:18:13保存2018111108时区局智能网格数据成功！
+2018/11/15 11:18:13保存2018111008时区局智能网格数据成功！
+2018/11/15 11:18:24保存2018111408时区局智能网格数据：
+returnCode="-3001" returnMessage="Incorrect Parameter. detail: Time format invalid!The error format time is:20181114240000" rowCount="0" colCount="0" requestParams="dataCode=NAFP_NWFD_SPCC&time=20181114240000&maxLat=41.45&minLat=39.53&minLon=110.55&validTime=8&maxLon=112.41&fcstEle=TMAX" requestTime="2018-11-15 03:18:14" responseTime="2018-11-15 03:18:14" takeTime="0.009"
+
+returnCode="-3001" returnMessage="Incorrect Parameter. detail: Time format invalid!The error format time is:20181114480000" rowCount="0" colCount="0" requestParams="dataCode=NAFP_NWFD_SPCC&time=20181114480000&maxLat=41.45&minLat=39.53&minLon=110.55&validTime=8&maxLon=112.41&fcstEle=TMAX" requestTime="2018-11-15 03:18:14" responseTime="2018-11-15 03:18:14" takeTime="0.005"
+
+returnCode="-3001" returnMessage="Incorrect Parameter. detail: Time format invalid!The error format time is:20181114720000" rowCount="0" colCount="0" requestParams="dataCode=NAFP_NWFD_SPCC&time=20181114720000&maxLat=41.45&minLat=39.53&minLon=110.55&validTime=8&maxLon=112.41&fcstEle=TMAX" requestTime="2018-11-15 03:18:14" responseTime="2018-11-15 03:18:14" takeTime="0.0"
+
+returnCode="-3001" returnMessage="Incorrect Parameter. detail: Time format invalid!The error format time is:20181114240000" rowCount="0" colCount="0" requestParams="dataCode=NAFP_NWFD_SPCC&time=20181114240000&maxLat=41.45&minLat=39.53&minLon=110.55&validTime=8&maxLon=112.41&fcstEle=TMIN" requestTime="2018-11-15 03:18:14" responseTime="2018-11-15 03:18:14" takeTime="0.001"
+
+returnCode="-3001" returnMessage="Incorrect Parameter. detail: Time format invalid!The error format time is:20181114480000" rowCount="0" colCount="0" requestParams="dataCode=NAFP_NWFD_SPCC&time=20181114480000&maxLat=41.45&minLat=39.53&minLon=110.55&validTime=8&maxLon=112.41&fcstEle=TMIN" requestTime="2018-11-15 03:18:14" responseTime="2018-11-15 03:18:14" takeTime="0.001"
+
+returnCode="-3001" returnMessage="Incorrect Parameter. detail: Time format invalid!The error format time is:20181114720000" rowCount="0" colCount="0" requestParams="dataCode=NAFP_NWFD_SPCC&time=20181114720000&maxLat=41.45&minLat=39.53&minLon=110.55&validTime=8&maxLon=112.41&fcstEle=TMIN" requestTime="2018-11-15 03:18:14" responseTime="2018-11-15 03:18:14" takeTime="0.001"
+
+returnCode="-1" returnMessage="No data is retrieved. detail: Query Success,but no record is in database" rowCount="0" colCount="0" requestParams="dataCode=NAFP_NWFD_SPCC&time=20181114030000&maxLat=41.45&minLat=39.53&minLon=110.55&validTime=8&maxLon=112.41&fcstEle=TEM" requestTime="2018-11-15 03:18:15" responseTime="2018-11-15 03:18:15" takeTime="0.026"
+
+returnCode="-1" returnMessage="No data is retrieved. detail: Query Success,but no record is in database" rowCount="0" colCount="0" requestParams="dataCode=NAFP_NWFD_SPCC&time=20181114060000&maxLat=41.45&minLat=39.53&minLon=110.55&validTime=8&maxLon=112.41&fcstEle=TEM" requestTime="2018-11-15 03:18:15" responseTime="2018-11-15 03:18:15" takeTime="0.061"
+
+returnCode="-1" returnMessage="No data is retrieved. detail: Query Success,but no record is in database" rowCount="0" colCount="0" requestParams="dataCode=NAFP_NWFD_SPCC&time=20181114090000&maxLat=41.45&minLat=39.53&minLon=110.55&validTime=8&maxLon=112.41&fcstEle=TEM" requestTime="2018-11-15 03:18:15" responseTime="2018-11-15 03:18:15" takeTime="0.005"
+
+returnCode="-1" returnMessage="No data is retrieved. detail: Query Success,but no record is in database" rowCount="0" colCount="0" requestParams="dataCode=NAFP_NWFD_SPCC&time=20181114120000&maxLat=41.45&minLat=39.53&minLon=110.55&validTime=8&maxLon=112.41&fcstEle=TEM" requestTime="2018-11-15 03:18:15" responseTime="2018-11-15 03:18:15" takeTime="0.015"
+
+returnCode="-1" returnMessage="No data is retrieved. detail: Query Success,but no record is in database" rowCount="0" colCount="0" requestParams="dataCode=NAFP_NWFD_SPCC&time=20181114150000&maxLat=41.45&minLat=39.53&minLon=110.55&validTime=8&maxLon=112.41&fcstEle=TEM" requestTime="2018-11-15 03:18:15" responseTime="2018-11-15 03:18:15" takeTime="0.052"
+
+returnCode="-1" returnMessage="No data is retrieved. detail: Query Success,but no record is in database" rowCount="0" colCount="0" requestParams="dataCode=NAFP_NWFD_SPCC&time=20181114180000&maxLat=41.45&minLat=39.53&minLon=110.55&validTime=8&maxLon=112.41&fcstEle=TEM" requestTime="2018-11-15 03:18:15" responseTime="2018-11-15 03:18:15" takeTime="0.037"
+
+returnCode="-1" returnMessage="No data is retrieved. detail: Query Success,but no record is in database" rowCount="0" colCount="0" requestParams="dataCode=NAFP_NWFD_SPCC&time=20181114210000&maxLat=41.45&minLat=39.53&minLon=110.55&validTime=8&maxLon=112.41&fcstEle=TEM" requestTime="2018-11-15 03:18:15" responseTime="2018-11-15 03:18:15" takeTime="0.005"
+
+returnCode="-3001" returnMessage="Incorrect Parameter. detail: Time format invalid!The error format time is:20181114240000" rowCount="0" colCount="0" requestParams="dataCode=NAFP_NWFD_SPCC&time=20181114240000&maxLat=41.45&minLat=39.53&minLon=110.55&validTime=8&maxLon=112.41&fcstEle=TEM" requestTime="2018-11-15 03:18:15" responseTime="2018-11-15 03:18:15" takeTime="0.0"
+
+returnCode="-3001" returnMessage="Incorrect Parameter. detail: Time format invalid!The error format time is:20181114270000" rowCount="0" colCount="0" requestParams="dataCode=NAFP_NWFD_SPCC&time=20181114270000&maxLat=41.45&minLat=39.53&minLon=110.55&validTime=8&maxLon=112.41&fcstEle=TEM" requestTime="2018-11-15 03:18:15" responseTime="2018-11-15 03:18:15" takeTime="0.001"
+
+returnCode="-3001" returnMessage="Incorrect Parameter. detail: Time format invalid!The error format time is:20181114300000" rowCount="0" colCount="0" requestParams="dataCode=NAFP_NWFD_SPCC&time=20181114300000&maxLat=41.45&minLat=39.53&minLon=110.55&validTime=8&maxLon=112.41&fcstEle=TEM" requestTime="2018-11-15 03:18:16" responseTime="2018-11-15 03:18:16" takeTime="0.001"
+
+returnCode="-3001" returnMessage="Incorrect Parameter. detail: Time format invalid!The error format time is:20181114330000" rowCount="0" colCount="0" requestParams="dataCode=NAFP_NWFD_SPCC&time=20181114330000&maxLat=41.45&minLat=39.53&minLon=110.55&validTime=8&maxLon=112.41&fcstEle=TEM" requestTime="2018-11-15 03:18:16" responseTime="2018-11-15 03:18:16" takeTime="0.001"
+
+returnCode="-3001" returnMessage="Incorrect Parameter. detail: Time format invalid!The error format time is:20181114360000" rowCount="0" colCount="0" requestParams="dataCode=NAFP_NWFD_SPCC&time=20181114360000&maxLat=41.45&minLat=39.53&minLon=110.55&validTime=8&maxLon=112.41&fcstEle=TEM" requestTime="2018-11-15 03:18:16" responseTime="2018-11-15 03:18:16" takeTime="0.001"
+
+returnCode="-3001" returnMessage="Incorrect Parameter. detail: Time format invalid!The error format time is:20181114390000" rowCount="0" colCount="0" requestParams="dataCode=NAFP_NWFD_SPCC&time=20181114390000&maxLat=41.45&minLat=39.53&minLon=110.55&validTime=8&maxLon=112.41&fcstEle=TEM" requestTime="2018-11-15 03:18:16" responseTime="2018-11-15 03:18:16" takeTime="0.001"
+
+returnCode="-3001" returnMessage="Incorrect Parameter. detail: Time format invalid!The error format time is:20181114420000" rowCount="0" colCount="0" requestParams="dataCode=NAFP_NWFD_SPCC&time=20181114420000&maxLat=41.45&minLat=39.53&minLon=110.55&validTime=8&maxLon=112.41&fcstEle=TEM" requestTime="2018-11-15 03:18:16" responseTime="2018-11-15 03:18:16" takeTime="0.001"
+
+returnCode="-3001" returnMessage="Incorrect Parameter. detail: Time format invalid!The error format time is:20181114450000" rowCount="0" colCount="0" requestParams="dataCode=NAFP_NWFD_SPCC&time=20181114450000&maxLat=41.45&minLat=39.53&minLon=110.55&validTime=8&maxLon=112.41&fcstEle=TEM" requestTime="2018-11-15 03:18:16" responseTime="2018-11-15 03:18:16" takeTime="0.001"
+
+returnCode="-3001" returnMessage="Incorrect Parameter. detail: Time format invalid!The error format time is:20181114480000" rowCount="0" colCount="0" requestParams="dataCode=NAFP_NWFD_SPCC&time=20181114480000&maxLat=41.45&minLat=39.53&minLon=110.55&validTime=8&maxLon=112.41&fcstEle=TEM" requestTime="2018-11-15 03:18:16" responseTime="2018-11-15 03:18:16" takeTime="0.001"
+
+returnCode="-3001" returnMessage="Incorrect Parameter. detail: Time format invalid!The error format time is:20181114510000" rowCount="0" colCount="0" requestParams="dataCode=NAFP_NWFD_SPCC&time=20181114510000&maxLat=41.45&minLat=39.53&minLon=110.55&validTime=8&maxLon=112.41&fcstEle=TEM" requestTime="2018-11-15 03:18:16" responseTime="2018-11-15 03:18:16" takeTime="0.001"
+
+returnCode="-3001" returnMessage="Incorrect Parameter. detail: Time format invalid!The error format time is:20181114540000" rowCount="0" colCount="0" requestParams="dataCode=NAFP_NWFD_SPCC&time=20181114540000&maxLat=41.45&minLat=39.53&minLon=110.55&validTime=8&maxLon=112.41&fcstEle=TEM" requestTime="2018-11-15 03:18:16" responseTime="2018-11-15 03:18:16" takeTime="0.0"
+
+returnCode="-3001" returnMessage="Incorrect Parameter. detail: Time format invalid!The error format time is:20181114570000" rowCount="0" colCount="0" requestParams="dataCode=NAFP_NWFD_SPCC&time=20181114570000&maxLat=41.45&minLat=39.53&minLon=110.55&validTime=8&maxLon=112.41&fcstEle=TEM" requestTime="2018-11-15 03:18:16" responseTime="2018-11-15 03:18:16" takeTime="0.001"
+
+returnCode="-3001" returnMessage="Incorrect Parameter. detail: Time format invalid!The error format time is:20181114600000" rowCount="0" colCount="0" requestParams="dataCode=NAFP_NWFD_SPCC&time=20181114600000&maxLat=41.45&minLat=39.53&minLon=110.55&validTime=8&maxLon=112.41&fcstEle=TEM" requestTime="2018-11-15 03:18:16" responseTime="2018-11-15 03:18:16" takeTime="0.001"
+
+returnCode="-3001" returnMessage="Incorrect Parameter. detail: Time format invalid!The error format time is:20181114630000" rowCount="0" colCount="0" requestParams="dataCode=NAFP_NWFD_SPCC&time=20181114630000&maxLat=41.45&minLat=39.53&minLon=110.55&validTime=8&maxLon=112.41&fcstEle=TEM" requestTime="2018-11-15 03:18:16" responseTime="2018-11-15 03:18:16" takeTime="0.001"
+
+returnCode="-3001" returnMessage="Incorrect Parameter. detail: Time format invalid!The error format time is:20181114660000" rowCount="0" colCount="0" requestParams="dataCode=NAFP_NWFD_SPCC&time=20181114660000&maxLat=41.45&minLat=39.53&minLon=110.55&validTime=8&maxLon=112.41&fcstEle=TEM" requestTime="2018-11-15 03:18:16" responseTime="2018-11-15 03:18:16" takeTime="0.001"
+
+returnCode="-3001" returnMessage="Incorrect Parameter. detail: Time format invalid!The error format time is:20181114690000" rowCount="0" colCount="0" requestParams="dataCode=NAFP_NWFD_SPCC&time=20181114690000&maxLat=41.45&minLat=39.53&minLon=110.55&validTime=8&maxLon=112.41&fcstEle=TEM" requestTime="2018-11-15 03:18:17" responseTime="2018-11-15 03:18:17" takeTime="0.001"
+
+returnCode="-3001" returnMessage="Incorrect Parameter. detail: Time format invalid!The error format time is:20181114720000" rowCount="0" colCount="0" requestParams="dataCode=NAFP_NWFD_SPCC&time=20181114720000&maxLat=41.45&minLat=39.53&minLon=110.55&validTime=8&maxLon=112.41&fcstEle=TEM" requestTime="2018-11-15 03:18:17" responseTime="2018-11-15 03:18:17" takeTime="0.001"
+
+returnCode="-1" returnMessage="No data is retrieved. detail: Query Success,but no record is in database" rowCount="0" colCount="0" requestParams="dataCode=NAFP_NWFD_SPCC&time=20181114030000&maxLat=41.45&minLat=39.53&minLon=110.55&validTime=8&maxLon=112.41&fcstEle=PRE_3H" requestTime="2018-11-15 03:18:17" responseTime="2018-11-15 03:18:17" takeTime="0.009"
+
+returnCode="-1" returnMessage="No data is retrieved. detail: Query Success,but no record is in database" rowCount="0" colCount="0" requestParams="dataCode=NAFP_NWFD_SPCC&time=20181114060000&maxLat=41.45&minLat=39.53&minLon=110.55&validTime=8&maxLon=112.41&fcstEle=PRE_3H" requestTime="2018-11-15 03:18:17" responseTime="2018-11-15 03:18:17" takeTime="0.007"
+
+returnCode="-1" returnMessage="No data is retrieved. detail: Query Success,but no record is in database" rowCount="0" colCount="0" requestParams="dataCode=NAFP_NWFD_SPCC&time=20181114090000&maxLat=41.45&minLat=39.53&minLon=110.55&validTime=8&maxLon=112.41&fcstEle=PRE_3H" requestTime="2018-11-15 03:18:17" responseTime="2018-11-15 03:18:17" takeTime="0.007"
+
+returnCode="-1" returnMessage="No data is retrieved. detail: Query Success,but no record is in database" rowCount="0" colCount="0" requestParams="dataCode=NAFP_NWFD_SPCC&time=20181114120000&maxLat=41.45&minLat=39.53&minLon=110.55&validTime=8&maxLon=112.41&fcstEle=PRE_3H" requestTime="2018-11-15 03:18:17" responseTime="2018-11-15 03:18:17" takeTime="0.005"
+
+returnCode="-1" returnMessage="No data is retrieved. detail: Query Success,but no record is in database" rowCount="0" colCount="0" requestParams="dataCode=NAFP_NWFD_SPCC&time=20181114150000&maxLat=41.45&minLat=39.53&minLon=110.55&validTime=8&maxLon=112.41&fcstEle=PRE_3H" requestTime="2018-11-15 03:18:17" responseTime="2018-11-15 03:18:17" takeTime="0.006"
+
+returnCode="-1" returnMessage="No data is retrieved. detail: Query Success,but no record is in database" rowCount="0" colCount="0" requestParams="dataCode=NAFP_NWFD_SPCC&time=20181114180000&maxLat=41.45&minLat=39.53&minLon=110.55&validTime=8&maxLon=112.41&fcstEle=PRE_3H" requestTime="2018-11-15 03:18:17" responseTime="2018-11-15 03:18:17" takeTime="0.005"
+
+returnCode="-1" returnMessage="No data is retrieved. detail: Query Success,but no record is in database" rowCount="0" colCount="0" requestParams="dataCode=NAFP_NWFD_SPCC&time=20181114210000&maxLat=41.45&minLat=39.53&minLon=110.55&validTime=8&maxLon=112.41&fcstEle=PRE_3H" requestTime="2018-11-15 03:18:17" responseTime="2018-11-15 03:18:17" takeTime="0.006"
+
+returnCode="-3001" returnMessage="Incorrect Parameter. detail: Time format invalid!The error format time is:20181114240000" rowCount="0" colCount="0" requestParams="dataCode=NAFP_NWFD_SPCC&time=20181114240000&maxLat=41.45&minLat=39.53&minLon=110.55&validTime=8&maxLon=112.41&fcstEle=PRE_3H" requestTime="2018-11-15 03:18:17" responseTime="2018-11-15 03:18:17" takeTime="0.001"
+
+returnCode="-3001" returnMessage="Incorrect Parameter. detail: Time format invalid!The error format time is:20181114270000" rowCount="0" colCount="0" requestParams="dataCode=NAFP_NWFD_SPCC&time=20181114270000&maxLat=41.45&minLat=39.53&minLon=110.55&validTime=8&maxLon=112.41&fcstEle=PRE_3H" requestTime="2018-11-15 03:18:17" responseTime="2018-11-15 03:18:17" takeTime="0.001"
+
+returnCode="-3001" returnMessage="Incorrect Parameter. detail: Time format invalid!The error format time is:20181114300000" rowCount="0" colCount="0" requestParams="dataCode=NAFP_NWFD_SPCC&time=20181114300000&maxLat=41.45&minLat=39.53&minLon=110.55&validTime=8&maxLon=112.41&fcstEle=PRE_3H" requestTime="2018-11-15 03:18:18" responseTime="2018-11-15 03:18:18" takeTime="0.001"
+
+returnCode="-3001" returnMessage="Incorrect Parameter. detail: Time format invalid!The error format time is:20181114330000" rowCount="0" colCount="0" requestParams="dataCode=NAFP_NWFD_SPCC&time=20181114330000&maxLat=41.45&minLat=39.53&minLon=110.55&validTime=8&maxLon=112.41&fcstEle=PRE_3H" requestTime="2018-11-15 03:18:18" responseTime="2018-11-15 03:18:18" takeTime="0.001"
+
+returnCode="-3001" returnMessage="Incorrect Parameter. detail: Time format invalid!The error format time is:20181114360000" rowCount="0" colCount="0" requestParams="dataCode=NAFP_NWFD_SPCC&time=20181114360000&maxLat=41.45&minLat=39.53&minLon=110.55&validTime=8&maxLon=112.41&fcstEle=PRE_3H" requestTime="2018-11-15 03:18:18" responseTime="2018-11-15 03:18:18" takeTime="0.001"
+
+returnCode="-3001" returnMessage="Incorrect Parameter. detail: Time format invalid!The error format time is:20181114390000" rowCount="0" colCount="0" requestParams="dataCode=NAFP_NWFD_SPCC&time=20181114390000&maxLat=41.45&minLat=39.53&minLon=110.55&validTime=8&maxLon=112.41&fcstEle=PRE_3H" requestTime="2018-11-15 03:18:18" responseTime="2018-11-15 03:18:18" takeTime="0.001"
+
+returnCode="-3001" returnMessage="Incorrect Parameter. detail: Time format invalid!The error format time is:20181114420000" rowCount="0" colCount="0" requestParams="dataCode=NAFP_NWFD_SPCC&time=20181114420000&maxLat=41.45&minLat=39.53&minLon=110.55&validTime=8&maxLon=112.41&fcstEle=PRE_3H" requestTime="2018-11-15 03:18:18" responseTime="2018-11-15 03:18:18" takeTime="0.001"
+
+returnCode="-3001" returnMessage="Incorrect Parameter. detail: Time format invalid!The error format time is:20181114450000" rowCount="0" colCount="0" requestParams="dataCode=NAFP_NWFD_SPCC&time=20181114450000&maxLat=41.45&minLat=39.53&minLon=110.55&validTime=8&maxLon=112.41&fcstEle=PRE_3H" requestTime="2018-11-15 03:18:18" responseTime="2018-11-15 03:18:18" takeTime="0.002"
+
+returnCode="-3001" returnMessage="Incorrect Parameter. detail: Time format invalid!The error format time is:20181114480000" rowCount="0" colCount="0" requestParams="dataCode=NAFP_NWFD_SPCC&time=20181114480000&maxLat=41.45&minLat=39.53&minLon=110.55&validTime=8&maxLon=112.41&fcstEle=PRE_3H" requestTime="2018-11-15 03:18:18" responseTime="2018-11-15 03:18:18" takeTime="0.001"
+
+returnCode="-3001" returnMessage="Incorrect Parameter. detail: Time format invalid!The error format time is:20181114510000" rowCount="0" colCount="0" requestParams="dataCode=NAFP_NWFD_SPCC&time=20181114510000&maxLat=41.45&minLat=39.53&minLon=110.55&validTime=8&maxLon=112.41&fcstEle=PRE_3H" requestTime="2018-11-15 03:18:18" responseTime="2018-11-15 03:18:18" takeTime="0.001"
+
+returnCode="-3001" returnMessage="Incorrect Parameter. detail: Time format invalid!The error format time is:20181114540000" rowCount="0" colCount="0" requestParams="dataCode=NAFP_NWFD_SPCC&time=20181114540000&maxLat=41.45&minLat=39.53&minLon=110.55&validTime=8&maxLon=112.41&fcstEle=PRE_3H" requestTime="2018-11-15 03:18:18" responseTime="2018-11-15 03:18:18" takeTime="0.001"
+
+returnCode="-3001" returnMessage="Incorrect Parameter. detail: Time format invalid!The error format time is:20181114570000" rowCount="0" colCount="0" requestParams="dataCode=NAFP_NWFD_SPCC&time=20181114570000&maxLat=41.45&minLat=39.53&minLon=110.55&validTime=8&maxLon=112.41&fcstEle=PRE_3H" requestTime="2018-11-15 03:18:18" responseTime="2018-11-15 03:18:18" takeTime="0.001"
+
+returnCode="-3001" returnMessage="Incorrect Parameter. detail: Time format invalid!The error format time is:20181114600000" rowCount="0" colCount="0" requestParams="dataCode=NAFP_NWFD_SPCC&time=20181114600000&maxLat=41.45&minLat=39.53&minLon=110.55&validTime=8&maxLon=112.41&fcstEle=PRE_3H" requestTime="2018-11-15 03:18:18" responseTime="2018-11-15 03:18:18" takeTime="0.001"
+
+returnCode="-3001" returnMessage="Incorrect Parameter. detail: Time format invalid!The error format time is:20181114630000" rowCount="0" colCount="0" requestParams="dataCode=NAFP_NWFD_SPCC&time=20181114630000&maxLat=41.45&minLat=39.53&minLon=110.55&validTime=8&maxLon=112.41&fcstEle=PRE_3H" requestTime="2018-11-15 03:18:18" responseTime="2018-11-15 03:18:18" takeTime="0.0"
+
+returnCode="-3001" returnMessage="Incorrect Parameter. detail: Time format invalid!The error format time is:20181114660000" rowCount="0" colCount="0" requestParams="dataCode=NAFP_NWFD_SPCC&time=20181114660000&maxLat=41.45&minLat=39.53&minLon=110.55&validTime=8&maxLon=112.41&fcstEle=PRE_3H" requestTime="2018-11-15 03:18:19" responseTime="2018-11-15 03:18:19" takeTime="0.001"
+
+returnCode="-3001" returnMessage="Incorrect Parameter. detail: Time format invalid!The error format time is:20181114690000" rowCount="0" colCount="0" requestParams="dataCode=NAFP_NWFD_SPCC&time=20181114690000&maxLat=41.45&minLat=39.53&minLon=110.55&validTime=8&maxLon=112.41&fcstEle=PRE_3H" requestTime="2018-11-15 03:18:19" responseTime="2018-11-15 03:18:19" takeTime="0.001"
+
+returnCode="-3001" returnMessage="Incorrect Parameter. detail: Time format invalid!The error format time is:20181114720000" rowCount="0" colCount="0" requestParams="dataCode=NAFP_NWFD_SPCC&time=20181114720000&maxLat=41.45&minLat=39.53&minLon=110.55&validTime=8&maxLon=112.41&fcstEle=PRE_3H" requestTime="2018-11-15 03:18:19" responseTime="2018-11-15 03:18:19" takeTime="0.001"
+
+returnCode="-1" returnMessage="No data is retrieved. detail: Query Success,but no record is in database" rowCount="0" colCount="0" requestParams="dataCode=NAFP_NWFD_SPCC&time=20181114030000&maxLat=41.45&minLat=39.53&minLon=110.55&validTime=8&maxLon=112.41&fcstEle=WIU10" requestTime="2018-11-15 03:18:19" responseTime="2018-11-15 03:18:19" takeTime="0.009"
+
+returnCode="-1" returnMessage="No data is retrieved. detail: Query Success,but no record is in database" rowCount="0" colCount="0" requestParams="dataCode=NAFP_NWFD_SPCC&time=20181114060000&maxLat=41.45&minLat=39.53&minLon=110.55&validTime=8&maxLon=112.41&fcstEle=WIU10" requestTime="2018-11-15 03:18:19" responseTime="2018-11-15 03:18:19" takeTime="0.01"
+
+returnCode="-1" returnMessage="No data is retrieved. detail: Query Success,but no record is in database" rowCount="0" colCount="0" requestParams="dataCode=NAFP_NWFD_SPCC&time=20181114090000&maxLat=41.45&minLat=39.53&minLon=110.55&validTime=8&maxLon=112.41&fcstEle=WIU10" requestTime="2018-11-15 03:18:19" responseTime="2018-11-15 03:18:19" takeTime="0.006"
+
+returnCode="-1" returnMessage="No data is retrieved. detail: Query Success,but no record is in database" rowCount="0" colCount="0" requestParams="dataCode=NAFP_NWFD_SPCC&time=20181114120000&maxLat=41.45&minLat=39.53&minLon=110.55&validTime=8&maxLon=112.41&fcstEle=WIU10" requestTime="2018-11-15 03:18:19" responseTime="2018-11-15 03:18:19" takeTime="0.006"
+
+returnCode="-1" returnMessage="No data is retrieved. detail: Query Success,but no record is in database" rowCount="0" colCount="0" requestParams="dataCode=NAFP_NWFD_SPCC&time=20181114150000&maxLat=41.45&minLat=39.53&minLon=110.55&validTime=8&maxLon=112.41&fcstEle=WIU10" requestTime="2018-11-15 03:18:19" responseTime="2018-11-15 03:18:19" takeTime="0.006"
+
+returnCode="-1" returnMessage="No data is retrieved. detail: Query Success,but no record is in database" rowCount="0" colCount="0" requestParams="dataCode=NAFP_NWFD_SPCC&time=20181114180000&maxLat=41.45&minLat=39.53&minLon=110.55&validTime=8&maxLon=112.41&fcstEle=WIU10" requestTime="2018-11-15 03:18:19" responseTime="2018-11-15 03:18:19" takeTime="0.007"
+
+returnCode="-1" returnMessage="No data is retrieved. detail: Query Success,but no record is in database" rowCount="0" colCount="0" requestParams="dataCode=NAFP_NWFD_SPCC&time=20181114210000&maxLat=41.45&minLat=39.53&minLon=110.55&validTime=8&maxLon=112.41&fcstEle=WIU10" requestTime="2018-11-15 03:18:19" responseTime="2018-11-15 03:18:19" takeTime="0.005"
+
+returnCode="-3001" returnMessage="Incorrect Parameter. detail: Time format invalid!The error format time is:20181114240000" rowCount="0" colCount="0" requestParams="dataCode=NAFP_NWFD_SPCC&time=20181114240000&maxLat=41.45&minLat=39.53&minLon=110.55&validTime=8&maxLon=112.41&fcstEle=WIU10" requestTime="2018-11-15 03:18:19" responseTime="2018-11-15 03:18:19" takeTime="0.001"
+
+returnCode="-3001" returnMessage="Incorrect Parameter. detail: Time format invalid!The error format time is:20181114270000" rowCount="0" colCount="0" requestParams="dataCode=NAFP_NWFD_SPCC&time=20181114270000&maxLat=41.45&minLat=39.53&minLon=110.55&validTime=8&maxLon=112.41&fcstEle=WIU10" requestTime="2018-11-15 03:18:20" responseTime="2018-11-15 03:18:20" takeTime="0.001"
+
+returnCode="-3001" returnMessage="Incorrect Parameter. detail: Time format invalid!The error format time is:20181114300000" rowCount="0" colCount="0" requestParams="dataCode=NAFP_NWFD_SPCC&time=20181114300000&maxLat=41.45&minLat=39.53&minLon=110.55&validTime=8&maxLon=112.41&fcstEle=WIU10" requestTime="2018-11-15 03:18:20" responseTime="2018-11-15 03:18:20" takeTime="0.001"
+
+returnCode="-3001" returnMessage="Incorrect Parameter. detail: Time format invalid!The error format time is:20181114330000" rowCount="0" colCount="0" requestParams="dataCode=NAFP_NWFD_SPCC&time=20181114330000&maxLat=41.45&minLat=39.53&minLon=110.55&validTime=8&maxLon=112.41&fcstEle=WIU10" requestTime="2018-11-15 03:18:20" responseTime="2018-11-15 03:18:20" takeTime="0.001"
+
+returnCode="-3001" returnMessage="Incorrect Parameter. detail: Time format invalid!The error format time is:20181114360000" rowCount="0" colCount="0" requestParams="dataCode=NAFP_NWFD_SPCC&time=20181114360000&maxLat=41.45&minLat=39.53&minLon=110.55&validTime=8&maxLon=112.41&fcstEle=WIU10" requestTime="2018-11-15 03:18:20" responseTime="2018-11-15 03:18:20" takeTime="0.001"
+
+returnCode="-3001" returnMessage="Incorrect Parameter. detail: Time format invalid!The error format time is:20181114390000" rowCount="0" colCount="0" requestParams="dataCode=NAFP_NWFD_SPCC&time=20181114390000&maxLat=41.45&minLat=39.53&minLon=110.55&validTime=8&maxLon=112.41&fcstEle=WIU10" requestTime="2018-11-15 03:18:20" responseTime="2018-11-15 03:18:20" takeTime="0.001"
+
+returnCode="-3001" returnMessage="Incorrect Parameter. detail: Time format invalid!The error format time is:20181114420000" rowCount="0" colCount="0" requestParams="dataCode=NAFP_NWFD_SPCC&time=20181114420000&maxLat=41.45&minLat=39.53&minLon=110.55&validTime=8&maxLon=112.41&fcstEle=WIU10" requestTime="2018-11-15 03:18:20" responseTime="2018-11-15 03:18:20" takeTime="0.001"
+
+returnCode="-3001" returnMessage="Incorrect Parameter. detail: Time format invalid!The error format time is:20181114450000" rowCount="0" colCount="0" requestParams="dataCode=NAFP_NWFD_SPCC&time=20181114450000&maxLat=41.45&minLat=39.53&minLon=110.55&validTime=8&maxLon=112.41&fcstEle=WIU10" requestTime="2018-11-15 03:18:20" responseTime="2018-11-15 03:18:20" takeTime="0.001"
+
+returnCode="-3001" returnMessage="Incorrect Parameter. detail: Time format invalid!The error format time is:20181114480000" rowCount="0" colCount="0" requestParams="dataCode=NAFP_NWFD_SPCC&time=20181114480000&maxLat=41.45&minLat=39.53&minLon=110.55&validTime=8&maxLon=112.41&fcstEle=WIU10" requestTime="2018-11-15 03:18:20" responseTime="2018-11-15 03:18:20" takeTime="0.001"
+
+returnCode="-3001" returnMessage="Incorrect Parameter. detail: Time format invalid!The error format time is:20181114510000" rowCount="0" colCount="0" requestParams="dataCode=NAFP_NWFD_SPCC&time=20181114510000&maxLat=41.45&minLat=39.53&minLon=110.55&validTime=8&maxLon=112.41&fcstEle=WIU10" requestTime="2018-11-15 03:18:20" responseTime="2018-11-15 03:18:20" takeTime="0.0"
+
+returnCode="-3001" returnMessage="Incorrect Parameter. detail: Time format invalid!The error format time is:20181114540000" rowCount="0" colCount="0" requestParams="dataCode=NAFP_NWFD_SPCC&time=20181114540000&maxLat=41.45&minLat=39.53&minLon=110.55&validTime=8&maxLon=112.41&fcstEle=WIU10" requestTime="2018-11-15 03:18:20" responseTime="2018-11-15 03:18:20" takeTime="0.001"
+
+returnCode="-3001" returnMessage="Incorrect Parameter. detail: Time format invalid!The error format time is:20181114570000" rowCount="0" colCount="0" requestParams="dataCode=NAFP_NWFD_SPCC&time=20181114570000&maxLat=41.45&minLat=39.53&minLon=110.55&validTime=8&maxLon=112.41&fcstEle=WIU10" requestTime="2018-11-15 03:18:20" responseTime="2018-11-15 03:18:20" takeTime="0.001"
+
+returnCode="-3001" returnMessage="Incorrect Parameter. detail: Time format invalid!The error format time is:20181114600000" rowCount="0" colCount="0" requestParams="dataCode=NAFP_NWFD_SPCC&time=20181114600000&maxLat=41.45&minLat=39.53&minLon=110.55&validTime=8&maxLon=112.41&fcstEle=WIU10" requestTime="2018-11-15 03:18:20" responseTime="2018-11-15 03:18:20" takeTime="0.001"
+
+returnCode="-3001" returnMessage="Incorrect Parameter. detail: Time format invalid!The error format time is:20181114630000" rowCount="0" colCount="0" requestParams="dataCode=NAFP_NWFD_SPCC&time=20181114630000&maxLat=41.45&minLat=39.53&minLon=110.55&validTime=8&maxLon=112.41&fcstEle=WIU10" requestTime="2018-11-15 03:18:20" responseTime="2018-11-15 03:18:20" takeTime="0.001"
+
+returnCode="-3001" returnMessage="Incorrect Parameter. detail: Time format invalid!The error format time is:20181114660000" rowCount="0" colCount="0" requestParams="dataCode=NAFP_NWFD_SPCC&time=20181114660000&maxLat=41.45&minLat=39.53&minLon=110.55&validTime=8&maxLon=112.41&fcstEle=WIU10" requestTime="2018-11-15 03:18:21" responseTime="2018-11-15 03:18:21" takeTime="0.001"
+
+returnCode="-3001" returnMessage="Incorrect Parameter. detail: Time format invalid!The error format time is:20181114690000" rowCount="0" colCount="0" requestParams="dataCode=NAFP_NWFD_SPCC&time=20181114690000&maxLat=41.45&minLat=39.53&minLon=110.55&validTime=8&maxLon=112.41&fcstEle=WIU10" requestTime="2018-11-15 03:18:21" responseTime="2018-11-15 03:18:21" takeTime="0.001"
+
+returnCode="-3001" returnMessage="Incorrect Parameter. detail: Time format invalid!The error format time is:20181114720000" rowCount="0" colCount="0" requestParams="dataCode=NAFP_NWFD_SPCC&time=20181114720000&maxLat=41.45&minLat=39.53&minLon=110.55&validTime=8&maxLon=112.41&fcstEle=WIU10" requestTime="2018-11-15 03:18:21" responseTime="2018-11-15 03:18:21" takeTime="0.001"
+
+returnCode="-1" returnMessage="No data is retrieved. detail: Query Success,but no record is in database" rowCount="0" colCount="0" requestParams="dataCode=NAFP_NWFD_SPCC&time=20181114030000&maxLat=41.45&minLat=39.53&minLon=110.55&validTime=8&maxLon=112.41&fcstEle=WIV10" requestTime="2018-11-15 03:18:21" responseTime="2018-11-15 03:18:21" takeTime="0.009"
+
+returnCode="-1" returnMessage="No data is retrieved. detail: Query Success,but no record is in database" rowCount="0" colCount="0" requestParams="dataCode=NAFP_NWFD_SPCC&time=20181114060000&maxLat=41.45&minLat=39.53&minLon=110.55&validTime=8&maxLon=112.41&fcstEle=WIV10" requestTime="2018-11-15 03:18:21" responseTime="2018-11-15 03:18:21" takeTime="0.007"
+
+returnCode="-1" returnMessage="No data is retrieved. detail: Query Success,but no record is in database" rowCount="0" colCount="0" requestParams="dataCode=NAFP_NWFD_SPCC&time=20181114090000&maxLat=41.45&minLat=39.53&minLon=110.55&validTime=8&maxLon=112.41&fcstEle=WIV10" requestTime="2018-11-15 03:18:21" responseTime="2018-11-15 03:18:21" takeTime="0.006"
+
+returnCode="-1" returnMessage="No data is retrieved. detail: Query Success,but no record is in database" rowCount="0" colCount="0" requestParams="dataCode=NAFP_NWFD_SPCC&time=20181114120000&maxLat=41.45&minLat=39.53&minLon=110.55&validTime=8&maxLon=112.41&fcstEle=WIV10" requestTime="2018-11-15 03:18:21" responseTime="2018-11-15 03:18:21" takeTime="0.006"
+
+returnCode="-1" returnMessage="No data is retrieved. detail: Query Success,but no record is in database" rowCount="0" colCount="0" requestParams="dataCode=NAFP_NWFD_SPCC&time=20181114150000&maxLat=41.45&minLat=39.53&minLon=110.55&validTime=8&maxLon=112.41&fcstEle=WIV10" requestTime="2018-11-15 03:18:21" responseTime="2018-11-15 03:18:21" takeTime="0.009"
+
+returnCode="-1" returnMessage="No data is retrieved. detail: Query Success,but no record is in database" rowCount="0" colCount="0" requestParams="dataCode=NAFP_NWFD_SPCC&time=20181114180000&maxLat=41.45&minLat=39.53&minLon=110.55&validTime=8&maxLon=112.41&fcstEle=WIV10" requestTime="2018-11-15 03:18:22" responseTime="2018-11-15 03:18:22" takeTime="0.005"
+
+returnCode="-1" returnMessage="No data is retrieved. detail: Query Success,but no record is in database" rowCount="0" colCount="0" requestParams="dataCode=NAFP_NWFD_SPCC&time=20181114210000&maxLat=41.45&minLat=39.53&minLon=110.55&validTime=8&maxLon=112.41&fcstEle=WIV10" requestTime="2018-11-15 03:18:22" responseTime="2018-11-15 03:18:22" takeTime="0.008"
+
+returnCode="-3001" returnMessage="Incorrect Parameter. detail: Time format invalid!The error format time is:20181114240000" rowCount="0" colCount="0" requestParams="dataCode=NAFP_NWFD_SPCC&time=20181114240000&maxLat=41.45&minLat=39.53&minLon=110.55&validTime=8&maxLon=112.41&fcstEle=WIV10" requestTime="2018-11-15 03:18:22" responseTime="2018-11-15 03:18:22" takeTime="0.001"
+
+returnCode="-3001" returnMessage="Incorrect Parameter. detail: Time format invalid!The error format time is:20181114270000" rowCount="0" colCount="0" requestParams="dataCode=NAFP_NWFD_SPCC&time=20181114270000&maxLat=41.45&minLat=39.53&minLon=110.55&validTime=8&maxLon=112.41&fcstEle=WIV10" requestTime="2018-11-15 03:18:22" responseTime="2018-11-15 03:18:22" takeTime="0.001"
+
+returnCode="-3001" returnMessage="Incorrect Parameter. detail: Time format invalid!The error format time is:20181114300000" rowCount="0" colCount="0" requestParams="dataCode=NAFP_NWFD_SPCC&time=20181114300000&maxLat=41.45&minLat=39.53&minLon=110.55&validTime=8&maxLon=112.41&fcstEle=WIV10" requestTime="2018-11-15 03:18:22" responseTime="2018-11-15 03:18:22" takeTime="0.001"
+
+returnCode="-3001" returnMessage="Incorrect Parameter. detail: Time format invalid!The error format time is:20181114330000" rowCount="0" colCount="0" requestParams="dataCode=NAFP_NWFD_SPCC&time=20181114330000&maxLat=41.45&minLat=39.53&minLon=110.55&validTime=8&maxLon=112.41&fcstEle=WIV10" requestTime="2018-11-15 03:18:22" responseTime="2018-11-15 03:18:22" takeTime="0.001"
+
+returnCode="-3001" returnMessage="Incorrect Parameter. detail: Time format invalid!The error format time is:20181114360000" rowCount="0" colCount="0" requestParams="dataCode=NAFP_NWFD_SPCC&time=20181114360000&maxLat=41.45&minLat=39.53&minLon=110.55&validTime=8&maxLon=112.41&fcstEle=WIV10" requestTime="2018-11-15 03:18:22" responseTime="2018-11-15 03:18:22" takeTime="0.001"
+
+returnCode="-3001" returnMessage="Incorrect Parameter. detail: Time format invalid!The error format time is:20181114390000" rowCount="0" colCount="0" requestParams="dataCode=NAFP_NWFD_SPCC&time=20181114390000&maxLat=41.45&minLat=39.53&minLon=110.55&validTime=8&maxLon=112.41&fcstEle=WIV10" requestTime="2018-11-15 03:18:22" responseTime="2018-11-15 03:18:22" takeTime="0.001"
+
+returnCode="-3001" returnMessage="Incorrect Parameter. detail: Time format invalid!The error format time is:20181114420000" rowCount="0" colCount="0" requestParams="dataCode=NAFP_NWFD_SPCC&time=20181114420000&maxLat=41.45&minLat=39.53&minLon=110.55&validTime=8&maxLon=112.41&fcstEle=WIV10" requestTime="2018-11-15 03:18:22" responseTime="2018-11-15 03:18:22" takeTime="0.001"
+
+returnCode="-3001" returnMessage="Incorrect Parameter. detail: Time format invalid!The error format time is:20181114450000" rowCount="0" colCount="0" requestParams="dataCode=NAFP_NWFD_SPCC&time=20181114450000&maxLat=41.45&minLat=39.53&minLon=110.55&validTime=8&maxLon=112.41&fcstEle=WIV10" requestTime="2018-11-15 03:18:22" responseTime="2018-11-15 03:18:22" takeTime="0.0"
+
+returnCode="-3001" returnMessage="Incorrect Parameter. detail: Time format invalid!The error format time is:20181114480000" rowCount="0" colCount="0" requestParams="dataCode=NAFP_NWFD_SPCC&time=20181114480000&maxLat=41.45&minLat=39.53&minLon=110.55&validTime=8&maxLon=112.41&fcstEle=WIV10" requestTime="2018-11-15 03:18:22" responseTime="2018-11-15 03:18:22" takeTime="0.001"
+
+returnCode="-3001" returnMessage="Incorrect Parameter. detail: Time format invalid!The error format time is:20181114510000" rowCount="0" colCount="0" requestParams="dataCode=NAFP_NWFD_SPCC&time=20181114510000&maxLat=41.45&minLat=39.53&minLon=110.55&validTime=8&maxLon=112.41&fcstEle=WIV10" requestTime="2018-11-15 03:18:22" responseTime="2018-11-15 03:18:22" takeTime="0.0"
+
+returnCode="-3001" returnMessage="Incorrect Parameter. detail: Time format invalid!The error format time is:20181114540000" rowCount="0" colCount="0" requestParams="dataCode=NAFP_NWFD_SPCC&time=20181114540000&maxLat=41.45&minLat=39.53&minLon=110.55&validTime=8&maxLon=112.41&fcstEle=WIV10" requestTime="2018-11-15 03:18:22" responseTime="2018-11-15 03:18:22" takeTime="0.001"
+
+returnCode="-3001" returnMessage="Incorrect Parameter. detail: Time format invalid!The error format time is:20181114570000" rowCount="0" colCount="0" requestParams="dataCode=NAFP_NWFD_SPCC&time=20181114570000&maxLat=41.45&minLat=39.53&minLon=110.55&validTime=8&maxLon=112.41&fcstEle=WIV10" requestTime="2018-11-15 03:18:23" responseTime="2018-11-15 03:18:23" takeTime="0.001"
+
+returnCode="-3001" returnMessage="Incorrect Parameter. detail: Time format invalid!The error format time is:20181114600000" rowCount="0" colCount="0" requestParams="dataCode=NAFP_NWFD_SPCC&time=20181114600000&maxLat=41.45&minLat=39.53&minLon=110.55&validTime=8&maxLon=112.41&fcstEle=WIV10" requestTime="2018-11-15 03:18:23" responseTime="2018-11-15 03:18:23" takeTime="0.001"
+
+returnCode="-3001" returnMessage="Incorrect Parameter. detail: Time format invalid!The error format time is:20181114630000" rowCount="0" colCount="0" requestParams="dataCode=NAFP_NWFD_SPCC&time=20181114630000&maxLat=41.45&minLat=39.53&minLon=110.55&validTime=8&maxLon=112.41&fcstEle=WIV10" requestTime="2018-11-15 03:18:23" responseTime="2018-11-15 03:18:23" takeTime="0.001"
+
+returnCode="-3001" returnMessage="Incorrect Parameter. detail: Time format invalid!The error format time is:20181114660000" rowCount="0" colCount="0" requestParams="dataCode=NAFP_NWFD_SPCC&time=20181114660000&maxLat=41.45&minLat=39.53&minLon=110.55&validTime=8&maxLon=112.41&fcstEle=WIV10" requestTime="2018-11-15 03:18:23" responseTime="2018-11-15 03:18:23" takeTime="0.001"
+
+returnCode="-3001" returnMessage="Incorrect Parameter. detail: Time format invalid!The error format time is:20181114690000" rowCount="0" colCount="0" requestParams="dataCode=NAFP_NWFD_SPCC&time=20181114690000&maxLat=41.45&minLat=39.53&minLon=110.55&validTime=8&maxLon=112.41&fcstEle=WIV10" requestTime="2018-11-15 03:18:23" responseTime="2018-11-15 03:18:23" takeTime="0.001"
+
+returnCode="-3001" returnMessage="Incorrect Parameter. detail: Time format invalid!The error format time is:20181114720000" rowCount="0" colCount="0" requestParams="dataCode=NAFP_NWFD_SPCC&time=20181114720000&maxLat=41.45&minLat=39.53&minLon=110.55&validTime=8&maxLon=112.41&fcstEle=WIV10" requestTime="2018-11-15 03:18:23" responseTime="2018-11-15 03:18:23" takeTime="0.001"
+
+returnCode="-1" returnMessage="No data is retrieved. detail: Query Success,but no record is in database" rowCount="0" colCount="0" requestParams="dataCode=NAFP_NWFD_SPCC&time=20181114030000&maxLat=41.45&minLat=39.53&minLon=110.55&validTime=8&maxLon=112.41&fcstEle=PPH" requestTime="2018-11-15 03:18:23" responseTime="2018-11-15 03:18:23" takeTime="0.008"
+
+returnCode="-1" returnMessage="No data is retrieved. detail: Query Success,but no record is in database" rowCount="0" colCount="0" requestParams="dataCode=NAFP_NWFD_SPCC&time=20181114060000&maxLat=41.45&minLat=39.53&minLon=110.55&validTime=8&maxLon=112.41&fcstEle=PPH" requestTime="2018-11-15 03:18:23" responseTime="2018-11-15 03:18:23" takeTime="0.009"
+
+returnCode="-1" returnMessage="No data is retrieved. detail: Query Success,but no record is in database" rowCount="0" colCount="0" requestParams="dataCode=NAFP_NWFD_SPCC&time=20181114090000&maxLat=41.45&minLat=39.53&minLon=110.55&validTime=8&maxLon=112.41&fcstEle=PPH" requestTime="2018-11-15 03:18:23" responseTime="2018-11-15 03:18:23" takeTime="0.007"
+
+returnCode="-1" returnMessage="No data is retrieved. detail: Query Success,but no record is in database" rowCount="0" colCount="0" requestParams="dataCode=NAFP_NWFD_SPCC&time=20181114120000&maxLat=41.45&minLat=39.53&minLon=110.55&validTime=8&maxLon=112.41&fcstEle=PPH" requestTime="2018-11-15 03:18:23" responseTime="2018-11-15 03:18:23" takeTime="0.007"
+
+returnCode="-1" returnMessage="No data is retrieved. detail: Query Success,but no record is in database" rowCount="0" colCount="0" requestParams="dataCode=NAFP_NWFD_SPCC&time=20181114150000&maxLat=41.45&minLat=39.53&minLon=110.55&validTime=8&maxLon=112.41&fcstEle=PPH" requestTime="2018-11-15 03:18:23" responseTime="2018-11-15 03:18:23" takeTime="0.006"
+
+returnCode="-1" returnMessage="No data is retrieved. detail: Query Success,but no record is in database" rowCount="0" colCount="0" requestParams="dataCode=NAFP_NWFD_SPCC&time=20181114180000&maxLat=41.45&minLat=39.53&minLon=110.55&validTime=8&maxLon=112.41&fcstEle=PPH" requestTime="2018-11-15 03:18:24" responseTime="2018-11-15 03:18:24" takeTime="0.006"
+
+returnCode="-1" returnMessage="No data is retrieved. detail: Query Success,but no record is in database" rowCount="0" colCount="0" requestParams="dataCode=NAFP_NWFD_SPCC&time=20181114210000&maxLat=41.45&minLat=39.53&minLon=110.55&validTime=8&maxLon=112.41&fcstEle=PPH" requestTime="2018-11-15 03:18:24" responseTime="2018-11-15 03:18:24" takeTime="0.007"
+
+returnCode="-3001" returnMessage="Incorrect Parameter. detail: Time format invalid!The error format time is:20181114240000" rowCount="0" colCount="0" requestParams="dataCode=NAFP_NWFD_SPCC&time=20181114240000&maxLat=41.45&minLat=39.53&minLon=110.55&validTime=8&maxLon=112.41&fcstEle=PPH" requestTime="2018-11-15 03:18:24" responseTime="2018-11-15 03:18:24" takeTime="0.001"
+
+returnCode="-3001" returnMessage="Incorrect Parameter. detail: Time format invalid!The error format time is:20181114270000" rowCount="0" colCount="0" requestParams="dataCode=NAFP_NWFD_SPCC&time=20181114270000&maxLat=41.45&minLat=39.53&minLon=110.55&validTime=8&maxLon=112.41&fcstEle=PPH" requestTime="2018-11-15 03:18:24" responseTime="2018-11-15 03:18:24" takeTime="0.001"
+
+returnCode="-3001" returnMessage="Incorrect Parameter. detail: Time format invalid!The error format time is:20181114300000" rowCount="0" colCount="0" requestParams="dataCode=NAFP_NWFD_SPCC&time=20181114300000&maxLat=41.45&minLat=39.53&minLon=110.55&validTime=8&maxLon=112.41&fcstEle=PPH" requestTime="2018-11-15 03:18:24" responseTime="2018-11-15 03:18:24" takeTime="0.001"
+
+returnCode="-3001" returnMessage="Incorrect Parameter. detail: Time format invalid!The error format time is:20181114330000" rowCount="0" colCount="0" requestParams="dataCode=NAFP_NWFD_SPCC&time=20181114330000&maxLat=41.45&minLat=39.53&minLon=110.55&validTime=8&maxLon=112.41&fcstEle=PPH" requestTime="2018-11-15 03:18:24" responseTime="2018-11-15 03:18:24" takeTime="0.001"
+
+returnCode="-3001" returnMessage="Incorrect Parameter. detail: Time format invalid!The error format time is:20181114360000" rowCount="0" colCount="0" requestParams="dataCode=NAFP_NWFD_SPCC&time=20181114360000&maxLat=41.45&minLat=39.53&minLon=110.55&validTime=8&maxLon=112.41&fcstEle=PPH" requestTime="2018-11-15 03:18:24" responseTime="2018-11-15 03:18:24" takeTime="0.002"
+
+returnCode="-3001" returnMessage="Incorrect Parameter. detail: Time format invalid!The error format time is:20181114390000" rowCount="0" colCount="0" requestParams="dataCode=NAFP_NWFD_SPCC&time=20181114390000&maxLat=41.45&minLat=39.53&minLon=110.55&validTime=8&maxLon=112.41&fcstEle=PPH" requestTime="2018-11-15 03:18:24" responseTime="2018-11-15 03:18:24" takeTime="0.0"
+
+returnCode="-3001" returnMessage="Incorrect Parameter. detail: Time format invalid!The error format time is:20181114420000" rowCount="0" colCount="0" requestParams="dataCode=NAFP_NWFD_SPCC&time=20181114420000&maxLat=41.45&minLat=39.53&minLon=110.55&validTime=8&maxLon=112.41&fcstEle=PPH" requestTime="2018-11-15 03:18:24" responseTime="2018-11-15 03:18:24" takeTime="0.001"
+
+returnCode="-3001" returnMessage="Incorrect Parameter. detail: Time format invalid!The error format time is:20181114450000" rowCount="0" colCount="0" requestParams="dataCode=NAFP_NWFD_SPCC&time=20181114450000&maxLat=41.45&minLat=39.53&minLon=110.55&validTime=8&maxLon=112.41&fcstEle=PPH" requestTime="2018-11-15 03:18:24" responseTime="2018-11-15 03:18:24" takeTime="0.001"
+
+returnCode="-3001" returnMessage="Incorrect Parameter. detail: Time format invalid!The error format time is:20181114480000" rowCount="0" colCount="0" requestParams="dataCode=NAFP_NWFD_SPCC&time=20181114480000&maxLat=41.45&minLat=39.53&minLon=110.55&validTime=8&maxLon=112.41&fcstEle=PPH" requestTime="2018-11-15 03:18:24" responseTime="2018-11-15 03:18:24" takeTime="0.001"
+
+returnCode="-3001" returnMessage="Incorrect Parameter. detail: Time format invalid!The error format time is:20181114510000" rowCount="0" colCount="0" requestParams="dataCode=NAFP_NWFD_SPCC&time=20181114510000&maxLat=41.45&minLat=39.53&minLon=110.55&validTime=8&maxLon=112.41&fcstEle=PPH" requestTime="2018-11-15 03:18:25" responseTime="2018-11-15 03:18:25" takeTime="0.001"
+
+returnCode="-3001" returnMessage="Incorrect Parameter. detail: Time format invalid!The error format time is:20181114540000" rowCount="0" colCount="0" requestParams="dataCode=NAFP_NWFD_SPCC&time=20181114540000&maxLat=41.45&minLat=39.53&minLon=110.55&validTime=8&maxLon=112.41&fcstEle=PPH" requestTime="2018-11-15 03:18:25" responseTime="2018-11-15 03:18:25" takeTime="0.001"
+
+returnCode="-3001" returnMessage="Incorrect Parameter. detail: Time format invalid!The error format time is:20181114570000" rowCount="0" colCount="0" requestParams="dataCode=NAFP_NWFD_SPCC&time=20181114570000&maxLat=41.45&minLat=39.53&minLon=110.55&validTime=8&maxLon=112.41&fcstEle=PPH" requestTime="2018-11-15 03:18:25" responseTime="2018-11-15 03:18:25" takeTime="0.0"
+
+returnCode="-3001" returnMessage="Incorrect Parameter. detail: Time format invalid!The error format time is:20181114600000" rowCount="0" colCount="0" requestParams="dataCode=NAFP_NWFD_SPCC&time=20181114600000&maxLat=41.45&minLat=39.53&minLon=110.55&validTime=8&maxLon=112.41&fcstEle=PPH" requestTime="2018-11-15 03:18:25" responseTime="2018-11-15 03:18:25" takeTime="0.001"
+
+returnCode="-3001" returnMessage="Incorrect Parameter. detail: Time format invalid!The error format time is:20181114630000" rowCount="0" colCount="0" requestParams="dataCode=NAFP_NWFD_SPCC&time=20181114630000&maxLat=41.45&minLat=39.53&minLon=110.55&validTime=8&maxLon=112.41&fcstEle=PPH" requestTime="2018-11-15 03:18:25" responseTime="2018-11-15 03:18:25" takeTime="0.0"
+
+returnCode="-3001" returnMessage="Incorrect Parameter. detail: Time format invalid!The error format time is:20181114660000" rowCount="0" colCount="0" requestParams="dataCode=NAFP_NWFD_SPCC&time=20181114660000&maxLat=41.45&minLat=39.53&minLon=110.55&validTime=8&maxLon=112.41&fcstEle=PPH" requestTime="2018-11-15 03:18:25" responseTime="2018-11-15 03:18:25" takeTime="0.001"
+
+returnCode="-3001" returnMessage="Incorrect Parameter. detail: Time format invalid!The error format time is:20181114690000" rowCount="0" colCount="0" requestParams="dataCode=NAFP_NWFD_SPCC&time=20181114690000&maxLat=41.45&minLat=39.53&minLon=110.55&validTime=8&maxLon=112.41&fcstEle=PPH" requestTime="2018-11-15 03:18:25" responseTime="2018-11-15 03:18:25" takeTime="0.001"
+
+returnCode="-3001" returnMessage="Incorrect Parameter. detail: Time format invalid!The error format time is:20181114720000" rowCount="0" colCount="0" requestParams="dataCode=NAFP_NWFD_SPCC&time=20181114720000&maxLat=41.45&minLat=39.53&minLon=110.55&validTime=8&maxLon=112.41&fcstEle=PPH" requestTime="2018-11-15 03:18:25" responseTime="2018-11-15 03:18:25" takeTime="0.001"
+
+2018/11/15 11:20:26保存2018111308时区局智能网格数据成功！
+2018/11/15 11:20:27保存2018111208时区局智能网格数据成功！
+2018/11/15 11:20:27保存2018111008时区局智能网格数据成功！
+2018/11/15 11:20:27保存2018111008时区局智能网格数据成功！
+2018/11/15 11:21:55保存2018111408时区局智能网格数据成功！
+2018/11/15 11:40:22保存2018111208时区局智能网格数据成功！
+2018/11/15 11:40:30保存2018111308时区局智能网格数据成功！
+2018/11/15 11:40:38保存2018111408时区局智能网格数据成功！
+2018/11/15 11:40:47保存2018111008时区局智能网格数据：
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (53368, 2018-11-10, 8, 63)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (53463, 2018-11-10, 8, 63)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (53464, 2018-11-10, 8, 63)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (53466, 2018-11-10, 8, 63)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (53467, 2018-11-10, 8, 63)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (53469, 2018-11-10, 8, 63)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (53562, 2018-11-10, 8, 63)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4501, 2018-11-10, 8, 63)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4502, 2018-11-10, 8, 63)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4503, 2018-11-10, 8, 63)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4504, 2018-11-10, 8, 63)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4505, 2018-11-10, 8, 63)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4506, 2018-11-10, 8, 63)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4507, 2018-11-10, 8, 63)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4508, 2018-11-10, 8, 63)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4510, 2018-11-10, 8, 63)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4511, 2018-11-10, 8, 63)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4512, 2018-11-10, 8, 63)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4513, 2018-11-10, 8, 63)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4514, 2018-11-10, 8, 63)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4515, 2018-11-10, 8, 63)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4516, 2018-11-10, 8, 63)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4517, 2018-11-10, 8, 63)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4518, 2018-11-10, 8, 63)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4519, 2018-11-10, 8, 63)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4520, 2018-11-10, 8, 63)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4521, 2018-11-10, 8, 63)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4522, 2018-11-10, 8, 63)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4523, 2018-11-10, 8, 63)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4524, 2018-11-10, 8, 63)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4525, 2018-11-10, 8, 63)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4526, 2018-11-10, 8, 63)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4527, 2018-11-10, 8, 63)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4528, 2018-11-10, 8, 63)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4529, 2018-11-10, 8, 63)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4530, 2018-11-10, 8, 63)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4531, 2018-11-10, 8, 63)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4532, 2018-11-10, 8, 63)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4533, 2018-11-10, 8, 63)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4534, 2018-11-10, 8, 63)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4535, 2018-11-10, 8, 63)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4536, 2018-11-10, 8, 63)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4537, 2018-11-10, 8, 63)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4538, 2018-11-10, 8, 63)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4541, 2018-11-10, 8, 63)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4542, 2018-11-10, 8, 63)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4543, 2018-11-10, 8, 63)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4544, 2018-11-10, 8, 63)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4545, 2018-11-10, 8, 63)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4546, 2018-11-10, 8, 63)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4547, 2018-11-10, 8, 63)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4548, 2018-11-10, 8, 63)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4550, 2018-11-10, 8, 63)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4558, 2018-11-10, 8, 63)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4559, 2018-11-10, 8, 63)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4560, 2018-11-10, 8, 63)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4561, 2018-11-10, 8, 63)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4562, 2018-11-10, 8, 63)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4563, 2018-11-10, 8, 63)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4564, 2018-11-10, 8, 63)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4565, 2018-11-10, 8, 63)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4566, 2018-11-10, 8, 63)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4571, 2018-11-10, 8, 63)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4572, 2018-11-10, 8, 63)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4573, 2018-11-10, 8, 63)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4581, 2018-11-10, 8, 63)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4582, 2018-11-10, 8, 63)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4583, 2018-11-10, 8, 63)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4584, 2018-11-10, 8, 63)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4585, 2018-11-10, 8, 63)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4586, 2018-11-10, 8, 63)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4587, 2018-11-10, 8, 63)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4588, 2018-11-10, 8, 63)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4591, 2018-11-10, 8, 63)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4592, 2018-11-10, 8, 63)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4593, 2018-11-10, 8, 63)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4594, 2018-11-10, 8, 63)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4595, 2018-11-10, 8, 63)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4596, 2018-11-10, 8, 63)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4597, 2018-11-10, 8, 63)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4598, 2018-11-10, 8, 63)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4599, 2018-11-10, 8, 63)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4600, 2018-11-10, 8, 63)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4601, 2018-11-10, 8, 63)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4602, 2018-11-10, 8, 63)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4603, 2018-11-10, 8, 63)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4604, 2018-11-10, 8, 63)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4605, 2018-11-10, 8, 63)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4606, 2018-11-10, 8, 63)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4607, 2018-11-10, 8, 63)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4608, 2018-11-10, 8, 63)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4609, 2018-11-10, 8, 63)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4611, 2018-11-10, 8, 63)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4612, 2018-11-10, 8, 63)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4613, 2018-11-10, 8, 63)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4614, 2018-11-10, 8, 63)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4615, 2018-11-10, 8, 63)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4616, 2018-11-10, 8, 63)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4617, 2018-11-10, 8, 63)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4618, 2018-11-10, 8, 63)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4619, 2018-11-10, 8, 63)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4621, 2018-11-10, 8, 63)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4622, 2018-11-10, 8, 63)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4623, 2018-11-10, 8, 63)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4624, 2018-11-10, 8, 63)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4625, 2018-11-10, 8, 63)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4626, 2018-11-10, 8, 63)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4627, 2018-11-10, 8, 63)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4631, 2018-11-10, 8, 63)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4632, 2018-11-10, 8, 63)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4633, 2018-11-10, 8, 63)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4634, 2018-11-10, 8, 63)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4635, 2018-11-10, 8, 63)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4636, 2018-11-10, 8, 63)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4637, 2018-11-10, 8, 63)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4641, 2018-11-10, 8, 63)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4642, 2018-11-10, 8, 63)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4643, 2018-11-10, 8, 63)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4644, 2018-11-10, 8, 63)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4645, 2018-11-10, 8, 63)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4646, 2018-11-10, 8, 63)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4647, 2018-11-10, 8, 63)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4648, 2018-11-10, 8, 63)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4649, 2018-11-10, 8, 63)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4999, 2018-11-10, 8, 63)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (53368, 2018-11-10, 8, 66)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (53463, 2018-11-10, 8, 66)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (53464, 2018-11-10, 8, 66)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (53466, 2018-11-10, 8, 66)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (53467, 2018-11-10, 8, 66)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (53469, 2018-11-10, 8, 66)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (53562, 2018-11-10, 8, 66)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4501, 2018-11-10, 8, 66)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4502, 2018-11-10, 8, 66)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4503, 2018-11-10, 8, 66)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4504, 2018-11-10, 8, 66)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4505, 2018-11-10, 8, 66)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4506, 2018-11-10, 8, 66)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4507, 2018-11-10, 8, 66)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4508, 2018-11-10, 8, 66)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4510, 2018-11-10, 8, 66)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4511, 2018-11-10, 8, 66)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4512, 2018-11-10, 8, 66)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4513, 2018-11-10, 8, 66)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4514, 2018-11-10, 8, 66)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4515, 2018-11-10, 8, 66)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4516, 2018-11-10, 8, 66)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4517, 2018-11-10, 8, 66)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4518, 2018-11-10, 8, 66)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4519, 2018-11-10, 8, 66)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4520, 2018-11-10, 8, 66)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4521, 2018-11-10, 8, 66)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4522, 2018-11-10, 8, 66)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4523, 2018-11-10, 8, 66)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4524, 2018-11-10, 8, 66)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4525, 2018-11-10, 8, 66)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4526, 2018-11-10, 8, 66)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4527, 2018-11-10, 8, 66)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4528, 2018-11-10, 8, 66)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4529, 2018-11-10, 8, 66)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4530, 2018-11-10, 8, 66)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4531, 2018-11-10, 8, 66)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4532, 2018-11-10, 8, 66)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4533, 2018-11-10, 8, 66)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4534, 2018-11-10, 8, 66)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4535, 2018-11-10, 8, 66)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4536, 2018-11-10, 8, 66)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4537, 2018-11-10, 8, 66)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4538, 2018-11-10, 8, 66)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4541, 2018-11-10, 8, 66)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4542, 2018-11-10, 8, 66)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4543, 2018-11-10, 8, 66)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4544, 2018-11-10, 8, 66)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4545, 2018-11-10, 8, 66)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4546, 2018-11-10, 8, 66)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4547, 2018-11-10, 8, 66)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4548, 2018-11-10, 8, 66)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4550, 2018-11-10, 8, 66)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4558, 2018-11-10, 8, 66)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4559, 2018-11-10, 8, 66)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4560, 2018-11-10, 8, 66)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4561, 2018-11-10, 8, 66)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4562, 2018-11-10, 8, 66)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4563, 2018-11-10, 8, 66)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4564, 2018-11-10, 8, 66)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4565, 2018-11-10, 8, 66)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4566, 2018-11-10, 8, 66)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4571, 2018-11-10, 8, 66)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4572, 2018-11-10, 8, 66)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4573, 2018-11-10, 8, 66)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4581, 2018-11-10, 8, 66)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4582, 2018-11-10, 8, 66)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4583, 2018-11-10, 8, 66)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4584, 2018-11-10, 8, 66)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4585, 2018-11-10, 8, 66)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4586, 2018-11-10, 8, 66)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4587, 2018-11-10, 8, 66)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4588, 2018-11-10, 8, 66)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4591, 2018-11-10, 8, 66)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4592, 2018-11-10, 8, 66)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4593, 2018-11-10, 8, 66)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4594, 2018-11-10, 8, 66)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4595, 2018-11-10, 8, 66)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4596, 2018-11-10, 8, 66)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4597, 2018-11-10, 8, 66)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4598, 2018-11-10, 8, 66)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4599, 2018-11-10, 8, 66)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4600, 2018-11-10, 8, 66)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4601, 2018-11-10, 8, 66)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4602, 2018-11-10, 8, 66)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4603, 2018-11-10, 8, 66)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4604, 2018-11-10, 8, 66)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4605, 2018-11-10, 8, 66)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4606, 2018-11-10, 8, 66)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4607, 2018-11-10, 8, 66)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4608, 2018-11-10, 8, 66)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4609, 2018-11-10, 8, 66)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4611, 2018-11-10, 8, 66)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4612, 2018-11-10, 8, 66)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4613, 2018-11-10, 8, 66)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4614, 2018-11-10, 8, 66)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4615, 2018-11-10, 8, 66)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4616, 2018-11-10, 8, 66)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4617, 2018-11-10, 8, 66)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4618, 2018-11-10, 8, 66)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4619, 2018-11-10, 8, 66)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4621, 2018-11-10, 8, 66)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4622, 2018-11-10, 8, 66)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4623, 2018-11-10, 8, 66)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4624, 2018-11-10, 8, 66)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4625, 2018-11-10, 8, 66)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4626, 2018-11-10, 8, 66)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4627, 2018-11-10, 8, 66)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4631, 2018-11-10, 8, 66)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4632, 2018-11-10, 8, 66)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4633, 2018-11-10, 8, 66)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4634, 2018-11-10, 8, 66)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4635, 2018-11-10, 8, 66)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4636, 2018-11-10, 8, 66)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4637, 2018-11-10, 8, 66)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4641, 2018-11-10, 8, 66)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4642, 2018-11-10, 8, 66)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4643, 2018-11-10, 8, 66)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4644, 2018-11-10, 8, 66)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4645, 2018-11-10, 8, 66)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4646, 2018-11-10, 8, 66)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4647, 2018-11-10, 8, 66)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4648, 2018-11-10, 8, 66)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4649, 2018-11-10, 8, 66)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4999, 2018-11-10, 8, 66)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (53368, 2018-11-10, 8, 69)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (53463, 2018-11-10, 8, 69)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (53464, 2018-11-10, 8, 69)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (53466, 2018-11-10, 8, 69)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (53467, 2018-11-10, 8, 69)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (53469, 2018-11-10, 8, 69)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (53562, 2018-11-10, 8, 69)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4501, 2018-11-10, 8, 69)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4502, 2018-11-10, 8, 69)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4503, 2018-11-10, 8, 69)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4504, 2018-11-10, 8, 69)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4505, 2018-11-10, 8, 69)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4506, 2018-11-10, 8, 69)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4507, 2018-11-10, 8, 69)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4508, 2018-11-10, 8, 69)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4510, 2018-11-10, 8, 69)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4511, 2018-11-10, 8, 69)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4512, 2018-11-10, 8, 69)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4513, 2018-11-10, 8, 69)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4514, 2018-11-10, 8, 69)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4515, 2018-11-10, 8, 69)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4516, 2018-11-10, 8, 69)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4517, 2018-11-10, 8, 69)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4518, 2018-11-10, 8, 69)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4519, 2018-11-10, 8, 69)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4520, 2018-11-10, 8, 69)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4521, 2018-11-10, 8, 69)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4522, 2018-11-10, 8, 69)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4523, 2018-11-10, 8, 69)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4524, 2018-11-10, 8, 69)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4525, 2018-11-10, 8, 69)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4526, 2018-11-10, 8, 69)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4527, 2018-11-10, 8, 69)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4528, 2018-11-10, 8, 69)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4529, 2018-11-10, 8, 69)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4530, 2018-11-10, 8, 69)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4531, 2018-11-10, 8, 69)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4532, 2018-11-10, 8, 69)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4533, 2018-11-10, 8, 69)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4534, 2018-11-10, 8, 69)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4535, 2018-11-10, 8, 69)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4536, 2018-11-10, 8, 69)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4537, 2018-11-10, 8, 69)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4538, 2018-11-10, 8, 69)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4541, 2018-11-10, 8, 69)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4542, 2018-11-10, 8, 69)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4543, 2018-11-10, 8, 69)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4544, 2018-11-10, 8, 69)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4545, 2018-11-10, 8, 69)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4546, 2018-11-10, 8, 69)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4547, 2018-11-10, 8, 69)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4548, 2018-11-10, 8, 69)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4550, 2018-11-10, 8, 69)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4558, 2018-11-10, 8, 69)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4559, 2018-11-10, 8, 69)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4560, 2018-11-10, 8, 69)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4561, 2018-11-10, 8, 69)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4562, 2018-11-10, 8, 69)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4563, 2018-11-10, 8, 69)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4564, 2018-11-10, 8, 69)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4565, 2018-11-10, 8, 69)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4566, 2018-11-10, 8, 69)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4571, 2018-11-10, 8, 69)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4572, 2018-11-10, 8, 69)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4573, 2018-11-10, 8, 69)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4581, 2018-11-10, 8, 69)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4582, 2018-11-10, 8, 69)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4583, 2018-11-10, 8, 69)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4584, 2018-11-10, 8, 69)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4585, 2018-11-10, 8, 69)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4586, 2018-11-10, 8, 69)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4587, 2018-11-10, 8, 69)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4588, 2018-11-10, 8, 69)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4591, 2018-11-10, 8, 69)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4592, 2018-11-10, 8, 69)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4593, 2018-11-10, 8, 69)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4594, 2018-11-10, 8, 69)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4595, 2018-11-10, 8, 69)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4596, 2018-11-10, 8, 69)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4597, 2018-11-10, 8, 69)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4598, 2018-11-10, 8, 69)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4599, 2018-11-10, 8, 69)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4600, 2018-11-10, 8, 69)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4601, 2018-11-10, 8, 69)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4602, 2018-11-10, 8, 69)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4603, 2018-11-10, 8, 69)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4604, 2018-11-10, 8, 69)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4605, 2018-11-10, 8, 69)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4606, 2018-11-10, 8, 69)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4607, 2018-11-10, 8, 69)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4608, 2018-11-10, 8, 69)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4609, 2018-11-10, 8, 69)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4611, 2018-11-10, 8, 69)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4612, 2018-11-10, 8, 69)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4613, 2018-11-10, 8, 69)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4614, 2018-11-10, 8, 69)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4615, 2018-11-10, 8, 69)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4616, 2018-11-10, 8, 69)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4617, 2018-11-10, 8, 69)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4618, 2018-11-10, 8, 69)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4619, 2018-11-10, 8, 69)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4621, 2018-11-10, 8, 69)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4622, 2018-11-10, 8, 69)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4623, 2018-11-10, 8, 69)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4624, 2018-11-10, 8, 69)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4625, 2018-11-10, 8, 69)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4626, 2018-11-10, 8, 69)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4627, 2018-11-10, 8, 69)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4631, 2018-11-10, 8, 69)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4632, 2018-11-10, 8, 69)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4633, 2018-11-10, 8, 69)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4634, 2018-11-10, 8, 69)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4635, 2018-11-10, 8, 69)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4636, 2018-11-10, 8, 69)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4637, 2018-11-10, 8, 69)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4641, 2018-11-10, 8, 69)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4642, 2018-11-10, 8, 69)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4643, 2018-11-10, 8, 69)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4644, 2018-11-10, 8, 69)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4645, 2018-11-10, 8, 69)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4646, 2018-11-10, 8, 69)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4647, 2018-11-10, 8, 69)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4648, 2018-11-10, 8, 69)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4649, 2018-11-10, 8, 69)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4999, 2018-11-10, 8, 69)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (53368, 2018-11-10, 8, 72)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (53463, 2018-11-10, 8, 72)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (53464, 2018-11-10, 8, 72)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (53466, 2018-11-10, 8, 72)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (53467, 2018-11-10, 8, 72)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (53469, 2018-11-10, 8, 72)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (53562, 2018-11-10, 8, 72)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4501, 2018-11-10, 8, 72)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4502, 2018-11-10, 8, 72)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4503, 2018-11-10, 8, 72)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4504, 2018-11-10, 8, 72)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4505, 2018-11-10, 8, 72)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4506, 2018-11-10, 8, 72)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4507, 2018-11-10, 8, 72)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4508, 2018-11-10, 8, 72)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4510, 2018-11-10, 8, 72)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4511, 2018-11-10, 8, 72)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4512, 2018-11-10, 8, 72)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4513, 2018-11-10, 8, 72)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4514, 2018-11-10, 8, 72)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4515, 2018-11-10, 8, 72)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4516, 2018-11-10, 8, 72)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4517, 2018-11-10, 8, 72)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4518, 2018-11-10, 8, 72)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4519, 2018-11-10, 8, 72)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4520, 2018-11-10, 8, 72)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4521, 2018-11-10, 8, 72)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4522, 2018-11-10, 8, 72)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4523, 2018-11-10, 8, 72)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4524, 2018-11-10, 8, 72)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4525, 2018-11-10, 8, 72)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4526, 2018-11-10, 8, 72)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4527, 2018-11-10, 8, 72)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4528, 2018-11-10, 8, 72)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4529, 2018-11-10, 8, 72)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4530, 2018-11-10, 8, 72)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4531, 2018-11-10, 8, 72)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4532, 2018-11-10, 8, 72)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4533, 2018-11-10, 8, 72)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4534, 2018-11-10, 8, 72)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4535, 2018-11-10, 8, 72)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4536, 2018-11-10, 8, 72)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4537, 2018-11-10, 8, 72)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4538, 2018-11-10, 8, 72)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4541, 2018-11-10, 8, 72)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4542, 2018-11-10, 8, 72)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4543, 2018-11-10, 8, 72)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4544, 2018-11-10, 8, 72)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4545, 2018-11-10, 8, 72)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4546, 2018-11-10, 8, 72)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4547, 2018-11-10, 8, 72)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4548, 2018-11-10, 8, 72)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4550, 2018-11-10, 8, 72)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4558, 2018-11-10, 8, 72)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4559, 2018-11-10, 8, 72)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4560, 2018-11-10, 8, 72)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4561, 2018-11-10, 8, 72)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4562, 2018-11-10, 8, 72)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4563, 2018-11-10, 8, 72)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4564, 2018-11-10, 8, 72)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4565, 2018-11-10, 8, 72)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4566, 2018-11-10, 8, 72)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4571, 2018-11-10, 8, 72)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4572, 2018-11-10, 8, 72)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4573, 2018-11-10, 8, 72)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4581, 2018-11-10, 8, 72)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4582, 2018-11-10, 8, 72)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4583, 2018-11-10, 8, 72)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4584, 2018-11-10, 8, 72)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4585, 2018-11-10, 8, 72)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4586, 2018-11-10, 8, 72)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4587, 2018-11-10, 8, 72)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4588, 2018-11-10, 8, 72)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4591, 2018-11-10, 8, 72)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4592, 2018-11-10, 8, 72)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4593, 2018-11-10, 8, 72)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4594, 2018-11-10, 8, 72)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4595, 2018-11-10, 8, 72)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4596, 2018-11-10, 8, 72)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4597, 2018-11-10, 8, 72)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4598, 2018-11-10, 8, 72)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4599, 2018-11-10, 8, 72)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4600, 2018-11-10, 8, 72)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4601, 2018-11-10, 8, 72)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4602, 2018-11-10, 8, 72)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4603, 2018-11-10, 8, 72)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4604, 2018-11-10, 8, 72)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4605, 2018-11-10, 8, 72)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4606, 2018-11-10, 8, 72)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4607, 2018-11-10, 8, 72)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4608, 2018-11-10, 8, 72)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4609, 2018-11-10, 8, 72)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4611, 2018-11-10, 8, 72)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4612, 2018-11-10, 8, 72)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4613, 2018-11-10, 8, 72)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4614, 2018-11-10, 8, 72)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4615, 2018-11-10, 8, 72)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4616, 2018-11-10, 8, 72)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4617, 2018-11-10, 8, 72)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4618, 2018-11-10, 8, 72)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4619, 2018-11-10, 8, 72)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4621, 2018-11-10, 8, 72)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4622, 2018-11-10, 8, 72)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4623, 2018-11-10, 8, 72)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4624, 2018-11-10, 8, 72)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4625, 2018-11-10, 8, 72)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4626, 2018-11-10, 8, 72)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4627, 2018-11-10, 8, 72)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4631, 2018-11-10, 8, 72)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4632, 2018-11-10, 8, 72)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4633, 2018-11-10, 8, 72)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4634, 2018-11-10, 8, 72)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4635, 2018-11-10, 8, 72)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4636, 2018-11-10, 8, 72)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4637, 2018-11-10, 8, 72)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4641, 2018-11-10, 8, 72)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4642, 2018-11-10, 8, 72)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4643, 2018-11-10, 8, 72)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4644, 2018-11-10, 8, 72)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4645, 2018-11-10, 8, 72)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4646, 2018-11-10, 8, 72)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4647, 2018-11-10, 8, 72)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4648, 2018-11-10, 8, 72)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4649, 2018-11-10, 8, 72)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4999, 2018-11-10, 8, 72)。
+语句已终止。
+2018/11/15 11:40:55保存2018111108时区局智能网格数据：
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (53368, 2018-11-11, 8, 36)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (53463, 2018-11-11, 8, 36)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (53464, 2018-11-11, 8, 36)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (53466, 2018-11-11, 8, 36)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (53467, 2018-11-11, 8, 36)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (53469, 2018-11-11, 8, 36)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (53562, 2018-11-11, 8, 36)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4501, 2018-11-11, 8, 36)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4502, 2018-11-11, 8, 36)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4503, 2018-11-11, 8, 36)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4504, 2018-11-11, 8, 36)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4505, 2018-11-11, 8, 36)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4506, 2018-11-11, 8, 36)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4507, 2018-11-11, 8, 36)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4508, 2018-11-11, 8, 36)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4510, 2018-11-11, 8, 36)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4511, 2018-11-11, 8, 36)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4512, 2018-11-11, 8, 36)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4513, 2018-11-11, 8, 36)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4514, 2018-11-11, 8, 36)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4515, 2018-11-11, 8, 36)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4516, 2018-11-11, 8, 36)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4517, 2018-11-11, 8, 36)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4518, 2018-11-11, 8, 36)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4519, 2018-11-11, 8, 36)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4520, 2018-11-11, 8, 36)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4521, 2018-11-11, 8, 36)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4522, 2018-11-11, 8, 36)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4523, 2018-11-11, 8, 36)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4524, 2018-11-11, 8, 36)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4525, 2018-11-11, 8, 36)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4526, 2018-11-11, 8, 36)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4527, 2018-11-11, 8, 36)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4528, 2018-11-11, 8, 36)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4529, 2018-11-11, 8, 36)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4530, 2018-11-11, 8, 36)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4531, 2018-11-11, 8, 36)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4532, 2018-11-11, 8, 36)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4533, 2018-11-11, 8, 36)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4534, 2018-11-11, 8, 36)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4535, 2018-11-11, 8, 36)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4536, 2018-11-11, 8, 36)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4537, 2018-11-11, 8, 36)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4538, 2018-11-11, 8, 36)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4541, 2018-11-11, 8, 36)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4542, 2018-11-11, 8, 36)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4543, 2018-11-11, 8, 36)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4544, 2018-11-11, 8, 36)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4545, 2018-11-11, 8, 36)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4546, 2018-11-11, 8, 36)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4547, 2018-11-11, 8, 36)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4548, 2018-11-11, 8, 36)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4550, 2018-11-11, 8, 36)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4558, 2018-11-11, 8, 36)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4559, 2018-11-11, 8, 36)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4560, 2018-11-11, 8, 36)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4561, 2018-11-11, 8, 36)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4562, 2018-11-11, 8, 36)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4563, 2018-11-11, 8, 36)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4564, 2018-11-11, 8, 36)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4565, 2018-11-11, 8, 36)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4566, 2018-11-11, 8, 36)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4571, 2018-11-11, 8, 36)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4572, 2018-11-11, 8, 36)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4573, 2018-11-11, 8, 36)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4581, 2018-11-11, 8, 36)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4582, 2018-11-11, 8, 36)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4583, 2018-11-11, 8, 36)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4584, 2018-11-11, 8, 36)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4585, 2018-11-11, 8, 36)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4586, 2018-11-11, 8, 36)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4587, 2018-11-11, 8, 36)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4588, 2018-11-11, 8, 36)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4591, 2018-11-11, 8, 36)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4592, 2018-11-11, 8, 36)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4593, 2018-11-11, 8, 36)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4594, 2018-11-11, 8, 36)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4595, 2018-11-11, 8, 36)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4596, 2018-11-11, 8, 36)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4597, 2018-11-11, 8, 36)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4598, 2018-11-11, 8, 36)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4599, 2018-11-11, 8, 36)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4600, 2018-11-11, 8, 36)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4601, 2018-11-11, 8, 36)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4602, 2018-11-11, 8, 36)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4603, 2018-11-11, 8, 36)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4604, 2018-11-11, 8, 36)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4605, 2018-11-11, 8, 36)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4606, 2018-11-11, 8, 36)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4607, 2018-11-11, 8, 36)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4608, 2018-11-11, 8, 36)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4609, 2018-11-11, 8, 36)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4611, 2018-11-11, 8, 36)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4612, 2018-11-11, 8, 36)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4613, 2018-11-11, 8, 36)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4614, 2018-11-11, 8, 36)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4615, 2018-11-11, 8, 36)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4616, 2018-11-11, 8, 36)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4617, 2018-11-11, 8, 36)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4618, 2018-11-11, 8, 36)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4619, 2018-11-11, 8, 36)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4621, 2018-11-11, 8, 36)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4622, 2018-11-11, 8, 36)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4623, 2018-11-11, 8, 36)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4624, 2018-11-11, 8, 36)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4625, 2018-11-11, 8, 36)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4626, 2018-11-11, 8, 36)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4627, 2018-11-11, 8, 36)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4631, 2018-11-11, 8, 36)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4632, 2018-11-11, 8, 36)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4633, 2018-11-11, 8, 36)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4634, 2018-11-11, 8, 36)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4635, 2018-11-11, 8, 36)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4636, 2018-11-11, 8, 36)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4637, 2018-11-11, 8, 36)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4641, 2018-11-11, 8, 36)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4642, 2018-11-11, 8, 36)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4643, 2018-11-11, 8, 36)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4644, 2018-11-11, 8, 36)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4645, 2018-11-11, 8, 36)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4646, 2018-11-11, 8, 36)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4647, 2018-11-11, 8, 36)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4648, 2018-11-11, 8, 36)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4649, 2018-11-11, 8, 36)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4999, 2018-11-11, 8, 36)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (53368, 2018-11-11, 8, 39)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (53463, 2018-11-11, 8, 39)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (53464, 2018-11-11, 8, 39)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (53466, 2018-11-11, 8, 39)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (53467, 2018-11-11, 8, 39)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (53469, 2018-11-11, 8, 39)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (53562, 2018-11-11, 8, 39)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4501, 2018-11-11, 8, 39)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4502, 2018-11-11, 8, 39)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4503, 2018-11-11, 8, 39)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4504, 2018-11-11, 8, 39)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4505, 2018-11-11, 8, 39)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4506, 2018-11-11, 8, 39)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4507, 2018-11-11, 8, 39)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4508, 2018-11-11, 8, 39)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4510, 2018-11-11, 8, 39)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4511, 2018-11-11, 8, 39)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4512, 2018-11-11, 8, 39)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4513, 2018-11-11, 8, 39)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4514, 2018-11-11, 8, 39)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4515, 2018-11-11, 8, 39)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4516, 2018-11-11, 8, 39)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4517, 2018-11-11, 8, 39)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4518, 2018-11-11, 8, 39)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4519, 2018-11-11, 8, 39)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4520, 2018-11-11, 8, 39)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4521, 2018-11-11, 8, 39)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4522, 2018-11-11, 8, 39)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4523, 2018-11-11, 8, 39)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4524, 2018-11-11, 8, 39)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4525, 2018-11-11, 8, 39)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4526, 2018-11-11, 8, 39)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4527, 2018-11-11, 8, 39)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4528, 2018-11-11, 8, 39)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4529, 2018-11-11, 8, 39)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4530, 2018-11-11, 8, 39)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4531, 2018-11-11, 8, 39)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4532, 2018-11-11, 8, 39)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4533, 2018-11-11, 8, 39)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4534, 2018-11-11, 8, 39)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4535, 2018-11-11, 8, 39)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4536, 2018-11-11, 8, 39)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4537, 2018-11-11, 8, 39)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4538, 2018-11-11, 8, 39)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4541, 2018-11-11, 8, 39)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4542, 2018-11-11, 8, 39)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4543, 2018-11-11, 8, 39)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4544, 2018-11-11, 8, 39)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4545, 2018-11-11, 8, 39)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4546, 2018-11-11, 8, 39)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4547, 2018-11-11, 8, 39)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4548, 2018-11-11, 8, 39)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4550, 2018-11-11, 8, 39)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4558, 2018-11-11, 8, 39)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4559, 2018-11-11, 8, 39)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4560, 2018-11-11, 8, 39)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4561, 2018-11-11, 8, 39)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4562, 2018-11-11, 8, 39)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4563, 2018-11-11, 8, 39)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4564, 2018-11-11, 8, 39)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4565, 2018-11-11, 8, 39)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4566, 2018-11-11, 8, 39)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4571, 2018-11-11, 8, 39)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4572, 2018-11-11, 8, 39)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4573, 2018-11-11, 8, 39)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4581, 2018-11-11, 8, 39)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4582, 2018-11-11, 8, 39)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4583, 2018-11-11, 8, 39)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4584, 2018-11-11, 8, 39)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4585, 2018-11-11, 8, 39)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4586, 2018-11-11, 8, 39)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4587, 2018-11-11, 8, 39)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4588, 2018-11-11, 8, 39)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4591, 2018-11-11, 8, 39)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4592, 2018-11-11, 8, 39)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4593, 2018-11-11, 8, 39)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4594, 2018-11-11, 8, 39)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4595, 2018-11-11, 8, 39)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4596, 2018-11-11, 8, 39)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4597, 2018-11-11, 8, 39)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4598, 2018-11-11, 8, 39)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4599, 2018-11-11, 8, 39)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4600, 2018-11-11, 8, 39)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4601, 2018-11-11, 8, 39)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4602, 2018-11-11, 8, 39)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4603, 2018-11-11, 8, 39)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4604, 2018-11-11, 8, 39)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4605, 2018-11-11, 8, 39)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4606, 2018-11-11, 8, 39)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4607, 2018-11-11, 8, 39)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4608, 2018-11-11, 8, 39)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4609, 2018-11-11, 8, 39)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4611, 2018-11-11, 8, 39)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4612, 2018-11-11, 8, 39)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4613, 2018-11-11, 8, 39)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4614, 2018-11-11, 8, 39)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4615, 2018-11-11, 8, 39)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4616, 2018-11-11, 8, 39)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4617, 2018-11-11, 8, 39)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4618, 2018-11-11, 8, 39)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4619, 2018-11-11, 8, 39)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4621, 2018-11-11, 8, 39)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4622, 2018-11-11, 8, 39)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4623, 2018-11-11, 8, 39)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4624, 2018-11-11, 8, 39)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4625, 2018-11-11, 8, 39)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4626, 2018-11-11, 8, 39)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4627, 2018-11-11, 8, 39)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4631, 2018-11-11, 8, 39)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4632, 2018-11-11, 8, 39)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4633, 2018-11-11, 8, 39)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4634, 2018-11-11, 8, 39)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4635, 2018-11-11, 8, 39)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4636, 2018-11-11, 8, 39)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4637, 2018-11-11, 8, 39)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4641, 2018-11-11, 8, 39)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4642, 2018-11-11, 8, 39)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4643, 2018-11-11, 8, 39)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4644, 2018-11-11, 8, 39)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4645, 2018-11-11, 8, 39)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4646, 2018-11-11, 8, 39)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4647, 2018-11-11, 8, 39)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4648, 2018-11-11, 8, 39)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4649, 2018-11-11, 8, 39)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4999, 2018-11-11, 8, 39)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (53368, 2018-11-11, 8, 42)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (53463, 2018-11-11, 8, 42)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (53464, 2018-11-11, 8, 42)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (53466, 2018-11-11, 8, 42)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (53467, 2018-11-11, 8, 42)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (53469, 2018-11-11, 8, 42)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (53562, 2018-11-11, 8, 42)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4501, 2018-11-11, 8, 42)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4502, 2018-11-11, 8, 42)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4503, 2018-11-11, 8, 42)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4504, 2018-11-11, 8, 42)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4505, 2018-11-11, 8, 42)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4506, 2018-11-11, 8, 42)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4507, 2018-11-11, 8, 42)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4508, 2018-11-11, 8, 42)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4510, 2018-11-11, 8, 42)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4511, 2018-11-11, 8, 42)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4512, 2018-11-11, 8, 42)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4513, 2018-11-11, 8, 42)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4514, 2018-11-11, 8, 42)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4515, 2018-11-11, 8, 42)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4516, 2018-11-11, 8, 42)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4517, 2018-11-11, 8, 42)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4518, 2018-11-11, 8, 42)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4519, 2018-11-11, 8, 42)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4520, 2018-11-11, 8, 42)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4521, 2018-11-11, 8, 42)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4522, 2018-11-11, 8, 42)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4523, 2018-11-11, 8, 42)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4524, 2018-11-11, 8, 42)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4525, 2018-11-11, 8, 42)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4526, 2018-11-11, 8, 42)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4527, 2018-11-11, 8, 42)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4528, 2018-11-11, 8, 42)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4529, 2018-11-11, 8, 42)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4530, 2018-11-11, 8, 42)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4531, 2018-11-11, 8, 42)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4532, 2018-11-11, 8, 42)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4533, 2018-11-11, 8, 42)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4534, 2018-11-11, 8, 42)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4535, 2018-11-11, 8, 42)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4536, 2018-11-11, 8, 42)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4537, 2018-11-11, 8, 42)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4538, 2018-11-11, 8, 42)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4541, 2018-11-11, 8, 42)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4542, 2018-11-11, 8, 42)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4543, 2018-11-11, 8, 42)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4544, 2018-11-11, 8, 42)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4545, 2018-11-11, 8, 42)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4546, 2018-11-11, 8, 42)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4547, 2018-11-11, 8, 42)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4548, 2018-11-11, 8, 42)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4550, 2018-11-11, 8, 42)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4558, 2018-11-11, 8, 42)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4559, 2018-11-11, 8, 42)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4560, 2018-11-11, 8, 42)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4561, 2018-11-11, 8, 42)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4562, 2018-11-11, 8, 42)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4563, 2018-11-11, 8, 42)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4564, 2018-11-11, 8, 42)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4565, 2018-11-11, 8, 42)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4566, 2018-11-11, 8, 42)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4571, 2018-11-11, 8, 42)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4572, 2018-11-11, 8, 42)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4573, 2018-11-11, 8, 42)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4581, 2018-11-11, 8, 42)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4582, 2018-11-11, 8, 42)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4583, 2018-11-11, 8, 42)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4584, 2018-11-11, 8, 42)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4585, 2018-11-11, 8, 42)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4586, 2018-11-11, 8, 42)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4587, 2018-11-11, 8, 42)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4588, 2018-11-11, 8, 42)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4591, 2018-11-11, 8, 42)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4592, 2018-11-11, 8, 42)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4593, 2018-11-11, 8, 42)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4594, 2018-11-11, 8, 42)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4595, 2018-11-11, 8, 42)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4596, 2018-11-11, 8, 42)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4597, 2018-11-11, 8, 42)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4598, 2018-11-11, 8, 42)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4599, 2018-11-11, 8, 42)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4600, 2018-11-11, 8, 42)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4601, 2018-11-11, 8, 42)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4602, 2018-11-11, 8, 42)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4603, 2018-11-11, 8, 42)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4604, 2018-11-11, 8, 42)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4605, 2018-11-11, 8, 42)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4606, 2018-11-11, 8, 42)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4607, 2018-11-11, 8, 42)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4608, 2018-11-11, 8, 42)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4609, 2018-11-11, 8, 42)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4611, 2018-11-11, 8, 42)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4612, 2018-11-11, 8, 42)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4613, 2018-11-11, 8, 42)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4614, 2018-11-11, 8, 42)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4615, 2018-11-11, 8, 42)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4616, 2018-11-11, 8, 42)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4617, 2018-11-11, 8, 42)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4618, 2018-11-11, 8, 42)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4619, 2018-11-11, 8, 42)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4621, 2018-11-11, 8, 42)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4622, 2018-11-11, 8, 42)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4623, 2018-11-11, 8, 42)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4624, 2018-11-11, 8, 42)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4625, 2018-11-11, 8, 42)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4626, 2018-11-11, 8, 42)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4627, 2018-11-11, 8, 42)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4631, 2018-11-11, 8, 42)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4632, 2018-11-11, 8, 42)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4633, 2018-11-11, 8, 42)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4634, 2018-11-11, 8, 42)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4635, 2018-11-11, 8, 42)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4636, 2018-11-11, 8, 42)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4637, 2018-11-11, 8, 42)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4641, 2018-11-11, 8, 42)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4642, 2018-11-11, 8, 42)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4643, 2018-11-11, 8, 42)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4644, 2018-11-11, 8, 42)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4645, 2018-11-11, 8, 42)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4646, 2018-11-11, 8, 42)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4647, 2018-11-11, 8, 42)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4648, 2018-11-11, 8, 42)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4649, 2018-11-11, 8, 42)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4999, 2018-11-11, 8, 42)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (53368, 2018-11-11, 8, 45)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (53463, 2018-11-11, 8, 45)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (53464, 2018-11-11, 8, 45)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (53466, 2018-11-11, 8, 45)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (53467, 2018-11-11, 8, 45)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (53469, 2018-11-11, 8, 45)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (53562, 2018-11-11, 8, 45)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4501, 2018-11-11, 8, 45)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4502, 2018-11-11, 8, 45)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4503, 2018-11-11, 8, 45)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4504, 2018-11-11, 8, 45)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4505, 2018-11-11, 8, 45)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4506, 2018-11-11, 8, 45)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4507, 2018-11-11, 8, 45)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4508, 2018-11-11, 8, 45)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4510, 2018-11-11, 8, 45)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4511, 2018-11-11, 8, 45)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4512, 2018-11-11, 8, 45)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4513, 2018-11-11, 8, 45)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4514, 2018-11-11, 8, 45)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4515, 2018-11-11, 8, 45)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4516, 2018-11-11, 8, 45)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4517, 2018-11-11, 8, 45)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4518, 2018-11-11, 8, 45)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4519, 2018-11-11, 8, 45)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4520, 2018-11-11, 8, 45)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4521, 2018-11-11, 8, 45)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4522, 2018-11-11, 8, 45)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4523, 2018-11-11, 8, 45)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4524, 2018-11-11, 8, 45)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4525, 2018-11-11, 8, 45)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4526, 2018-11-11, 8, 45)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4527, 2018-11-11, 8, 45)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4528, 2018-11-11, 8, 45)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4529, 2018-11-11, 8, 45)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4530, 2018-11-11, 8, 45)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4531, 2018-11-11, 8, 45)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4532, 2018-11-11, 8, 45)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4533, 2018-11-11, 8, 45)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4534, 2018-11-11, 8, 45)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4535, 2018-11-11, 8, 45)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4536, 2018-11-11, 8, 45)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4537, 2018-11-11, 8, 45)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4538, 2018-11-11, 8, 45)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4541, 2018-11-11, 8, 45)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4542, 2018-11-11, 8, 45)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4543, 2018-11-11, 8, 45)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4544, 2018-11-11, 8, 45)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4545, 2018-11-11, 8, 45)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4546, 2018-11-11, 8, 45)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4547, 2018-11-11, 8, 45)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4548, 2018-11-11, 8, 45)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4550, 2018-11-11, 8, 45)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4558, 2018-11-11, 8, 45)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4559, 2018-11-11, 8, 45)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4560, 2018-11-11, 8, 45)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4561, 2018-11-11, 8, 45)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4562, 2018-11-11, 8, 45)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4563, 2018-11-11, 8, 45)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4564, 2018-11-11, 8, 45)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4565, 2018-11-11, 8, 45)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4566, 2018-11-11, 8, 45)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4571, 2018-11-11, 8, 45)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4572, 2018-11-11, 8, 45)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4573, 2018-11-11, 8, 45)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4581, 2018-11-11, 8, 45)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4582, 2018-11-11, 8, 45)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4583, 2018-11-11, 8, 45)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4584, 2018-11-11, 8, 45)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4585, 2018-11-11, 8, 45)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4586, 2018-11-11, 8, 45)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4587, 2018-11-11, 8, 45)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4588, 2018-11-11, 8, 45)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4591, 2018-11-11, 8, 45)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4592, 2018-11-11, 8, 45)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4593, 2018-11-11, 8, 45)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4594, 2018-11-11, 8, 45)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4595, 2018-11-11, 8, 45)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4596, 2018-11-11, 8, 45)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4597, 2018-11-11, 8, 45)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4598, 2018-11-11, 8, 45)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4599, 2018-11-11, 8, 45)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4600, 2018-11-11, 8, 45)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4601, 2018-11-11, 8, 45)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4602, 2018-11-11, 8, 45)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4603, 2018-11-11, 8, 45)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4604, 2018-11-11, 8, 45)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4605, 2018-11-11, 8, 45)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4606, 2018-11-11, 8, 45)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4607, 2018-11-11, 8, 45)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4608, 2018-11-11, 8, 45)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4609, 2018-11-11, 8, 45)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4611, 2018-11-11, 8, 45)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4612, 2018-11-11, 8, 45)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4613, 2018-11-11, 8, 45)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4614, 2018-11-11, 8, 45)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4615, 2018-11-11, 8, 45)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4616, 2018-11-11, 8, 45)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4617, 2018-11-11, 8, 45)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4618, 2018-11-11, 8, 45)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4619, 2018-11-11, 8, 45)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4621, 2018-11-11, 8, 45)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4622, 2018-11-11, 8, 45)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4623, 2018-11-11, 8, 45)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4624, 2018-11-11, 8, 45)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4625, 2018-11-11, 8, 45)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4626, 2018-11-11, 8, 45)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4627, 2018-11-11, 8, 45)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4631, 2018-11-11, 8, 45)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4632, 2018-11-11, 8, 45)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4633, 2018-11-11, 8, 45)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4634, 2018-11-11, 8, 45)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4635, 2018-11-11, 8, 45)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4636, 2018-11-11, 8, 45)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4637, 2018-11-11, 8, 45)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4641, 2018-11-11, 8, 45)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4642, 2018-11-11, 8, 45)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4643, 2018-11-11, 8, 45)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4644, 2018-11-11, 8, 45)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4645, 2018-11-11, 8, 45)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4646, 2018-11-11, 8, 45)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4647, 2018-11-11, 8, 45)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4648, 2018-11-11, 8, 45)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4649, 2018-11-11, 8, 45)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4999, 2018-11-11, 8, 45)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (53368, 2018-11-11, 8, 60)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (53463, 2018-11-11, 8, 60)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (53464, 2018-11-11, 8, 60)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (53466, 2018-11-11, 8, 60)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (53467, 2018-11-11, 8, 60)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (53469, 2018-11-11, 8, 60)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (53562, 2018-11-11, 8, 60)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4501, 2018-11-11, 8, 60)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4502, 2018-11-11, 8, 60)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4503, 2018-11-11, 8, 60)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4504, 2018-11-11, 8, 60)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4505, 2018-11-11, 8, 60)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4506, 2018-11-11, 8, 60)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4507, 2018-11-11, 8, 60)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4508, 2018-11-11, 8, 60)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4510, 2018-11-11, 8, 60)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4511, 2018-11-11, 8, 60)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4512, 2018-11-11, 8, 60)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4513, 2018-11-11, 8, 60)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4514, 2018-11-11, 8, 60)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4515, 2018-11-11, 8, 60)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4516, 2018-11-11, 8, 60)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4517, 2018-11-11, 8, 60)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4518, 2018-11-11, 8, 60)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4519, 2018-11-11, 8, 60)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4520, 2018-11-11, 8, 60)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4521, 2018-11-11, 8, 60)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4522, 2018-11-11, 8, 60)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4523, 2018-11-11, 8, 60)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4524, 2018-11-11, 8, 60)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4525, 2018-11-11, 8, 60)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4526, 2018-11-11, 8, 60)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4527, 2018-11-11, 8, 60)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4528, 2018-11-11, 8, 60)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4529, 2018-11-11, 8, 60)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4530, 2018-11-11, 8, 60)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4531, 2018-11-11, 8, 60)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4532, 2018-11-11, 8, 60)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4533, 2018-11-11, 8, 60)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4534, 2018-11-11, 8, 60)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4535, 2018-11-11, 8, 60)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4536, 2018-11-11, 8, 60)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4537, 2018-11-11, 8, 60)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4538, 2018-11-11, 8, 60)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4541, 2018-11-11, 8, 60)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4542, 2018-11-11, 8, 60)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4543, 2018-11-11, 8, 60)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4544, 2018-11-11, 8, 60)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4545, 2018-11-11, 8, 60)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4546, 2018-11-11, 8, 60)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4547, 2018-11-11, 8, 60)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4548, 2018-11-11, 8, 60)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4550, 2018-11-11, 8, 60)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4558, 2018-11-11, 8, 60)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4559, 2018-11-11, 8, 60)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4560, 2018-11-11, 8, 60)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4561, 2018-11-11, 8, 60)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4562, 2018-11-11, 8, 60)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4563, 2018-11-11, 8, 60)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4564, 2018-11-11, 8, 60)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4565, 2018-11-11, 8, 60)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4566, 2018-11-11, 8, 60)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4571, 2018-11-11, 8, 60)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4572, 2018-11-11, 8, 60)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4573, 2018-11-11, 8, 60)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4581, 2018-11-11, 8, 60)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4582, 2018-11-11, 8, 60)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4583, 2018-11-11, 8, 60)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4584, 2018-11-11, 8, 60)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4585, 2018-11-11, 8, 60)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4586, 2018-11-11, 8, 60)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4587, 2018-11-11, 8, 60)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4588, 2018-11-11, 8, 60)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4591, 2018-11-11, 8, 60)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4592, 2018-11-11, 8, 60)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4593, 2018-11-11, 8, 60)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4594, 2018-11-11, 8, 60)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4595, 2018-11-11, 8, 60)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4596, 2018-11-11, 8, 60)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4597, 2018-11-11, 8, 60)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4598, 2018-11-11, 8, 60)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4599, 2018-11-11, 8, 60)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4600, 2018-11-11, 8, 60)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4601, 2018-11-11, 8, 60)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4602, 2018-11-11, 8, 60)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4603, 2018-11-11, 8, 60)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4604, 2018-11-11, 8, 60)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4605, 2018-11-11, 8, 60)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4606, 2018-11-11, 8, 60)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4607, 2018-11-11, 8, 60)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4608, 2018-11-11, 8, 60)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4609, 2018-11-11, 8, 60)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4611, 2018-11-11, 8, 60)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4612, 2018-11-11, 8, 60)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4613, 2018-11-11, 8, 60)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4614, 2018-11-11, 8, 60)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4615, 2018-11-11, 8, 60)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4616, 2018-11-11, 8, 60)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4617, 2018-11-11, 8, 60)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4618, 2018-11-11, 8, 60)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4619, 2018-11-11, 8, 60)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4621, 2018-11-11, 8, 60)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4622, 2018-11-11, 8, 60)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4623, 2018-11-11, 8, 60)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4624, 2018-11-11, 8, 60)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4625, 2018-11-11, 8, 60)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4626, 2018-11-11, 8, 60)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4627, 2018-11-11, 8, 60)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4631, 2018-11-11, 8, 60)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4632, 2018-11-11, 8, 60)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4633, 2018-11-11, 8, 60)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4634, 2018-11-11, 8, 60)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4635, 2018-11-11, 8, 60)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4636, 2018-11-11, 8, 60)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4637, 2018-11-11, 8, 60)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4641, 2018-11-11, 8, 60)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4642, 2018-11-11, 8, 60)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4643, 2018-11-11, 8, 60)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4644, 2018-11-11, 8, 60)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4645, 2018-11-11, 8, 60)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4646, 2018-11-11, 8, 60)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4647, 2018-11-11, 8, 60)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4648, 2018-11-11, 8, 60)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4649, 2018-11-11, 8, 60)。
+语句已终止。
+违反了 PRIMARY KEY 约束“PK_省级格点预报订正产品”。不能在对象“dbo.省级格点预报订正产品”中插入重复键。重复键值为 (C4999, 2018-11-11, 8, 60)。
+语句已终止。
+2018/11/15 11:51:43保存2018111408时区局智能网格数据成功！
+2018/11/15 11:51:45保存2018111308时区局智能网格数据成功！
+2018/11/15 11:51:49保存2018111208时区局智能网格数据成功！
+2018/11/15 11:51:52保存2018111108时区局智能网格数据成功！
+2018/11/15 11:51:57保存2018111008时区局智能网格数据成功！
+2018/11/15 15:17:03保存2018111420时区局智能网格数据成功！

@@ -1,0 +1,29 @@
+string GWList = "";
+
+                using (StreamReader sr = new StreamReader(Environment.CurrentDirectory + @"\config\GWList.txt",
+                    Encoding.Default))
+                {
+                    while ((line = sr.ReadLine()) != null)
+                    {
+                        if (line.Split('=')[0] == "岗位列表")
+                        {
+                            GWList = line.Split('=')[1];
+                            break;
+                        }
+                    }
+                }
+                string[] GWBSSz = new string[GWList.Split(',').Length];
+                using (StreamReader sr = new StreamReader(Environment.CurrentDirectory + @"\config\报文标识.txt",Encoding.Default))
+                {
+                    int count = 0;
+                    while ((line = sr.ReadLine()) != null)
+                    {
+                        for (int i = 0; i < GWList.Split(',').Length; i++)
+                        {
+                            if (line.Split('=')[0].Contains(GWList.Split(',')[i]))
+                            {
+                                GWBSSz[count++] = line.Split('=')[1];
+                            }
+                        }
+                    }
+                }

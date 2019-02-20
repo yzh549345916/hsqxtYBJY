@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<XmlConfig>
+  <GJTime>
+    <HH08>4</HH08>
+    <MM08>30</MM08>
+    <HH20>12</HH20>
+    <MM20>30</MM20>
+  </GJTime>
+  <QJTime>
+    <HH08>6</HH08>
+    <MM08>30</MM08>
+    <HH20>12</HH20>
+    <MM20>30</MM20>
+  </QJTime>
+  <ECTime>
+    <HH08>14</HH08>
+    <MM08>40</MM08>
+    <HH20>12</HH20>
+    <MM20>30</MM20>
+  </ECTime>
+  <OtherConfig>
+    <DB>Server=172.18.142.157;Database=智能网格;user id=sa;password=134679;</DB>
+    <SZDB>Server=172.18.142.157;Database=数值预报;user id=sa;password=134679;</SZDB>
+  </OtherConfig>
+</XmlConfig>

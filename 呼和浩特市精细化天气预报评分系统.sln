@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2005
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "呼和浩特市精细化天气预报评分系统", "呼和浩特市精细化天气预报评分系统\呼和浩特市精细化天气预报评分系统.csproj", "{F669A08B-BE3A-40F7-B4B4-7B955C7F2770}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "呼和浩特市精细化天气预报评分系统—数据库", "呼和浩特市精细化天气预报评分系统—数据库\呼和浩特市精细化天气预报评分系统—数据库.csproj", "{F7AE4A62-A5F7-468C-9B37-218EE861E8CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QX-update", "QX-update\QX-update.csproj", "{B876C8E2-6D9A-4C00-9200-743A6E9C1FDD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F669A08B-BE3A-40F7-B4B4-7B955C7F2770}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{F669A08B-BE3A-40F7-B4B4-7B955C7F2770}.Debug|Any CPU.Build.0 = Debug|x86
+		{F669A08B-BE3A-40F7-B4B4-7B955C7F2770}.Debug|x86.ActiveCfg = Debug|x86
+		{F669A08B-BE3A-40F7-B4B4-7B955C7F2770}.Debug|x86.Build.0 = Debug|x86
+		{F669A08B-BE3A-40F7-B4B4-7B955C7F2770}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F669A08B-BE3A-40F7-B4B4-7B955C7F2770}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F669A08B-BE3A-40F7-B4B4-7B955C7F2770}.Release|x86.ActiveCfg = Release|x86
+		{F669A08B-BE3A-40F7-B4B4-7B955C7F2770}.Release|x86.Build.0 = Release|x86
+		{F7AE4A62-A5F7-468C-9B37-218EE861E8CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7AE4A62-A5F7-468C-9B37-218EE861E8CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7AE4A62-A5F7-468C-9B37-218EE861E8CC}.Debug|x86.ActiveCfg = Debug|x86
+		{F7AE4A62-A5F7-468C-9B37-218EE861E8CC}.Debug|x86.Build.0 = Debug|x86
+		{F7AE4A62-A5F7-468C-9B37-218EE861E8CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7AE4A62-A5F7-468C-9B37-218EE861E8CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7AE4A62-A5F7-468C-9B37-218EE861E8CC}.Release|x86.ActiveCfg = Release|Any CPU
+		{F7AE4A62-A5F7-468C-9B37-218EE861E8CC}.Release|x86.Build.0 = Release|Any CPU
+		{B876C8E2-6D9A-4C00-9200-743A6E9C1FDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B876C8E2-6D9A-4C00-9200-743A6E9C1FDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B876C8E2-6D9A-4C00-9200-743A6E9C1FDD}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{B876C8E2-6D9A-4C00-9200-743A6E9C1FDD}.Debug|x86.Build.0 = Debug|Any CPU
+		{B876C8E2-6D9A-4C00-9200-743A6E9C1FDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B876C8E2-6D9A-4C00-9200-743A6E9C1FDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B876C8E2-6D9A-4C00-9200-743A6E9C1FDD}.Release|x86.ActiveCfg = Release|Any CPU
+		{B876C8E2-6D9A-4C00-9200-743A6E9C1FDD}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {90BDD91B-2F9F-4035-96C9-328427DC7304}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,98 @@
+2019/1/17 11:32:28保存2019011620时国家级智能网格数据：
+returnCode="-1" returnMessage="No data is retrieved. detail: Query Success,but no record is in database" rowCount="0" colCount="0" requestParams="dataCode=NAFP_FOR_FTM_HIGH_EC_GLB&time=20190116120000&maxLat=41.18&minLat=39.82&minLon=111.07&validTime=3&maxLon=111.92&fcstEle=TEF0" requestTime="2019-01-17 03:31:48" responseTime="2019-01-17 03:31:48" takeTime="0.083"
+
+returnCode="-1" returnMessage="No data is retrieved. detail: Query Success,but no record is in database" rowCount="0" colCount="0" requestParams="dataCode=NAFP_FOR_FTM_HIGH_EC_GLB&time=20190116120000&maxLat=41.18&minLat=39.82&minLon=111.07&validTime=18&maxLon=111.92&fcstEle=TEF0" requestTime="2019-01-17 03:31:50" responseTime="2019-01-17 03:31:50" takeTime="0.006"
+
+returnCode="-1" returnMessage="No data is retrieved. detail: Query Success,but no record is in database" rowCount="0" colCount="0" requestParams="dataCode=NAFP_FOR_FTM_HIGH_EC_GLB&time=20190116120000&maxLat=41.18&minLat=39.82&minLon=111.07&validTime=36&maxLon=111.92&fcstEle=TEF0" requestTime="2019-01-17 03:31:52" responseTime="2019-01-17 03:31:52" takeTime="0.01"
+
+returnCode="-1" returnMessage="No data is retrieved. detail: Query Success,but no record is in database" rowCount="0" colCount="0" requestParams="dataCode=NAFP_FOR_FTM_HIGH_EC_GLB&time=20190116120000&maxLat=41.18&minLat=39.82&minLon=111.07&validTime=69&maxLon=111.92&fcstEle=TEF0" requestTime="2019-01-17 03:31:56" responseTime="2019-01-17 03:31:56" takeTime="0.014"
+
+returnCode="-1" returnMessage="No data is retrieved. detail: Query Success,but no record is in database" rowCount="0" colCount="0" requestParams="dataCode=NAFP_FOR_FTM_HIGH_EC_GLB&time=20190116120000&maxLat=41.18&minLat=39.82&minLon=111.07&validTime=84&maxLon=111.92&fcstEle=TEF0" requestTime="2019-01-17 03:31:57" responseTime="2019-01-17 03:31:57" takeTime="0.012"
+
+returnCode="-1" returnMessage="No data is retrieved. detail: Query Success,but no record is in database" rowCount="0" colCount="0" requestParams="dataCode=NAFP_FOR_FTM_HIGH_EC_GLB&time=20190116120000&maxLat=41.18&minLat=39.82&minLon=111.07&validTime=3&maxLon=111.92&fcstEle=TPE" requestTime="2019-01-17 03:31:59" responseTime="2019-01-17 03:31:59" takeTime="0.013"
+
+returnCode="-1" returnMessage="No data is retrieved. detail: Query Success,but no record is in database" rowCount="0" colCount="0" requestParams="dataCode=NAFP_FOR_FTM_HIGH_EC_GLB&time=20190116120000&maxLat=41.18&minLat=39.82&minLon=111.07&validTime=18&maxLon=111.92&fcstEle=TPE" requestTime="2019-01-17 03:32:01" responseTime="2019-01-17 03:32:01" takeTime="0.012"
+
+returnCode="-1" returnMessage="No data is retrieved. detail: Query Success,but no record is in database" rowCount="0" colCount="0" requestParams="dataCode=NAFP_FOR_FTM_HIGH_EC_GLB&time=20190116120000&maxLat=41.18&minLat=39.82&minLon=111.07&validTime=36&maxLon=111.92&fcstEle=TPE" requestTime="2019-01-17 03:32:02" responseTime="2019-01-17 03:32:02" takeTime="0.007"
+
+returnCode="-1" returnMessage="No data is retrieved. detail: Query Success,but no record is in database" rowCount="0" colCount="0" requestParams="dataCode=NAFP_FOR_FTM_HIGH_EC_GLB&time=20190116120000&maxLat=41.18&minLat=39.82&minLon=111.07&validTime=69&maxLon=111.92&fcstEle=TPE" requestTime="2019-01-17 03:32:06" responseTime="2019-01-17 03:32:06" takeTime="0.01"
+
+returnCode="-1" returnMessage="No data is retrieved. detail: Query Success,but no record is in database" rowCount="0" colCount="0" requestParams="dataCode=NAFP_FOR_FTM_HIGH_EC_GLB&time=20190116120000&maxLat=41.18&minLat=39.82&minLon=111.07&validTime=84&maxLon=111.92&fcstEle=TPE" requestTime="2019-01-17 03:32:07" responseTime="2019-01-17 03:32:07" takeTime="0.01"
+
+returnCode="-1" returnMessage="No data is retrieved. detail: Query Success,but no record is in database" rowCount="0" colCount="0" requestParams="dataCode=NAFP_FOR_FTM_HIGH_EC_GLB&time=20190116120000&maxLat=41.18&minLat=39.82&minLon=111.07&validTime=3&maxLon=111.92&fcstEle=WIV10" requestTime="2019-01-17 03:32:09" responseTime="2019-01-17 03:32:09" takeTime="0.056"
+
+returnCode="-1" returnMessage="No data is retrieved. detail: Query Success,but no record is in database" rowCount="0" colCount="0" requestParams="dataCode=NAFP_FOR_FTM_HIGH_EC_GLB&time=20190116120000&maxLat=41.18&minLat=39.82&minLon=111.07&validTime=18&maxLon=111.92&fcstEle=WIV10" requestTime="2019-01-17 03:32:10" responseTime="2019-01-17 03:32:10" takeTime="0.008"
+
+returnCode="-1" returnMessage="No data is retrieved. detail: Query Success,but no record is in database" rowCount="0" colCount="0" requestParams="dataCode=NAFP_FOR_FTM_HIGH_EC_GLB&time=20190116120000&maxLat=41.18&minLat=39.82&minLon=111.07&validTime=36&maxLon=111.92&fcstEle=WIV10" requestTime="2019-01-17 03:32:12" responseTime="2019-01-17 03:32:12" takeTime="0.008"
+
+returnCode="-1" returnMessage="No data is retrieved. detail: Query Success,but no record is in database" rowCount="0" colCount="0" requestParams="dataCode=NAFP_FOR_FTM_HIGH_EC_GLB&time=20190116120000&maxLat=41.18&minLat=39.82&minLon=111.07&validTime=69&maxLon=111.92&fcstEle=WIV10" requestTime="2019-01-17 03:32:16" responseTime="2019-01-17 03:32:16" takeTime="0.008"
+
+returnCode="-1" returnMessage="No data is retrieved. detail: Query Success,but no record is in database" rowCount="0" colCount="0" requestParams="dataCode=NAFP_FOR_FTM_HIGH_EC_GLB&time=20190116120000&maxLat=41.18&minLat=39.82&minLon=111.07&validTime=84&maxLon=111.92&fcstEle=WIV10" requestTime="2019-01-17 03:32:16" responseTime="2019-01-17 03:32:16" takeTime="0.013"
+
+returnCode="-1" returnMessage="No data is retrieved. detail: Query Success,but no record is in database" rowCount="0" colCount="0" requestParams="dataCode=NAFP_FOR_FTM_HIGH_EC_GLB&time=20190116120000&maxLat=41.18&minLat=39.82&minLon=111.07&validTime=3&maxLon=111.92&fcstEle=WIU10" requestTime="2019-01-17 03:32:18" responseTime="2019-01-17 03:32:18" takeTime="0.026"
+
+returnCode="-1" returnMessage="No data is retrieved. detail: Query Success,but no record is in database" rowCount="0" colCount="0" requestParams="dataCode=NAFP_FOR_FTM_HIGH_EC_GLB&time=20190116120000&maxLat=41.18&minLat=39.82&minLon=111.07&validTime=18&maxLon=111.92&fcstEle=WIU10" requestTime="2019-01-17 03:32:20" responseTime="2019-01-17 03:32:20" takeTime="0.011"
+
+returnCode="-1" returnMessage="No data is retrieved. detail: Query Success,but no record is in database" rowCount="0" colCount="0" requestParams="dataCode=NAFP_FOR_FTM_HIGH_EC_GLB&time=20190116120000&maxLat=41.18&minLat=39.82&minLon=111.07&validTime=36&maxLon=111.92&fcstEle=WIU10" requestTime="2019-01-17 03:32:22" responseTime="2019-01-17 03:32:22" takeTime="0.007"
+
+returnCode="-1" returnMessage="No data is retrieved. detail: Query Success,but no record is in database" rowCount="0" colCount="0" requestParams="dataCode=NAFP_FOR_FTM_HIGH_EC_GLB&time=20190116120000&maxLat=41.18&minLat=39.82&minLon=111.07&validTime=69&maxLon=111.92&fcstEle=WIU10" requestTime="2019-01-17 03:32:25" responseTime="2019-01-17 03:32:25" takeTime="0.013"
+
+returnCode="-1" returnMessage="No data is retrieved. detail: Query Success,but no record is in database" rowCount="0" colCount="0" requestParams="dataCode=NAFP_FOR_FTM_HIGH_EC_GLB&time=20190116120000&maxLat=41.18&minLat=39.82&minLon=111.07&validTime=84&maxLon=111.92&fcstEle=WIU10" requestTime="2019-01-17 03:32:26" responseTime="2019-01-17 03:32:26" takeTime="0.016"
+
+2019/1/17 11:34:44保存2019011608时国家级智能网格数据：
+returnCode="-1" returnMessage="No data is retrieved. detail: Query Success,but no record is in database" rowCount="0" colCount="0" requestParams="dataCode=NAFP_FOR_FTM_HIGH_EC_GLB&time=20190116000000&maxLat=41.18&minLat=39.82&minLon=111.07&validTime=12&maxLon=111.92&fcstEle=TEF0" requestTime="2019-01-17 03:34:03" responseTime="2019-01-17 03:34:03" takeTime="0.008"
+
+returnCode="-1" returnMessage="No data is retrieved. detail: Query Success,but no record is in database" rowCount="0" colCount="0" requestParams="dataCode=NAFP_FOR_FTM_HIGH_EC_GLB&time=20190116000000&maxLat=41.18&minLat=39.82&minLon=111.07&validTime=42&maxLon=111.92&fcstEle=TEF0" requestTime="2019-01-17 03:34:08" responseTime="2019-01-17 03:34:08" takeTime="0.026"
+
+returnCode="-1" returnMessage="No data is retrieved. detail: Query Success,but no record is in database" rowCount="0" colCount="0" requestParams="dataCode=NAFP_FOR_FTM_HIGH_EC_GLB&time=20190116000000&maxLat=41.18&minLat=39.82&minLon=111.07&validTime=57&maxLon=111.92&fcstEle=TEF0" requestTime="2019-01-17 03:34:09" responseTime="2019-01-17 03:34:09" takeTime="0.014"
+
+returnCode="-1" returnMessage="No data is retrieved. detail: Query Success,but no record is in database" rowCount="0" colCount="0" requestParams="dataCode=NAFP_FOR_FTM_HIGH_EC_GLB&time=20190116000000&maxLat=41.18&minLat=39.82&minLon=111.07&validTime=66&maxLon=111.92&fcstEle=TEF0" requestTime="2019-01-17 03:34:10" responseTime="2019-01-17 03:34:10" takeTime="0.011"
+
+returnCode="-1" returnMessage="No data is retrieved. detail: Query Success,but no record is in database" rowCount="0" colCount="0" requestParams="dataCode=NAFP_FOR_FTM_HIGH_EC_GLB&time=20190116000000&maxLat=41.18&minLat=39.82&minLon=111.07&validTime=69&maxLon=111.92&fcstEle=TEF0" requestTime="2019-01-17 03:34:10" responseTime="2019-01-17 03:34:10" takeTime="0.012"
+
+returnCode="-1" returnMessage="No data is retrieved. detail: Query Success,but no record is in database" rowCount="0" colCount="0" requestParams="dataCode=NAFP_FOR_FTM_HIGH_EC_GLB&time=20190116000000&maxLat=41.18&minLat=39.82&minLon=111.07&validTime=108&maxLon=111.92&fcstEle=TEF0" requestTime="2019-01-17 03:34:13" responseTime="2019-01-17 03:34:13" takeTime="0.008"
+
+returnCode="-1" returnMessage="No data is retrieved. detail: Query Success,but no record is in database" rowCount="0" colCount="0" requestParams="dataCode=NAFP_FOR_FTM_HIGH_EC_GLB&time=20190116000000&maxLat=41.18&minLat=39.82&minLon=111.07&validTime=120&maxLon=111.92&fcstEle=TEF0" requestTime="2019-01-17 03:34:14" responseTime="2019-01-17 03:34:14" takeTime="0.015"
+
+returnCode="-1" returnMessage="No data is retrieved. detail: Query Success,but no record is in database" rowCount="0" colCount="0" requestParams="dataCode=NAFP_FOR_FTM_HIGH_EC_GLB&time=20190116000000&maxLat=41.18&minLat=39.82&minLon=111.07&validTime=12&maxLon=111.92&fcstEle=TPE" requestTime="2019-01-17 03:34:15" responseTime="2019-01-17 03:34:15" takeTime="0.008"
+
+returnCode="-1" returnMessage="No data is retrieved. detail: Query Success,but no record is in database" rowCount="0" colCount="0" requestParams="dataCode=NAFP_FOR_FTM_HIGH_EC_GLB&time=20190116000000&maxLat=41.18&minLat=39.82&minLon=111.07&validTime=42&maxLon=111.92&fcstEle=TPE" requestTime="2019-01-17 03:34:19" responseTime="2019-01-17 03:34:19" takeTime="0.006"
+
+returnCode="-1" returnMessage="No data is retrieved. detail: Query Success,but no record is in database" rowCount="0" colCount="0" requestParams="dataCode=NAFP_FOR_FTM_HIGH_EC_GLB&time=20190116000000&maxLat=41.18&minLat=39.82&minLon=111.07&validTime=57&maxLon=111.92&fcstEle=TPE" requestTime="2019-01-17 03:34:20" responseTime="2019-01-17 03:34:20" takeTime="0.005"
+
+returnCode="-1" returnMessage="No data is retrieved. detail: Query Success,but no record is in database" rowCount="0" colCount="0" requestParams="dataCode=NAFP_FOR_FTM_HIGH_EC_GLB&time=20190116000000&maxLat=41.18&minLat=39.82&minLon=111.07&validTime=66&maxLon=111.92&fcstEle=TPE" requestTime="2019-01-17 03:34:21" responseTime="2019-01-17 03:34:21" takeTime="0.008"
+
+returnCode="-1" returnMessage="No data is retrieved. detail: Query Success,but no record is in database" rowCount="0" colCount="0" requestParams="dataCode=NAFP_FOR_FTM_HIGH_EC_GLB&time=20190116000000&maxLat=41.18&minLat=39.82&minLon=111.07&validTime=69&maxLon=111.92&fcstEle=TPE" requestTime="2019-01-17 03:34:21" responseTime="2019-01-17 03:34:21" takeTime="0.026"
+
+returnCode="-1" returnMessage="No data is retrieved. detail: Query Success,but no record is in database" rowCount="0" colCount="0" requestParams="dataCode=NAFP_FOR_FTM_HIGH_EC_GLB&time=20190116000000&maxLat=41.18&minLat=39.82&minLon=111.07&validTime=108&maxLon=111.92&fcstEle=TPE" requestTime="2019-01-17 03:34:24" responseTime="2019-01-17 03:34:24" takeTime="0.013"
+
+returnCode="-1" returnMessage="No data is retrieved. detail: Query Success,but no record is in database" rowCount="0" colCount="0" requestParams="dataCode=NAFP_FOR_FTM_HIGH_EC_GLB&time=20190116000000&maxLat=41.18&minLat=39.82&minLon=111.07&validTime=120&maxLon=111.92&fcstEle=TPE" requestTime="2019-01-17 03:34:24" responseTime="2019-01-17 03:34:24" takeTime="0.007"
+
+returnCode="-1" returnMessage="No data is retrieved. detail: Query Success,but no record is in database" rowCount="0" colCount="0" requestParams="dataCode=NAFP_FOR_FTM_HIGH_EC_GLB&time=20190116000000&maxLat=41.18&minLat=39.82&minLon=111.07&validTime=12&maxLon=111.92&fcstEle=WIV10" requestTime="2019-01-17 03:34:25" responseTime="2019-01-17 03:34:25" takeTime="0.012"
+
+returnCode="-1" returnMessage="No data is retrieved. detail: Query Success,but no record is in database" rowCount="0" colCount="0" requestParams="dataCode=NAFP_FOR_FTM_HIGH_EC_GLB&time=20190116000000&maxLat=41.18&minLat=39.82&minLon=111.07&validTime=42&maxLon=111.92&fcstEle=WIV10" requestTime="2019-01-17 03:34:29" responseTime="2019-01-17 03:34:29" takeTime="0.009"
+
+returnCode="-1" returnMessage="No data is retrieved. detail: Query Success,but no record is in database" rowCount="0" colCount="0" requestParams="dataCode=NAFP_FOR_FTM_HIGH_EC_GLB&time=20190116000000&maxLat=41.18&minLat=39.82&minLon=111.07&validTime=57&maxLon=111.92&fcstEle=WIV10" requestTime="2019-01-17 03:34:31" responseTime="2019-01-17 03:34:31" takeTime="0.012"
+
+returnCode="-1" returnMessage="No data is retrieved. detail: Query Success,but no record is in database" rowCount="0" colCount="0" requestParams="dataCode=NAFP_FOR_FTM_HIGH_EC_GLB&time=20190116000000&maxLat=41.18&minLat=39.82&minLon=111.07&validTime=66&maxLon=111.92&fcstEle=WIV10" requestTime="2019-01-17 03:34:31" responseTime="2019-01-17 03:34:31" takeTime="0.012"
+
+returnCode="-1" returnMessage="No data is retrieved. detail: Query Success,but no record is in database" rowCount="0" colCount="0" requestParams="dataCode=NAFP_FOR_FTM_HIGH_EC_GLB&time=20190116000000&maxLat=41.18&minLat=39.82&minLon=111.07&validTime=69&maxLon=111.92&fcstEle=WIV10" requestTime="2019-01-17 03:34:31" responseTime="2019-01-17 03:34:31" takeTime="0.009"
+
+returnCode="-1" returnMessage="No data is retrieved. detail: Query Success,but no record is in database" rowCount="0" colCount="0" requestParams="dataCode=NAFP_FOR_FTM_HIGH_EC_GLB&time=20190116000000&maxLat=41.18&minLat=39.82&minLon=111.07&validTime=108&maxLon=111.92&fcstEle=WIV10" requestTime="2019-01-17 03:34:33" responseTime="2019-01-17 03:34:33" takeTime="0.011"
+
+returnCode="-1" returnMessage="No data is retrieved. detail: Query Success,but no record is in database" rowCount="0" colCount="0" requestParams="dataCode=NAFP_FOR_FTM_HIGH_EC_GLB&time=20190116000000&maxLat=41.18&minLat=39.82&minLon=111.07&validTime=120&maxLon=111.92&fcstEle=WIV10" requestTime="2019-01-17 03:34:34" responseTime="2019-01-17 03:34:34" takeTime="0.007"
+
+returnCode="-1" returnMessage="No data is retrieved. detail: Query Success,but no record is in database" rowCount="0" colCount="0" requestParams="dataCode=NAFP_FOR_FTM_HIGH_EC_GLB&time=20190116000000&maxLat=41.18&minLat=39.82&minLon=111.07&validTime=12&maxLon=111.92&fcstEle=WIU10" requestTime="2019-01-17 03:34:35" responseTime="2019-01-17 03:34:35" takeTime="0.014"
+
+returnCode="-1" returnMessage="No data is retrieved. detail: Query Success,but no record is in database" rowCount="0" colCount="0" requestParams="dataCode=NAFP_FOR_FTM_HIGH_EC_GLB&time=20190116000000&maxLat=41.18&minLat=39.82&minLon=111.07&validTime=42&maxLon=111.92&fcstEle=WIU10" requestTime="2019-01-17 03:34:38" responseTime="2019-01-17 03:34:39" takeTime="0.006"
+
+returnCode="-1" returnMessage="No data is retrieved. detail: Query Success,but no record is in database" rowCount="0" colCount="0" requestParams="dataCode=NAFP_FOR_FTM_HIGH_EC_GLB&time=20190116000000&maxLat=41.18&minLat=39.82&minLon=111.07&validTime=57&maxLon=111.92&fcstEle=WIU10" requestTime="2019-01-17 03:34:40" responseTime="2019-01-17 03:34:40" takeTime="0.012"
+
+returnCode="-1" returnMessage="No data is retrieved. detail: Query Success,but no record is in database" rowCount="0" colCount="0" requestParams="dataCode=NAFP_FOR_FTM_HIGH_EC_GLB&time=20190116000000&maxLat=41.18&minLat=39.82&minLon=111.07&validTime=66&maxLon=111.92&fcstEle=WIU10" requestTime="2019-01-17 03:34:41" responseTime="2019-01-17 03:34:41" takeTime="0.013"
+
+returnCode="-1" returnMessage="No data is retrieved. detail: Query Success,but no record is in database" rowCount="0" colCount="0" requestParams="dataCode=NAFP_FOR_FTM_HIGH_EC_GLB&time=20190116000000&maxLat=41.18&minLat=39.82&minLon=111.07&validTime=69&maxLon=111.92&fcstEle=WIU10" requestTime="2019-01-17 03:34:41" responseTime="2019-01-17 03:34:41" takeTime="0.006"
+
+returnCode="-1" returnMessage="No data is retrieved. detail: Query Success,but no record is in database" rowCount="0" colCount="0" requestParams="dataCode=NAFP_FOR_FTM_HIGH_EC_GLB&time=20190116000000&maxLat=41.18&minLat=39.82&minLon=111.07&validTime=108&maxLon=111.92&fcstEle=WIU10" requestTime="2019-01-17 03:34:44" responseTime="2019-01-17 03:34:44" takeTime="0.012"
+
+returnCode="-1" returnMessage="No data is retrieved. detail: Query Success,but no record is in database" rowCount="0" colCount="0" requestParams="dataCode=NAFP_FOR_FTM_HIGH_EC_GLB&time=20190116000000&maxLat=41.18&minLat=39.82&minLon=111.07&validTime=120&maxLon=111.92&fcstEle=WIU10" requestTime="2019-01-17 03:34:44" responseTime="2019-01-17 03:34:44" takeTime="0.013"
+

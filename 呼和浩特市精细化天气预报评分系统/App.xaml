@@ -1,0 +1,16 @@
+﻿<Application x:Class="呼和浩特市精细化天气预报评分系统.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:呼和浩特市精细化天气预报评分系统"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+      <ResourceDictionary>
+        <ResourceDictionary.MergedDictionaries>
+          <ResourceDictionary Source="Style/CustomWindow.xaml"/>
+          <ResourceDictionary Source="Style/win7Button.xaml"/>
+        </ResourceDictionary.MergedDictionaries>
+
+
+      </ResourceDictionary>
+    </Application.Resources>
+</Application>

@@ -80,6 +80,7 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Compile Include="Class1.cs" />
+    <Compile Include="ClassSZYB.cs" />
     <Compile Include="Style\CustomWindow.xaml.cs">
       <DependentUpon>CustomWindow.xaml</DependentUpon>
     </Compile>

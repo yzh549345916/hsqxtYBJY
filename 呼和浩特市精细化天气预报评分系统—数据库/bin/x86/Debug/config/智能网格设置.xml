@@ -19,7 +19,7 @@
     <MM20>30</MM20>
   </ECTime>
   <OtherConfig>
-    <DB>Server=172.18.142.157;Database=智能网格;user id=sa;password=134679;</DB>
-    <SZDB>Server=172.18.142.157;Database=数值预报;user id=sa;password=134679;</SZDB>
+    <DB>Server=.;Database=智能网格;user id=sa;password=134679;</DB>
+    <SZDB>Server=.;Database=数值预报;user id=sa;password=134679;</SZDB>
   </OtherConfig>
 </XmlConfig>

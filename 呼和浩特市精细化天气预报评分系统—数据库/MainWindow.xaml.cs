@@ -55,31 +55,33 @@ namespace 呼和浩特市精细化天气预报评分系统_数据库
 
         private void SJYBHF_Click(object sender, RoutedEventArgs e)
         {
-            try
+            Thread t1 = new Thread(HourSKRK);
+            t1.Start();
+        }
+        public void HourSKRK()
+        {
+            string error = "";
+            ClassSZYB classSZYB = new ClassSZYB();
+
+            for (int i = -41; i <= 0; i++)
             {
-                //指定备份时间未来三个小时都对当天的预报进行入库，对过去5天的预报进行重新入库
-                ECdt = DateTime.Now.AddDays(-1);
-                ECsc = 20;
-                Thread th1 = new Thread(new ThreadStart(ECRK));
-                th1.Start();
-                Thread.Sleep(1000);
-                for (Int16 i = -1; i > -11; i--)
+                DateTime dt = DateTime.Now.AddDays(i);
+                for (int j = 0; j < 24; j++)
                 {
-                    ECdt = DateTime.Now.AddDays(i);
-                    ECsc = 20;
-                    Thread th2 = new Thread(new ThreadStart(ECRK));
-                    th2.Start();
-                    Thread.Sleep(1000);
+                    classSZYB.SKRK(dt.ToString("yyyyMMdd"), j, ref error);
                 }
             }
-            catch
-            {
-            }
-
-
-
+            this.t1.Dispatcher.Invoke(
+                new Action(
+                    delegate
+                    {
+                        t1.AppendText(error);
+                        //将光标移至文本框最后
+                        t1.Focus();
+                        t1.CaretIndex = (t1.Text.Length);
+                    }
+                ));
         }
-
         string RKTime = "20";//实况入库的时次,窗口初始化程序中会重新给该值从配置文件中赋值
         string DBconPath = Environment.CurrentDirectory + @"\config\DBconfig.txt";
         public MainWindow()

@@ -55,32 +55,49 @@ namespace 呼和浩特市精细化天气预报评分系统_数据库
 
         private void SJYBHF_Click(object sender, RoutedEventArgs e)
         {
-            Thread t1 = new Thread(HourSKRK);
-            t1.Start();
         }
         public void HourSKRK()
         {
-            string error = "";
-            ClassSZYB classSZYB = new ClassSZYB();
-
-            for (int i = -41; i <= 0; i++)
+            try
             {
-                DateTime dt = DateTime.Now.AddDays(i);
-                for (int j = 0; j < 24; j++)
+                ClassSZYB classSZYB = new ClassSZYB();
+                for (int i = 0; i > -24; i--)
                 {
-                    classSZYB.SKRK(dt.ToString("yyyyMMdd"), j, ref error);
-                }
-            }
-            this.t1.Dispatcher.Invoke(
-                new Action(
-                    delegate
-                    {
-                        t1.AppendText(error);
-                        //将光标移至文本框最后
-                        t1.Focus();
-                        t1.CaretIndex = (t1.Text.Length);
+                    string error = "";
+                    bool insertBS = false;
+                    classSZYB.SKRK(DateTime.Now.AddHours(i).ToString("yyyyMMdd"), DateTime.Now.AddHours(i).Hour, ref error,ref insertBS);
+                   if(error.Trim().Length == 0&&insertBS)
+                   {
+                        error = DateTime.Now.ToString() + "保存" + DateTime.Now.AddHours(i).ToString("yyyyMMddHH") + "时实况小时数据成功！\r\n";
+                        SaveJL(error);
                     }
-                ));
+                   else if(insertBS)
+                   {
+                        error = DateTime.Now.ToString() + "保存" + DateTime.Now.AddHours(i).ToString("yyyyMMddHH") + "时实况小时数据：\r\n" + error;
+                    }
+                    if (error.Trim().Length > 0 || insertBS )
+                    {
+                        this.t1.Dispatcher.Invoke(
+                          new Action(
+                              delegate
+                              {
+                                  t1.AppendText(error);
+                              //将光标移至文本框最后
+                              t1.Focus();
+                                  t1.CaretIndex = (t1.Text.Length);
+                              }
+                          ));
+                        SaveJL(error);
+                    }
+                }
+
+                
+                
+            }
+            catch
+            {
+            }
+
         }
         string RKTime = "20";//实况入库的时次,窗口初始化程序中会重新给该值从配置文件中赋值
         string DBconPath = Environment.CurrentDirectory + @"\config\DBconfig.txt";
@@ -699,6 +716,12 @@ namespace 呼和浩特市精细化天气预报评分系统_数据库
                 catch
                 {
                 }
+            }
+            
+            if (DateTime.Now.Minute == 10)//每小时的10分入库实况小时数据
+            {
+                Thread thread = new Thread(HourSKRK);
+                thread.Start();
             }
         }
 

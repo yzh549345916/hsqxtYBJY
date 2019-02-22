@@ -28,7 +28,7 @@ namespace 呼和浩特市精细化天气预报评分系统_数据库
 
 
         }
-        public void SKRK(string strDate, int hour, ref string strError)
+        public void SKRK(string strDate, int hour, ref string strError,ref bool insertBS)
         {
             try
             {
@@ -174,6 +174,11 @@ namespace 呼和浩特市精细化天气预报评分系统_数据库
                                             }
                                         }
                                     }
+                                    else
+                                    {
+                                        insertBS = true;
+                                    }
+
                                 }
                             }
                          

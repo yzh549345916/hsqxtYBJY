@@ -290,18 +290,130 @@ namespace 呼和浩特市精细化天气预报评分系统_数据库
 
         }
 
+        public void CLYB(DateTime dt,int sc,ref string error)
+        {
+            List<StationList> stationLists = new List<StationList>();
+            using (SqlConnection mycon = new SqlConnection(con))
+            {
+                try
+                {
+                    mycon.Open();//打开
+                    string sql = "select * from Station";  //SQL查询语句 (Name,StationID,Date)。按照数据库中的表的字段顺序保存
+                    SqlCommand sqlman = new SqlCommand(sql, mycon);
+                    SqlDataReader sqlreader = sqlman.ExecuteReader();
+                    while (sqlreader.Read())
+                    {
+                        try
+                        {
+                            stationLists.Add(new StationList()
+                            {
+                                Id = sqlreader.GetString(sqlreader.GetOrdinal("StatioID")),
+                                temGS = sqlreader.IsDBNull(sqlreader.GetOrdinal("temGS")) ? "ECSK" : sqlreader.GetString(sqlreader.GetOrdinal("temGS")),
+                                tmaxGS = sqlreader.IsDBNull(sqlreader.GetOrdinal("tmaxGS")) ? "ECSK" : sqlreader.GetString(sqlreader.GetOrdinal("tmaxGS")),
+                                tminGS = sqlreader.IsDBNull(sqlreader.GetOrdinal("tminGS")) ? "ECSK" : sqlreader.GetString(sqlreader.GetOrdinal("tminGS")),
+                                PREGS = sqlreader.IsDBNull(sqlreader.GetOrdinal("PREGS")) ? "EC" : sqlreader.GetString(sqlreader.GetOrdinal("PREGS")),
+                                FXGS = sqlreader.IsDBNull(sqlreader.GetOrdinal("FXGS")) ? "ECSK" : sqlreader.GetString(sqlreader.GetOrdinal("FXGS")),
+                                FSGS = sqlreader.IsDBNull(sqlreader.GetOrdinal("FSGS")) ? "ECSK" : sqlreader.GetString(sqlreader.GetOrdinal("FSGS")),
+                            });
+                        }
+                        catch(Exception ex)
+                        {
+                            error += ex.Message + "\r\n";
+                        }
+                    }
+
+
+                }
+                catch (Exception ex)
+                {
+
+                    error += ex.Message + "\r\n";
+                }
+            }
+            for(int i=0;i<stationLists.Count;i++)
+            {
+                switch (stationLists[i].temGS)
+                {
+                    case "ECSK":
+                        stationLists[i].TEM = temByECSK(stationLists[i].Id,dt,sc,ref error);
+                        break;
+                    default:
+                        break;
+                        
+                }
+                    
+            }
+        }
+        /// <summary>
+        /// 返回通过EC与实况差值计算出的72小时气温预报值，如果值为-999999说明该时效EC缺报，999999为实况缺测，888888为该时效不做预报要求
+        /// </summary>
+        /// <param name="stationID">站号</param>
+        /// <param name="dt">起报时间</param>
+        /// <param name="sc">起报时次</param>
+        /// <param name="error">返回错误信息</param>
+        /// <returns></returns>
+        public float[] temByECSK(string stationID,DateTime dt,int sc,ref string error)
+        {
+            float[] temSZ = new float[24];
+            float[] skSZ = new float[8];
+            List < SKList > sKLists= new List<SKList>();
+            using (SqlConnection mycon = new SqlConnection(con))
+            {
+                try
+                {
+                    mycon.Open();//打开
+                    string sql = String.Format("select * from SK where StationID='{0}' and date='{1:yyyy-MM-dd}' and sc='{2}'", stationID, dt,sc);  //SQL查询语句 (Name,StationID,Date)。按照数据库中的表的字段顺序保存
+                    SqlCommand sqlman = new SqlCommand(sql, mycon);
+                    SqlDataReader sqlreader = sqlman.ExecuteReader();
+                    while (sqlreader.Read())
+                    {
+                        try
+                        {
+                            sKLists.Add(new SKList()
+                            {
+                                sx = sqlreader.GetInt32(sqlreader.GetOrdinal("sc")),
+                                ys = sqlreader.IsDBNull(sqlreader.GetOrdinal("TEM")) ? 999999 : sqlreader.GetFloat(sqlreader.GetOrdinal("TEM")),
+                               
+                            });
+                        }
+                        catch (Exception ex)
+                        {
+                            error += ex.Message + "\r\n";
+                        }
+                    }
+
+
+                }
+                catch (Exception ex)
+                {
+
+                    error += ex.Message + "\r\n";
+                }
+            }
+            float[] ecSZ = new float[28];//72小时逐3小时，96逐6小时
+            return temSZ;
+        }
+
         public class SKList
         {
-            public string ID { get; set; }
-            public double TEM { get; set; }
-            public double Tmin { get; set; }
-            public double Tmax { get; set; }
-            public double Pre { get; set; }
-            public double FX10 { get; set; }
-            public double FS10 { get; set; }
-            public double FXJD { get; set; }
-            public double FSJD { get; set; }
+            public int sx { get; set; }
+            public float ys { get; set; }
 
+        }
+
+        public class StationList
+        {
+            public string Id { get; set; }
+            public float[] TEM { get; set; }
+            public float[] PRE { get; set; }
+            public float[] FS { get; set; }
+            public string[] FX { get; set; }
+            public string temGS { get; set; }
+            public string tmaxGS { get; set; }
+            public string tminGS { get; set; }
+            public string PREGS { get; set; }
+            public string FXGS { get; set; }
+            public string FSGS { get; set; }
         }
     }
 }

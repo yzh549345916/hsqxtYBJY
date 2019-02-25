@@ -55,6 +55,9 @@ namespace 呼和浩特市精细化天气预报评分系统_数据库
 
         private void SJYBHF_Click(object sender, RoutedEventArgs e)
         {
+            ClassSZYB classSZYB = new ClassSZYB();
+            string error = "";
+            classSZYB.CLYB(DateTime.Now, 8, ref error);
         }
         public void HourSKRK()
         {

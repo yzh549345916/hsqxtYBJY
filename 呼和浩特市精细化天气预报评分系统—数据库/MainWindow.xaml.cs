@@ -21,11 +21,12 @@ namespace 呼和浩特市精细化天气预报评分系统_数据库
         Int16 QJZNHH08=0, QJZNMM08 = 0, QJZNHH20 = 0,QJZNMM20=0,QJZNsc=8;
         Int16 GJZNHH08 = 0, GJZNMM08 = 0, GJZNHH20 = 0, GJZNMM20 = 0, GJZNsc = 8;
         Int16 ECHH08 = 0,ECMM08 = 0, ECHH20 = 0, ECMM20 = 0, ECsc = 8;
-
+        Int16 YBHH08 = 0, YBMM08 = 0, YBHH20 = 0, YBMM20 = 0, YBsc = 8;
 
         private DateTime QJZNdt = DateTime.Now;
         private DateTime GJZNdt = DateTime.Now;
         private DateTime ECdt = DateTime.Now;
+        private DateTime YBdt = DateTime.Now;
 
 
         private void JLButton_Click(object sender, RoutedEventArgs e)
@@ -55,9 +56,8 @@ namespace 呼和浩特市精细化天气预报评分系统_数据库
 
         private void SJYBHF_Click(object sender, RoutedEventArgs e)
         {
-            ClassSZYB classSZYB = new ClassSZYB();
-            string error = "";
-            classSZYB.CLYB(DateTime.Now, 8, ref error);
+
+            
         }
         public void HourSKRK()
         {
@@ -226,9 +226,23 @@ namespace 呼和浩特市精细化天气预报评分系统_数据库
                 ECHH20 = Convert.ToInt16(util.Read("ECTime", "HH20"));
                 ECMM08 = Convert.ToInt16(util.Read("ECTime", "MM08"));
                 ECMM20 = Convert.ToInt16(util.Read("ECTime", "MM20"));
+                YBHH08 = Convert.ToInt16(util.Read("YBTime", "HH08"));
+                YBHH20 = Convert.ToInt16(util.Read("YBTime", "HH20"));
+                YBMM08 = Convert.ToInt16(util.Read("YBTime", "MM08"));
+                YBMM20 = Convert.ToInt16(util.Read("YBTime", "MM20"));
             }
-            catch
+            catch(Exception ex)
             {
+                this.t1.Dispatcher.Invoke(
+                              new Action(
+                                  delegate
+                                  {
+                                      t1.AppendText(ex.Message+'\n');
+                                      //将光标移至文本框最后
+                                      t1.Focus();
+                                      t1.CaretIndex = (t1.Text.Length);
+                                  }
+                              ));
             }
         }
 
@@ -574,7 +588,7 @@ namespace 呼和浩特市精细化天气预报评分系统_数据库
                     Thread th1 = new Thread(new ThreadStart(QJZNRK));
                     th1.Start();
                     Thread.Sleep(100);
-                    if (DateTime.Now.AddHours(2).Hour != QJZNHH08)
+                    if (DateTime.Now.AddHours(-2).Hour == QJZNHH08)
                     {
                         for (Int16 i = -1; i > -6; i--)
                         {
@@ -600,7 +614,7 @@ namespace 呼和浩特市精细化天气预报评分系统_数据库
                     Thread th1 = new Thread(new ThreadStart(QJZNRK));
                     th1.Start();
                     Thread.Sleep(100);
-                    if (DateTime.Now.AddHours(2).Hour == QJZNHH20)
+                    if (DateTime.Now.AddHours(-2).Hour == QJZNHH20)
                     {
                         for (Int16 i = -1; i > -6; i--)
                         {
@@ -626,7 +640,7 @@ namespace 呼和浩特市精细化天气预报评分系统_数据库
                     Thread th1 = new Thread(new ThreadStart(GJZNRK));
                     th1.Start();
                     Thread.Sleep(100);
-                    if (DateTime.Now.AddHours(2).Hour != GJZNHH08)
+                    if (DateTime.Now.AddHours(-2).Hour == GJZNHH08)
                     {
                         for (Int16 i = -1; i > -6; i--)
                         {
@@ -652,7 +666,7 @@ namespace 呼和浩特市精细化天气预报评分系统_数据库
                     Thread th1 = new Thread(new ThreadStart(GJZNRK));
                     th1.Start();
                     Thread.Sleep(100);
-                    if (DateTime.Now.AddHours(2).Hour == GJZNHH20)
+                    if (DateTime.Now.AddHours(-2).Hour == GJZNHH20)
                     {
                         for (Int16 i = -1; i > -6; i--)
                         {
@@ -678,7 +692,7 @@ namespace 呼和浩特市精细化天气预报评分系统_数据库
                     Thread th1 = new Thread(new ThreadStart(ECRK));
                     th1.Start();
                     Thread.Sleep(1000);
-                    if (DateTime.Now.AddHours(2).Hour != ECHH08)
+                    if (DateTime.Now.AddHours(-2).Hour == ECHH08)
                     {
                         for (Int16 i = -1; i > -6; i--)
                         {
@@ -704,7 +718,7 @@ namespace 呼和浩特市精细化天气预报评分系统_数据库
                     Thread th1 = new Thread(new ThreadStart(ECRK));
                     th1.Start();
                     Thread.Sleep(1000);
-                    if (DateTime.Now.AddHours(2).Hour == ECHH20)
+                    if (DateTime.Now.AddHours(-2).Hour == ECHH20)
                     {
                         for (Int16 i = -1; i > -6; i--)
                         {
@@ -720,7 +734,30 @@ namespace 呼和浩特市精细化天气预报评分系统_数据库
                 {
                 }
             }
-            
+
+            if ((DateTime.Now.Hour == YBHH08 || DateTime.Now.AddHours(-1).Hour == YBHH08 || DateTime.Now.AddHours(-2).Hour == YBHH08) && DateTime.Now.Minute == YBMM08)
+            {
+                try
+                {
+                    YBdt = DateTime.Now;
+                    YBsc = 8;
+                    Thread thread = new Thread(YBRK);
+                    thread.Start();
+                }
+                catch { }
+            }
+            else if ((DateTime.Now.Hour == YBHH20 || DateTime.Now.AddHours(-1).Hour == YBHH20 || DateTime.Now.AddHours(-2).Hour == YBHH20) && DateTime.Now.Minute == YBMM20)
+            {
+                try
+                {
+                    YBdt = DateTime.Now;
+                    YBsc = 20;
+                    Thread thread = new Thread(YBRK);
+                    thread.Start();
+                }
+                catch { }
+            }
+
             if (DateTime.Now.Minute == 10)//每小时的10分入库实况小时数据
             {
                 Thread thread = new Thread(HourSKRK);
@@ -863,6 +900,77 @@ namespace 呼和浩特市精细化天气预报评分系统_数据库
             catch
             {
             }
+        }
+
+        public void YBRK()
+        {
+            try
+            {
+                ClassSZYB classSZYB = new ClassSZYB();
+                string error = "";
+                bool insertBS= classSZYB.CLYB(YBdt, YBsc, ref error);
+                if (error.Trim().Length == 0 && insertBS)
+                {
+                    error = DateTime.Now.ToString() + "保存" + YBdt.ToString("yyyyMMdd") +YBsc+ "时数值预报成功！\r\n";
+                    SaveJL(error);
+                }
+                else if (insertBS)
+                {
+                    error = DateTime.Now.ToString() + "保存" + YBdt.ToString("yyyyMMdd") + YBsc + "时数值预报：！\r\n" + error;
+                }
+                if (error.Trim().Length > 0 || insertBS)
+                {
+                    this.t1.Dispatcher.Invoke(
+                      new Action(
+                          delegate
+                          {
+                              t1.AppendText(error);
+                                  //将光标移至文本框最后
+                                  t1.Focus();
+                              t1.CaretIndex = (t1.Text.Length);
+                          }
+                      ));
+                    SaveJL(error);
+                }
+
+                if (DateTime.Now.AddHours(-2).Hour == YBHH08|| DateTime.Now.AddHours(-2).Hour == YBHH20)
+                {
+                    for (Int16 i = -1; i > -3; i--)
+                    {
+                        insertBS = false;
+                        error = "";
+                        insertBS = classSZYB.CLYB(YBdt.AddDays(i), YBsc, ref error);
+                        if (error.Trim().Length == 0 && insertBS)
+                        {
+                            error = DateTime.Now.ToString() + "保存" + YBdt.ToString("yyyyMMdd") + YBsc + "时数值预报成功！\r\n";
+                            SaveJL(error);
+                        }
+                        else if (insertBS)
+                        {
+                            error = DateTime.Now.ToString() + "保存" + YBdt.ToString("yyyyMMdd") + YBsc + "时数值预报：！\r\n" + error;
+                        }
+                        if (error.Trim().Length > 0 || insertBS)
+                        {
+                            this.t1.Dispatcher.Invoke(
+                              new Action(
+                                  delegate
+                                  {
+                                      t1.AppendText(error);
+                              //将光标移至文本框最后
+                              t1.Focus();
+                                      t1.CaretIndex = (t1.Text.Length);
+                                  }
+                              ));
+                            SaveJL(error);
+                        }
+                    }
+                }
+            }
+            catch(Exception ex)
+            {
+                SaveJL(ex.Message+"\r\n");
+            }
+
         }
     }
 

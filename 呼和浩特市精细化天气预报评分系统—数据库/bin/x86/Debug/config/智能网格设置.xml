@@ -18,6 +18,12 @@
     <HH20>12</HH20>
     <MM20>30</MM20>
   </ECTime>
+  <YBTime>
+    <HH08>5</HH08>
+    <MM08>11</MM08>
+    <HH20>15</HH20>
+    <MM20>20</MM20>
+  </YBTime>
   <OtherConfig>
     <DB>Server=172.18.142.157;Database=智能网格;user id=sa;password=134679;</DB>
     <SZDB>Server=172.18.142.157;Database=数值预报;user id=sa;password=134679;</SZDB>

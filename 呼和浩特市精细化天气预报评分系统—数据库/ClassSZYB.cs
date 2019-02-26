@@ -290,7 +290,7 @@ namespace 呼和浩特市精细化天气预报评分系统_数据库
 
         }
 
-        public void CLYB(DateTime dt,int sc,ref string error)
+        public bool CLYB(DateTime dt,int sc,ref string error)
         {
             List<StationList> stationLists = new List<StationList>();
             using (SqlConnection mycon = new SqlConnection(con))
@@ -334,15 +334,104 @@ namespace 呼和浩特市精细化天气预报评分系统_数据库
             {
                 switch (stationLists[i].temGS)
                 {
-                    case "ECSK":
+                    case "ECSK"://根据不同的公式定义，执行不同的计算
                         stationLists[i].TEM = temByECSK(stationLists[i].Id,dt,sc,ref error);
                         break;
                     default:
+                        stationLists[i].TEM = temByECSK(stationLists[i].Id, dt, sc, ref error);
                         break;
                         
                 }
                     
             }
+            return YBRK(stationLists, dt, sc, ref error);
+        }
+        public bool YBRK(List<StationList> stationLists, DateTime dt, int sc, ref string error)
+        {
+            bool insertBS = false;
+            foreach (StationList stationList in stationLists)
+            {
+                if(stationList.TEM!=null)
+                {
+                    if(TEMRK(stationList, dt, sc, ref error))
+                    {
+                        insertBS = true;
+                    }
+                }
+            }
+            return insertBS;
+        }
+
+        public bool TEMRK(StationList stationList, DateTime dt, int sc,ref string error)
+        {
+            bool insertBS = false;
+            try
+            {
+                string sqlInsert = "insert into YB_TEM" + "(StatioID,Date,SC,SX,TEM,GS) VALUES(@id,@date,@sc,@sx,@tem,@gs)";
+                string sqlupdate = "update YB_TEM set  TEM=@tem where StatioID=@id and date=@date and sc=@sc and sx=@sx and gs=@gs";
+                Stopwatch sw = new Stopwatch();
+                using (SqlConnection mycon = new SqlConnection(con))
+                {
+                    mycon.Open();//打开
+                    int jlCount = 0;
+                    foreach(ECList eCList in stationList.TEM)
+                    {
+                        if (eCList.ys == 888888)//对于不进行计算的时次不做入库处理
+                            continue;
+                        jlCount = 0;
+                        using (SqlCommand sqlman = new SqlCommand(sqlInsert, mycon))
+                        {
+                            sqlman.Parameters.AddWithValue("@id", stationList.Id);
+                            sqlman.Parameters.AddWithValue("@date", dt.ToString("yyyy-MM-dd"));
+                            sqlman.Parameters.AddWithValue("@sc", sc);
+                            sqlman.Parameters.AddWithValue("@tem", eCList.ys);
+                            sqlman.Parameters.AddWithValue("@sx", eCList.sx);
+                            sqlman.Parameters.AddWithValue("@gs", stationList.temGS);
+                            sw.Start();
+                            try
+                            {
+                                jlCount = sqlman.ExecuteNonQuery();
+                            }
+                            catch 
+                            {
+                               
+                            }
+                        }
+                        if (jlCount == 0)
+                        {
+                            using (SqlCommand sqlman = new SqlCommand(sqlupdate, mycon))
+                            {
+                                sqlman.Parameters.AddWithValue("@id", stationList.Id);
+                                sqlman.Parameters.AddWithValue("@date", dt.ToString("yyyy-MM-dd"));
+                                sqlman.Parameters.AddWithValue("@sc", sc);
+                                sqlman.Parameters.AddWithValue("@tem", eCList.ys);
+                                sqlman.Parameters.AddWithValue("@sx", eCList.sx);
+                                sqlman.Parameters.AddWithValue("@gs", stationList.temGS);
+                                sw.Start();
+                                try
+                                {
+                                    jlCount = sqlman.ExecuteNonQuery();
+                                }
+                                catch (Exception ex)
+                                {
+                                    error += ex.Message + "\r\n";
+                                }
+                            }
+                        }
+                        else
+                        {
+                            insertBS = true;
+                        }
+                    }
+                    
+                }
+
+            }
+            catch (Exception ex)
+            {
+                error += ex.Message + "\r\n";
+            }
+            return insertBS;
         }
         /// <summary>
         /// 返回通过EC与实况差值计算出的72小时气温预报值，如果值为-999999说明该时效EC缺报，999999为实况缺测，888888为该时效不做预报要求
@@ -352,17 +441,29 @@ namespace 呼和浩特市精细化天气预报评分系统_数据库
         /// <param name="sc">起报时次</param>
         /// <param name="error">返回错误信息</param>
         /// <returns></returns>
-        public float[] temByECSK(string stationID,DateTime dt,int sc,ref string error)
+        public List<ECList> temByECSK(string stationID,DateTime dt,int sc,ref string error)
         {
-            float[] temSZ = new float[24];
-            float[] skSZ = new float[8];
             List < SKList > sKLists= new List<SKList>();
+            List<ECList> eCLists = new List<ECList>();
+            DateTime dtls = Convert.ToDateTime(dt.ToString("yyyy-MM-dd " + sc.ToString().PadLeft(2, '0') + ":00:00"));
             using (SqlConnection mycon = new SqlConnection(con))
             {
                 try
                 {
                     mycon.Open();//打开
-                    string sql = String.Format("select * from SK where StationID='{0}' and date='{1:yyyy-MM-dd}' and sc='{2}'", stationID, dt,sc);  //SQL查询语句 (Name,StationID,Date)。按照数据库中的表的字段顺序保存
+                   
+                    string sqlString = "";
+                    for(int i=-24;i<0;i=i+3)
+                    {
+                        DateTime dtls2 = dtls.AddHours(i);
+                        sqlString += string.Format("(Date = '{0:yyyy-MM-dd}') AND (sc = '{0:HH" + "}') OR", dtls2);
+                    }
+                    try
+                    {
+                        sqlString = sqlString.Substring(0, sqlString.Length - 3);
+                    }
+                    catch { }
+                    string sql = String.Format("select * from SK where StationID='{0}' and (" +sqlString+')', stationID);  //SQL查询语句 (Name,StationID,Date)。按照数据库中的表的字段顺序保存
                     SqlCommand sqlman = new SqlCommand(sql, mycon);
                     SqlDataReader sqlreader = sqlman.ExecuteReader();
                     while (sqlreader.Read())
@@ -371,9 +472,8 @@ namespace 呼和浩特市精细化天气预报评分系统_数据库
                         {
                             sKLists.Add(new SKList()
                             {
-                                sx = sqlreader.GetInt32(sqlreader.GetOrdinal("sc")),
                                 ys = sqlreader.IsDBNull(sqlreader.GetOrdinal("TEM")) ? 999999 : sqlreader.GetFloat(sqlreader.GetOrdinal("TEM")),
-                               
+                                sx=24-Convert.ToInt32(dtls.Subtract(sqlreader.GetDateTime(sqlreader.GetOrdinal("date")).AddHours(sqlreader.GetInt32(sqlreader.GetOrdinal("sc")))).TotalHours)//用24减是为了时效与EC预报对齐
                             });
                         }
                         catch (Exception ex)
@@ -390,11 +490,129 @@ namespace 呼和浩特市精细化天气预报评分系统_数据库
                     error += ex.Message + "\r\n";
                 }
             }
-            float[] ecSZ = new float[28];//72小时逐3小时，96逐6小时
-            return temSZ;
+            using (SqlConnection mycon = new SqlConnection(con))
+            {
+                try
+                {
+                    mycon.Open();//打开
+                    string sql = String.Format("select * from EC预报 where StatioID='{0}' and date='{1:yyyy-MM-dd}' and sc='{2}' and sx<'96'", stationID,dt.AddDays(-1),sc);  //SQL查询语句 (Name,StationID,Date)。按照数据库中的表的字段顺序保存
+                    SqlCommand sqlman = new SqlCommand(sql, mycon);
+                    SqlDataReader sqlreader = sqlman.ExecuteReader();
+                    while (sqlreader.Read())
+                    {
+                        try
+                        {
+                            eCLists.Add(new ECList()
+                            {
+                                ys = sqlreader.IsDBNull(sqlreader.GetOrdinal("TEF0")) ? -999999 : sqlreader.GetFloat(sqlreader.GetOrdinal("TEF0")),
+                                sx = sqlreader.GetInt16(sqlreader.GetOrdinal("SX"))
+                            });
+                        }
+                        catch (Exception ex)
+                        {
+                            error += ex.Message + "\r\n";
+                        }
+                    }
+
+
+                }
+                catch (Exception ex)
+                {
+
+                    error += ex.Message + "\r\n";
+                }
+            }
+            for(int i=0;i<24;i=i+3)
+            {
+                ECList eCList= eCLists.Find(y=>y.sx==i);
+                if (eCList == null)
+                {
+                    eCLists.Add(new ECList()
+                    {
+                        ys = -999999,
+                        sx = i
+                    });
+                    eCList = eCLists.Find(y => y.sx == i);
+                }
+                SKList sKList = sKLists.Find(y => y.sx == i);
+                int count = eCLists.IndexOf(eCList);
+                if (sKList==null)
+                {
+                    eCLists[count].ys = 999999;
+                    error += string.Format("{0}站{1:yyyy年MM月dd日}{2}时实况缺测，未对{3}、{4}、{5}小时EC进行订正\r\n",stationID,dtls.AddDays(-1).AddHours(i), dtls.AddDays(-1).AddHours(i).Hour,i+24,i+48, i+72);
+                }
+                else if(sKList.ys== 999999)
+                {
+                    eCLists[count].ys = 999999;
+                    error += string.Format("{0}站{1:yyyy年MM月dd日}{2}时实况缺测，未对{3}、{4}、{5}小时EC进行订正\r\n", stationID, dtls.AddDays(-1).AddHours(i), dtls.AddDays(-1).AddHours(i).Hour, i + 24, i + 48, i + 72);
+                }
+                else if(eCLists[count].ys == -999999)
+                {
+                    eCLists[count].ys = -999999;
+                }
+                else
+                {
+                    eCLists[count].ys = sKList.ys- eCLists[count].ys;
+                }
+            }
+            for(int i=24;i<96;i=i+3)
+            {
+                ECList eCList = eCLists.Find(y => y.sx == i);
+                if (eCList == null)
+                {
+                    eCLists.Add(new ECList()
+                    {
+                        ys = -999999,
+                        sx = i
+                    });
+                    eCList = eCLists.Find(y => y.sx == i);
+                    
+                }
+                int count = eCLists.IndexOf(eCList);
+                ECList eCListCZ= eCLists.Find(y => y.sx == i%24);
+                if(eCListCZ.ys==-999999)
+                {
+                    eCLists[count].ys = eCListCZ.ys;
+                }
+                else if( eCListCZ.ys == 999999)
+                {
+                    //如果实况缺测，则保存错误信息，不对该时次EC进行订正
+                    eCListCZ.ys = Convert.ToSingle(Math.Round(eCListCZ.ys,2));
+                }
+                else
+                {
+                    eCLists[count].ys = Convert.ToSingle(Math.Round(eCListCZ.ys+ eCLists[count].ys,2));
+                }
+                if (i >= 72)
+                {
+                    i = i + 3;
+                    eCLists.Add(new ECList()
+                    {
+                        ys = 888888,
+                        sx = i
+                    });
+                }
+                
+
+            }
+            List<ECList> eCListsDC = new List<ECList>();
+            for(int i=0;i<72;i=i+3)
+            {
+                ECList eCListLS = eCLists.Find(y => y.sx == i + 24);
+                eCListLS.sx = i;
+                eCListsDC.Add(eCListLS);
+            }
+            eCListsDC = eCListsDC.OrderBy(y => y.sx).ToList();
+            return eCListsDC;
         }
 
         public class SKList
+        {
+            public int sx { get; set; }
+            public float ys { get; set; }
+
+        }
+        public class ECList
         {
             public int sx { get; set; }
             public float ys { get; set; }
@@ -404,7 +622,7 @@ namespace 呼和浩特市精细化天气预报评分系统_数据库
         public class StationList
         {
             public string Id { get; set; }
-            public float[] TEM { get; set; }
+            public List<ECList> TEM { get; set; }
             public float[] PRE { get; set; }
             public float[] FS { get; set; }
             public string[] FX { get; set; }

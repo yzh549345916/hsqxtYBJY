@@ -11,7 +11,7 @@
 
         <Grid Height="278" Width="661" Margin="0,-111,0,0">
 
-            <TextBox x:Name="t1" HorizontalAlignment="Left"  Text="TextBox" VerticalAlignment="Top" Height="279" Width="442" FontSize="10" HorizontalScrollBarVisibility="Auto" Grid.IsSharedSizeScope="True" VerticalScrollBarVisibility="Auto" ScrollViewer.CanContentScroll="True" Margin="28,-10,0,0" TextWrapping="WrapWithOverflow"  >
+            <TextBox x:Name="t1" HorizontalAlignment="Left" TextChanged="T1_TextChanged"  Text="TextBox" VerticalAlignment="Top" Height="279" Width="442" FontSize="10" HorizontalScrollBarVisibility="Auto" Grid.IsSharedSizeScope="True" VerticalScrollBarVisibility="Auto" ScrollViewer.CanContentScroll="True" Margin="28,-10,0,0" TextWrapping="WrapWithOverflow"  >
                 <TextBox.Background>
                     <SolidColorBrush Color="White" Opacity="0.5"/>
                 </TextBox.Background>

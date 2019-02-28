@@ -21,6 +21,36 @@ namespace 呼和浩特市精细化天气预报评分系统_数据库
         Int16 QJZNHH08=0, QJZNMM08 = 0, QJZNHH20 = 0,QJZNMM20=0,QJZNsc=8;
         Int16 GJZNHH08 = 0, GJZNMM08 = 0, GJZNHH20 = 0, GJZNMM20 = 0, GJZNsc = 8;
         Int16 ECHH08 = 0,ECMM08 = 0, ECHH20 = 0, ECMM20 = 0, ECsc = 8;
+
+        private void T1_TextChanged(object sender, System.Windows.Controls.TextChangedEventArgs e)
+        {
+            try
+            {
+
+                string[] szls = t1.Text.Split('\n');
+                if(szls.Length>1000)
+                {
+                    string data = "";
+                    for(int i=0;i<1000;i++)
+                    {
+                        data += szls[1000 - i] + '\n';
+                    }
+                    this.t1.Dispatcher.Invoke(
+                           new Action(
+                               delegate
+                               {
+                                   t1.Text=(data);
+                                   //将光标移至文本框最后
+                                   t1.Focus();
+                                   t1.CaretIndex = (t1.Text.Length);
+                               }
+                           ));
+                }
+                
+            }
+            catch { }
+        }
+
         Int16 YBHH08 = 0, YBMM08 = 0, YBHH20 = 0, YBMM20 = 0, YBsc = 8;
 
         private DateTime QJZNdt = DateTime.Now;
@@ -56,9 +86,25 @@ namespace 呼和浩特市精细化天气预报评分系统_数据库
 
         private void SJYBHF_Click(object sender, RoutedEventArgs e)
         {
-
+            ClassSZYB classSZYB = new ClassSZYB();
+            DateTime dateTime = Convert.ToDateTime("2019-01-02");
+            //DateTime dateTime2 = Convert.ToDateTime("2019-02-27");
+            string error = "";
+            //var list= classSZYB.CLECWind(dateTime, dateTime2, ref error);
+            //string ss = "";
+            //foreach(var wind in list)
+            //{
+            //    ss += wind.stationID + '\t' + wind.date + '\t' + wind.sc + '\t' + wind.sx + '\t' + wind.ybDate + '\t' + wind.fx + '\t' + wind.fs + "\r\n";
+            //}
+            for(int i=0;i<=57;i++)
+            {
+                classSZYB.CLYB(dateTime.AddDays(i), 8, ref error);
+                classSZYB.CLYB(dateTime.AddDays(i), 20, ref error);
+            }
+            MessageBox.Show(error);
             
-        }
+        }  
+        
         public void HourSKRK()
         {
             try

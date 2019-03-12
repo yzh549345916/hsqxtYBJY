@@ -5,6 +5,10 @@ using System.IO;
 using System.Data.SqlClient;
 using System.Threading;
 
+using System.Data.SqlClient;
+using MessageBox = System.Windows.MessageBox;
+using System.Windows.Forms;
+
 namespace 呼和浩特市精细化天气预报评分系统_数据库
 {
     /// <summary>
@@ -12,6 +16,7 @@ namespace 呼和浩特市精细化天气预报评分系统_数据库
     /// </summary>
     public partial class MainWindow : Window
     {
+        private System.Windows.Forms.NotifyIcon _notifyIcon = null;
         System.Timers.Timer t = new System.Timers.Timer(60000);
         string con;//这里是保存连接数据库的字符串172.18.142.158 id=sa;password=134679;
         private Int16 ZYRK8H = 0, ZYRK8M = 0, ZYRK20H = 0, ZYRK20M = 0;
@@ -26,20 +31,20 @@ namespace 呼和浩特市精细化天气预报评分系统_数据库
         {
             try
             {
-
+                t1.TextChanged -= T1_TextChanged;
                 string[] szls = t1.Text.Split('\n');
-                if(szls.Length>1000)
+                if(szls.Length>5000)
                 {
                     string data = "";
-                    for(int i=0;i<1000;i++)
+                    for(int i=0;i<4000;i++)
                     {
-                        data += szls[1000 - i] + '\n';
+                        data += szls[4000 - i] + '\n';
                     }
                     this.t1.Dispatcher.Invoke(
                            new Action(
                                delegate
                                {
-                                   t1.Text=(data);
+                                   t1.Text=data;
                                    //将光标移至文本框最后
                                    t1.Focus();
                                    t1.CaretIndex = (t1.Text.Length);
@@ -48,7 +53,14 @@ namespace 呼和浩特市精细化天气预报评分系统_数据库
                 }
                 
             }
-            catch { }
+            catch
+            {
+                t1.Clear();
+            }
+            finally
+            {
+                t1.TextChanged += T1_TextChanged;
+            }
         }
 
         Int16 YBHH08 = 0, YBMM08 = 0, YBHH20 = 0, YBMM20 = 0, YBsc = 8;
@@ -86,25 +98,68 @@ namespace 呼和浩特市精细化天气预报评分系统_数据库
 
         private void SJYBHF_Click(object sender, RoutedEventArgs e)
         {
-            ClassSZYB classSZYB = new ClassSZYB();
-            DateTime dateTime = Convert.ToDateTime("2019-01-02");
-            //DateTime dateTime2 = Convert.ToDateTime("2019-02-27");
-            string error = "";
-            //var list= classSZYB.CLECWind(dateTime, dateTime2, ref error);
-            //string ss = "";
-            //foreach(var wind in list)
-            //{
-            //    ss += wind.stationID + '\t' + wind.date + '\t' + wind.sc + '\t' + wind.sx + '\t' + wind.ybDate + '\t' + wind.fx + '\t' + wind.fs + "\r\n";
-            //}
-            for(int i=0;i<=57;i++)
+          
+
+        }
+        #region 窗口状态改变
+        private void MainWindow_StateChanged(object sender, EventArgs e)
+        {
+            try
             {
-                classSZYB.CLYB(dateTime.AddDays(i), 8, ref error);
-                classSZYB.CLYB(dateTime.AddDays(i), 20, ref error);
+                if (this.WindowState == WindowState.Minimized)
+                {
+                    this.Visibility = Visibility.Hidden;
+                }
             }
-            MessageBox.Show(error);
-            
-        }  
-        
+            catch { }
+        }
+        #endregion
+
+        #region 托盘图标鼠标单击事件
+        private void notifyIcon_MouseDoubleClick(object sender, MouseEventArgs e)
+        {
+            if (e.Button == MouseButtons.Left)
+            {
+                if (this.Visibility == Visibility.Visible)
+                {
+                    this.Visibility = Visibility.Hidden;
+                }
+                else
+                {
+                    this.Visibility = Visibility.Visible;
+                    this.Activate();
+                }
+            }
+        }
+        #endregion
+        public void InitialTray()
+        {
+           try
+           {
+                if (_notifyIcon == null)
+                {
+                    _notifyIcon = new System.Windows.Forms.NotifyIcon();
+                    //隐藏主窗体
+                    this.Visibility = Visibility.Hidden;
+                    //设置托盘的各个属性
+
+                    _notifyIcon.BalloonTipText = "呼和浩特市精细化天气预报评分系统数据库服务运行中...";//托盘气泡显示内容
+                    _notifyIcon.Text = "呼和浩特市精细化天气预报评分系统数据库";
+                    _notifyIcon.Visible = true;//托盘按钮是否可见
+                    _notifyIcon.Icon = System.Drawing.Icon.ExtractAssociatedIcon(System.Windows.Forms.Application.ExecutablePath); ;//托盘中显示的图标
+                    _notifyIcon.ShowBalloonTip(2000);//托盘气泡显示时间
+                    _notifyIcon.MouseDoubleClick += notifyIcon_MouseDoubleClick;
+                    //窗体状态改变时触发
+                    this.StateChanged += MainWindow_StateChanged;
+                }
+                else
+                {
+                    this.WindowState = WindowState.Minimized;
+                }
+
+            }
+            catch { }
+        }
         public void HourSKRK()
         {
             try
@@ -248,13 +303,31 @@ namespace 呼和浩特市精细化天气预报评分系统_数据库
                     }
                     catch (Exception ex)
                     {
-                        //MessageBox.Show(ex.Message);
+                        this.t1.Dispatcher.Invoke(
+                             new Action(
+                                 delegate
+                                 {
+                                     t1.AppendText(ex.Message + '\n');
+                                      //将光标移至文本框最后
+                                      t1.Focus();
+                                     t1.CaretIndex = (t1.Text.Length);
+                                 }
+                             ));
                     }
                 }
             }
             catch (Exception ex)
             {
-                //MessageBox.Show(ex.Message);
+                this.t1.Dispatcher.Invoke(
+                             new Action(
+                                 delegate
+                                 {
+                                     t1.AppendText(ex.Message + '\n');
+                                      //将光标移至文本框最后
+                                      t1.Focus();
+                                     t1.CaretIndex = (t1.Text.Length);
+                                 }
+                             ));
             }
 
             try
@@ -294,520 +367,985 @@ namespace 呼和浩特市精细化天气预报评分系统_数据库
 
         public void Save(string strDate, string strTime)
         {
-            int SKRKGS = 0;
-            string strError = "";
-            string strSK = "";
-            int rst1 = 0;
-
-            Class1 c1 = new Class1();
-            string strQXSK = c1.CIMISSHQQXSK(strDate, strTime, ref rst1, ref strError);
-            if ((rst1 == 0))
+            try
             {
-                using (SqlConnection mycon = new SqlConnection(con))
+                int SKRKGS = 0;
+                string strError = "";
+                string strSK = "";
+                int rst1 = 0;
+
+                Class1 c1 = new Class1();
+                string strQXSK = c1.CIMISSHQQXSK(strDate, strTime, ref rst1, ref strError);
+                if ((rst1 == 0))
                 {
-                    mycon.Open();//打开
-
-
-                    for (int i = 0; i < strQXSK.Split('\n').Length;i++)
+                    using (SqlConnection mycon = new SqlConnection(con))
                     {
-                        string[] szLS1 = strQXSK.Split('\n')[i].Split(' ');
-                        float myTmax, myTmin, myRain;
-                        try
-                        {
-                            myRain = Convert.ToSingle(szLS1[5]);
-                        }
-                        catch
-                        {
-                            myRain = 999999;
-                        }
-                        try
-                        {
-                            myTmax = Convert.ToSingle(szLS1[3]);
-                        }
-                        catch
-                        {
-                            myTmax = 999999;
-                        }
-                        try
-                        {
-                            myTmin = Convert.ToSingle(szLS1[4]);
-                        }
-                        catch
-                        {
-                            myTmin = 999999;
-                        }
-
-                        if (myTmin == myTmax)//如果最高最低温度相等，按照缺测处理
-                        {
-                            myTmin = 999999;
-                            myTmax = 999999;
-                        }
-                        string myDate = strDate.Substring(0, 4) + '-' + strDate.Substring(4, 2) + '-' + strDate.Substring(6, 2);
-                        string sql = string.Format(@"insert into SK (Name,StationID,Date,SC,Tmax,Tmin,Rain) values('{0}','{1}','{2}','{3}','{4}','{5}','{6}')", QXName.Split(',')[i], QXID.Split(',')[i], myDate, strTime,  myTmax, myTmin, myRain);  //SQL查询语句 (Name,StationID,Date)。按照数据库中的表的字段顺序保存
-                        try
-                        {
-                            SqlCommand sqlman = new SqlCommand(sql, mycon);
-                            SKRKGS += sqlman.ExecuteNonQuery();                            //执行数据库语句并返回一个int值（受影响的行数）     
+                        mycon.Open();//打开
 
 
-
-                        }
-                        catch (Exception ex)
+                        for (int i = 0; i < strQXSK.Split('\n').Length; i++)
                         {
-                            // MessageBox.Show("数据库添加失败\n" + ex.Message);
+                            string[] szLS1 = strQXSK.Split('\n')[i].Split(' ');
+                            float myTmax, myTmin, myRain;
+                            try
+                            {
+                                myRain = Convert.ToSingle(szLS1[5]);
+                            }
+                            catch
+                            {
+                                myRain = 999999;
+                            }
+                            try
+                            {
+                                myTmax = Convert.ToSingle(szLS1[3]);
+                            }
+                            catch
+                            {
+                                myTmax = 999999;
+                            }
+                            try
+                            {
+                                myTmin = Convert.ToSingle(szLS1[4]);
+                            }
+                            catch
+                            {
+                                myTmin = 999999;
+                            }
+
+                            if (myTmin == myTmax)//如果最高最低温度相等，按照缺测处理
+                            {
+                                myTmin = 999999;
+                                myTmax = 999999;
+                            }
+                            string myDate = strDate.Substring(0, 4) + '-' + strDate.Substring(4, 2) + '-' + strDate.Substring(6, 2);
+                            string sql = string.Format(@"insert into SK (Name,StationID,Date,SC,Tmax,Tmin,Rain) values('{0}','{1}','{2}','{3}','{4}','{5}','{6}')", QXName.Split(',')[i], QXID.Split(',')[i], myDate, strTime, myTmax, myTmin, myRain);  //SQL查询语句 (Name,StationID,Date)。按照数据库中的表的字段顺序保存
+                            try
+                            {
+                                SqlCommand sqlman = new SqlCommand(sql, mycon);
+                                SKRKGS += sqlman.ExecuteNonQuery();                            //执行数据库语句并返回一个int值（受影响的行数）     
+
+
+
+                            }
+                            catch (Exception ex)
+                            {
+                                // MessageBox.Show("数据库添加失败\n" + ex.Message);
+                            }
                         }
                     }
                 }
-            }
-            this.t1.Dispatcher.Invoke(
-                new Action(
-                    delegate
-                    {
-                        t1.AppendText( DateTime.Now.ToString() + "保存" + strDate + "日" + strTime + "时" + SKRKGS.ToString() + "条实况至数据库\n");
+                this.t1.Dispatcher.Invoke(
+                    new Action(
+                        delegate
+                        {
+                            t1.AppendText(DateTime.Now.ToString() + "保存" + strDate + "日" + strTime + "时" + SKRKGS.ToString() + "条实况至数据库\n");
                         //将光标移至文本框最后
                         t1.Focus();
-                        t1.CaretIndex = (t1.Text.Length);
-                    }
-                ));
-            SaveJL( DateTime.Now.ToString() + "保存" + strDate + "日" +strTime+"时"+ SKRKGS.ToString() + "条实况至数据库\r\n");
-            string error = "";
-            string jltext = "";
-            c1.CIMISSRain12(strDate, strTime, ref error, ref jltext);
-            error += strError;
-            this.t1.Dispatcher.Invoke(
-                new Action(
-                    delegate
-                    {
-                        t1.AppendText(jltext + '\n');
+                            t1.CaretIndex = (t1.Text.Length);
+                        }
+                    ));
+                SaveJL(DateTime.Now.ToString() + "保存" + strDate + "日" + strTime + "时" + SKRKGS.ToString() + "条实况至数据库\r\n");
+                string error = "";
+                string jltext = "";
+                c1.CIMISSRain12(strDate, strTime, ref error, ref jltext);
+                error += strError;
+                this.t1.Dispatcher.Invoke(
+                    new Action(
+                        delegate
+                        {
+                            t1.AppendText(jltext + '\n');
                         //将光标移至文本框最后
                         t1.Focus();
-                        t1.CaretIndex = (t1.Text.Length);
-                    }
-                ));
-            SaveJL(jltext + "\r\n");
-            this.errorTBox.Dispatcher.Invoke(
-                new Action(
-                    delegate
-                    {
-                        errorTBox.AppendText( error + '\n');
+                            t1.CaretIndex = (t1.Text.Length);
+                        }
+                    ));
+                SaveJL(jltext + "\r\n");
+                this.errorTBox.Dispatcher.Invoke(
+                    new Action(
+                        delegate
+                        {
+                            errorTBox.AppendText(error + '\n');
                         //将光标移至文本框最后
                         errorTBox.Focus();
-                        errorTBox.CaretIndex = (errorTBox.Text.Length);
-                    }
-                ));
-            SaveJL(error + "\r\n");
-            if (strError.Length == 0)
-            {
+                            errorTBox.CaretIndex = (errorTBox.Text.Length);
+                        }
+                    ));
+                SaveJL(error + "\r\n");
+                if (strError.Length == 0)
+                {
 
+                }
+                else
+                {
+                    //MessageBox.Show("CIMISS出错，返回代码为：" + strError);
+                }
             }
-            else
-            {
-                //MessageBox.Show("CIMISS出错，返回代码为：" + strError);
-            }
+            catch { }
 
             
         }
         public void SaveJL(string jtText)
         {
-            string DicPath = Environment.CurrentDirectory + @"\日志";
-            string path = DicPath + '\\' + DateTime.Now.ToString("yyyy年MM月dd日") + "日志文件.txt";
-            if (!Directory.Exists(DicPath))
+            try
             {
-                Directory.CreateDirectory(DicPath);
-            }
-            using (StreamWriter sw = new StreamWriter(path, true, Encoding.Default))
-            {
-                sw.Write(jtText);
-                sw.Flush();
-            }
+                string DicPath = Environment.CurrentDirectory + @"\日志";
+                string path = DicPath + '\\' + DateTime.Now.ToString("yyyy年MM月dd日") + "日志文件.txt";
+                if (!Directory.Exists(DicPath))
+                {
+                    Directory.CreateDirectory(DicPath);
+                }
+                using (StreamWriter sw = new StreamWriter(path, true, Encoding.Default))
+                {
+                    sw.Write(jtText);
+                    sw.Flush();
+                }
 
+            }
+            catch { }
         }
         public void refreshTime(object source, System.Timers.ElapsedEventArgs e)
         {
 
 
-            if (DateTime.Now.Hour == SKRK20H && DateTime.Now.Minute == SKRK20M)  
+            try
             {
-                for (int i = 0; i < 7; i++)
+                if (DateTime.Now.Hour == SKRK20H && DateTime.Now.Minute == SKRK20M)
                 {
-                    string strDate = DateTime.Now.AddDays(-1*i-1).ToString("yyyyMMdd");
-                    Save(strDate, "20");
-                    Class1 c1 = new Class1();
-                    string ss = "";
-                    ss += c1.TJRK(DateTime.Now.AddDays(-1*i-2), "20", "主班");
-                    ss += c1.TJRK(DateTime.Now.AddDays(-1 * i - 2), "20", "领班");
-                    this.t1.Dispatcher.Invoke(
-                        new Action(
-                            delegate
-                            {
-                                t1.AppendText(ss);
-                                //将光标移至文本框最后
-                                t1.Focus();
-                                t1.CaretIndex = (t1.Text.Length);
-                            }
-                        ));
-                    SaveJL(ss);
-                }
-
-                
-
-            }
-            else if (DateTime.Now.Hour == SKRK8H && DateTime.Now.Minute == SKRK8M)
-            {
-                for (int i = 0; i < 7; i++)
-                {
-                    string strDate = DateTime.Now.AddDays(-1*i).ToString("yyyyMMdd");
-                    Save(strDate, "08");
-                    Class1 c1 = new Class1();
-                    string ss = c1.TJRK(DateTime.Now.AddDays(-1 * i-1), "08", "主班");
-                    this.t1.Dispatcher.Invoke(
-                        new Action(
-                            delegate
-                            {
-                                t1.AppendText(ss);
-                                //将光标移至文本框最后
-                                t1.Focus();
-                                t1.CaretIndex = (t1.Text.Length);
-                            }
-                        ));
-                    SaveJL(ss);
-                }
-                
-            }
-            if (DateTime.Now.Hour == SJRK8H && DateTime.Now.Minute == SJRK8M)
-            {
-                string GWList = "";
-
-                using (StreamReader sr = new StreamReader(Environment.CurrentDirectory + @"\config\GWList.txt",
-                    Encoding.Default))
-                {
-                    string line = "";
-                    while ((line = sr.ReadLine()) != null)
+                    for (int i = 0; i < 7; i++)
                     {
-                        if (line.Split('=')[0] == "08岗位列表")
-                        {
-                            GWList = line.Split('=')[1];
-                            break;
-                        }
-                    }
-                }
-                Class1 c1 = new Class1();
-                for (int i = 0; i < GWList.Split(',').Length; i++)
-                {
-                    for (int j = 0; j < 7; j++)
-                    {
-                        string strDate = DateTime.Now.AddDays(-1*j).ToString("yyyyMMdd");
-                        string ssLs = c1.Sjyb(strDate, "08", GWList.Split(',')[i]);
-                        this.t1.Dispatcher.Invoke(
-                            new Action(
-                                delegate
-                                {
-                                    t1.AppendText(ssLs);
+                       try
+                       {
+                            string strDate = DateTime.Now.AddDays(-1 * i - 1).ToString("yyyyMMdd");
+                            Save(strDate, "20");
+                            Class1 c1 = new Class1();
+                            string ss = "";
+                            ss += c1.TJRK(DateTime.Now.AddDays(-1 * i - 2), "20", "主班");
+                            ss += c1.TJRK(DateTime.Now.AddDays(-1 * i - 2), "20", "领班");
+                            this.t1.Dispatcher.Invoke(
+                                new Action(
+                                    delegate
+                                    {
+                                        t1.AppendText(ss);
                                     //将光标移至文本框最后
                                     t1.Focus();
-                                    t1.CaretIndex = (t1.Text.Length);
-                                }
-                            ));
-                        SaveJL(ssLs);
-                    }
-                }
-                
-
-                
-            }
-            else if (DateTime.Now.Hour == SJRK20H && DateTime.Now.Minute == SJRK20M)
-            {
-                string GWList = "";
-
-                using (StreamReader sr = new StreamReader(Environment.CurrentDirectory + @"\config\GWList.txt",
-                    Encoding.Default))
-                {
-                    string line = "";
-                    while ((line = sr.ReadLine()) != null)
-                    {
-                        if (line.Split('=')[0] == "20岗位列表")
-                        {
-                            GWList = line.Split('=')[1];
-                            break;
+                                        t1.CaretIndex = (t1.Text.Length);
+                                    }
+                                ));
+                            SaveJL(ss);
                         }
-                    }
-                }
-                
-                Class1 c1 = new Class1();
-                for (int i = 0; i < GWList.Split(',').Length; i++)
-                {
-                    for (int j = 0; j < 7; j++)
-                    {
-                        string strDate = DateTime.Now.AddDays(-1 * j).ToString("yyyyMMdd");
-                        string ssLs = c1.Sjyb(strDate, "20", GWList.Split(',')[i]);
-                        this.t1.Dispatcher.Invoke(
-                            new Action(
-                                delegate
-                                {
-                                    t1.AppendText(ssLs);
+                        catch (Exception ex)
+                        {
+                            try
+                            {
+                                this.t1.Dispatcher.Invoke(
+                                        new Action(
+                                            delegate
+                                            {
+                                                t1.AppendText(ex.Message + "\r\n");
                                     //将光标移至文本框最后
                                     t1.Focus();
-                                    t1.CaretIndex = (t1.Text.Length);
-                                }
-                            ));
-                        SaveJL(ssLs);
-                    }       
-                }
-            }
-            if (DateTime.Now.Hour == ZYRK8H && DateTime.Now.Minute == ZYRK8M)
-            {
-                Class1 c1 = new Class1();
-                string ss = "";
+                                                t1.CaretIndex = (t1.Text.Length);
+                                            }
+                                        ));
+                            }
+                            catch { }
+                        }
+                    }
 
-                    if (c1.ZYZDRK(DateTime.Now, "08", ref ss))
+
+
+                }
+                else if (DateTime.Now.Hour == SKRK8H && DateTime.Now.Minute == SKRK8M)
+                {
+                    for (int i = 0; i < 7; i++)
                     {
-                        this.t1.Dispatcher.Invoke(
-                            new Action(
-                                delegate
-                                {
-                                    t1.AppendText(ss);
+                       try
+                       {
+                            string strDate = DateTime.Now.AddDays(-1 * i).ToString("yyyyMMdd");
+                            Save(strDate, "08");
+                            Class1 c1 = new Class1();
+                            string ss = c1.TJRK(DateTime.Now.AddDays(-1 * i - 1), "08", "主班");
+                            this.t1.Dispatcher.Invoke(
+                                new Action(
+                                    delegate
+                                    {
+                                        t1.AppendText(ss);
                                     //将光标移至文本框最后
                                     t1.Focus();
-                                    t1.CaretIndex = (t1.Text.Length);
+                                        t1.CaretIndex = (t1.Text.Length);
+                                    }
+                                ));
+                            SaveJL(ss);
+                        }
+                        catch (Exception ex)
+                        {
+                            try
+                            {
+                                this.t1.Dispatcher.Invoke(
+                                        new Action(
+                                            delegate
+                                            {
+                                                t1.AppendText(ex.Message + "\r\n");
+                                    //将光标移至文本框最后
+                                    t1.Focus();
+                                                t1.CaretIndex = (t1.Text.Length);
+                                            }
+                                        ));
+                            }
+                            catch { }
+                        }
+                    }
+
+                }
+                if (DateTime.Now.Hour == SJRK8H && DateTime.Now.Minute == SJRK8M)
+                {
+                   try
+                   {
+                        string GWList = "";
+
+                        using (StreamReader sr = new StreamReader(Environment.CurrentDirectory + @"\config\GWList.txt",
+                            Encoding.Default))
+                        {
+                            string line = "";
+                            while ((line = sr.ReadLine()) != null)
+                            {
+                                if (line.Split('=')[0] == "08岗位列表")
+                                {
+                                    GWList = line.Split('=')[1];
+                                    break;
                                 }
-                            ));
-                        SaveJL(ss);
+                            }
+                        }
+                        Class1 c1 = new Class1();
+                        for (int i = 0; i < GWList.Split(',').Length; i++)
+                        {
+                            for (int j = 0; j < 7; j++)
+                            {
+                                try
+                                {
+                                    string strDate = DateTime.Now.AddDays(-1 * j).ToString("yyyyMMdd");
+                                    string ssLs = c1.Sjyb(strDate, "08", GWList.Split(',')[i]);
+                                    this.t1.Dispatcher.Invoke(
+                                        new Action(
+                                            delegate
+                                            {
+                                                t1.AppendText(ssLs);
+                                            //将光标移至文本框最后
+                                            t1.Focus();
+                                                t1.CaretIndex = (t1.Text.Length);
+                                            }
+                                        ));
+                                    SaveJL(ssLs);
+                                }
+                                catch (Exception ex)
+                                {
+                                    try
+                                    {
+                                        this.t1.Dispatcher.Invoke(
+                                                new Action(
+                                                    delegate
+                                                    {
+                                                        t1.AppendText(ex.Message + "\r\n");
+                                    //将光标移至文本框最后
+                                    t1.Focus();
+                                                        t1.CaretIndex = (t1.Text.Length);
+                                                    }
+                                                ));
+                                    }
+                                    catch { }
+                                }
+                            }
+                        }
+                    }
+                    catch (Exception ex)
+                    {
+                        try
+                        {
+                            this.t1.Dispatcher.Invoke(
+                                    new Action(
+                                        delegate
+                                        {
+                                            t1.AppendText(ex.Message + "\r\n");
+                                    //将光标移至文本框最后
+                                    t1.Focus();
+                                            t1.CaretIndex = (t1.Text.Length);
+                                        }
+                                    ));
+                        }
+                        catch { }
                     }
 
-                for (int i = 0; i < 6; i++)
-                {
-                    ss=c1.ZYZDCIMISS(DateTime.Now.AddDays(-1 * i - 1).ToString("yyyyMMdd"), "08");
-                    this.t1.Dispatcher.Invoke(
-                        new Action(
-                            delegate
-                            {
-                                t1.AppendText(ss);
-                                //将光标移至文本框最后
-                                t1.Focus();
-                                t1.CaretIndex = (t1.Text.Length);
-                            }
-                        ));
-                    SaveJL(ss);
-                }
-            }
-            else if (DateTime.Now.Hour == ZYRK20H && DateTime.Now.Minute == ZYRK20M)
-            {
-                Class1 c1 = new Class1();
-                string ss = "";
-                if (c1.ZYZDRK(DateTime.Now, "20", ref ss))
-                {
-                    this.t1.Dispatcher.Invoke(
-                        new Action(
-                            delegate
-                            {
-                                t1.AppendText(ss);
-                                //将光标移至文本框最后
-                                t1.Focus();
-                                t1.CaretIndex = (t1.Text.Length);
-                            }
-                        ));
-                    SaveJL(ss);
-                }
-                for (int i = 0; i < 6; i++)
-                {
-                   ss= c1.ZYZDCIMISS(DateTime.Now.AddDays(-1 * i - 1).ToString("yyyyMMdd"), "20");
-                    this.t1.Dispatcher.Invoke(
-                        new Action(
-                            delegate
-                            {
-                                t1.AppendText(ss);
-                                //将光标移至文本框最后
-                                t1.Focus();
-                                t1.CaretIndex = (t1.Text.Length);
-                            }
-                        ));
-                    SaveJL(ss);
-                }
-            }
-            if ((DateTime.Now.Hour == QJZNHH08|| DateTime.Now.AddHours(-1).Hour == QJZNHH08 || DateTime.Now.AddHours(-2).Hour == QJZNHH08) && DateTime.Now.Minute == QJZNMM08)
-            {
-                try
-                {
-                    //指定备份时间未来三个小时都对当天的预报进行入库，对过去5天的预报进行重新入库
-                    QJZNdt = DateTime.Now;
-                    QJZNsc = 8;
-                    Thread th1 = new Thread(new ThreadStart(QJZNRK));
-                    th1.Start();
-                    Thread.Sleep(100);
-                    if (DateTime.Now.AddHours(-2).Hour == QJZNHH08)
-                    {
-                        for (Int16 i = -1; i > -6; i--)
-                        {
-                            QJZNdt = DateTime.Now.AddDays(i);
-                            QJZNsc = 8;
-                            Thread th2 = new Thread(new ThreadStart(QJZNRK));
-                            th2.Start();
-                            Thread.Sleep(100);
-                        }
-                    }
-                }
-                catch
-                {
-                }
-            }
-            else if ((DateTime.Now.Hour == QJZNHH20 || DateTime.Now.AddHours(-1).Hour == QJZNHH20 || DateTime.Now.AddHours(-2).Hour == QJZNHH20) && DateTime.Now.Minute == QJZNMM20)
-            {
-                try
-                {
-                    //指定备份时间未来三个小时都对当天的预报进行入库，对过去5天的预报进行重新入库
-                    QJZNdt = DateTime.Now;
-                    QJZNsc = 20;
-                    Thread th1 = new Thread(new ThreadStart(QJZNRK));
-                    th1.Start();
-                    Thread.Sleep(100);
-                    if (DateTime.Now.AddHours(-2).Hour == QJZNHH20)
-                    {
-                        for (Int16 i = -1; i > -6; i--)
-                        {
-                            QJZNdt = DateTime.Now.AddDays(i);
-                            QJZNsc = 20;
-                            Thread th2 = new Thread(new ThreadStart(QJZNRK));
-                            th2.Start();
-                            Thread.Sleep(100);
-                        }
-                    }
-                }
-                catch
-                {
-                }
-            }
-            if ((DateTime.Now.Hour == GJZNHH08 || DateTime.Now.AddHours(-1).Hour == GJZNHH08 || DateTime.Now.AddHours(-2).Hour == GJZNHH08) && DateTime.Now.Minute == GJZNMM08)
-            {
-                try
-                {
-                    //指定备份时间未来三个小时都对当天的预报进行入库，对过去5天的预报进行重新入库
-                    GJZNdt = DateTime.Now;
-                   GJZNsc = 8;
-                    Thread th1 = new Thread(new ThreadStart(GJZNRK));
-                    th1.Start();
-                    Thread.Sleep(100);
-                    if (DateTime.Now.AddHours(-2).Hour == GJZNHH08)
-                    {
-                        for (Int16 i = -1; i > -6; i--)
-                        {
-                            GJZNdt = DateTime.Now.AddDays(i);
-                            GJZNsc = 8;
-                            Thread th2 = new Thread(new ThreadStart(GJZNRK));
-                            th2.Start();
-                            Thread.Sleep(100);
-                        }
-                    }
-                }
-                catch
-                {
-                }
-            }
-            else if ((DateTime.Now.Hour == GJZNHH20 || DateTime.Now.AddHours(-1).Hour == GJZNHH20 || DateTime.Now.AddHours(-2).Hour == GJZNHH20) && DateTime.Now.Minute == GJZNMM20)
-            {
-                try
-                {
-                    //指定备份时间未来三个小时都对当天的预报进行入库，对过去5天的预报进行重新入库
-                    GJZNdt = DateTime.Now;
-                    GJZNsc = 20;
-                    Thread th1 = new Thread(new ThreadStart(GJZNRK));
-                    th1.Start();
-                    Thread.Sleep(100);
-                    if (DateTime.Now.AddHours(-2).Hour == GJZNHH20)
-                    {
-                        for (Int16 i = -1; i > -6; i--)
-                        {
-                            GJZNdt = DateTime.Now.AddDays(i);
-                           GJZNsc = 20;
-                            Thread th2 = new Thread(new ThreadStart(GJZNRK));
-                            th2.Start();
-                            Thread.Sleep(100);
-                        }
-                    }
-                }
-                catch
-                {
-                }
-            }
-            if ((DateTime.Now.Hour == ECHH08 || DateTime.Now.AddHours(-1).Hour == ECHH08 || DateTime.Now.AddHours(-2).Hour == ECHH08) && DateTime.Now.Minute == ECMM08)
-            {
-                try
-                {
-                    //指定备份时间未来三个小时都对当天的预报进行入库，对过去5天的预报进行重新入库
-                    ECdt = DateTime.Now;
-                    ECsc = 8;
-                    Thread th1 = new Thread(new ThreadStart(ECRK));
-                    th1.Start();
-                    Thread.Sleep(1000);
-                    if (DateTime.Now.AddHours(-2).Hour == ECHH08)
-                    {
-                        for (Int16 i = -1; i > -6; i--)
-                        {
-                            ECdt = DateTime.Now.AddDays(i);
-                            ECsc = 8;
-                            Thread th2 = new Thread(new ThreadStart(ECRK));
-                            th2.Start();
-                            Thread.Sleep(1000);
-                        }
-                    }
-                }
-                catch
-                {
-                }
-            }
-            else if ((DateTime.Now.Hour == ECHH20 || DateTime.Now.AddHours(-1).Hour == ECHH20 || DateTime.Now.AddHours(-2).Hour == ECHH20) && DateTime.Now.Minute == ECMM20)
-            {
-                try
-                {
-                    //指定备份时间未来三个小时都对当天的预报进行入库，对过去5天的预报进行重新入库
-                    ECdt = DateTime.Now.AddDays(-1);
-                    ECsc = 20;
-                    Thread th1 = new Thread(new ThreadStart(ECRK));
-                    th1.Start();
-                    Thread.Sleep(1000);
-                    if (DateTime.Now.AddHours(-2).Hour == ECHH20)
-                    {
-                        for (Int16 i = -1; i > -6; i--)
-                        {
-                            ECdt = DateTime.Now.AddDays(i);
-                            ECsc = 20;
-                            Thread th2 = new Thread(new ThreadStart(ECRK));
-                            th2.Start();
-                            Thread.Sleep(1000);
-                        }
-                    }
-                }
-                catch
-                {
-                }
-            }
 
-            if ((DateTime.Now.Hour == YBHH08 || DateTime.Now.AddHours(-1).Hour == YBHH08 || DateTime.Now.AddHours(-2).Hour == YBHH08) && DateTime.Now.Minute == YBMM08)
-            {
-                try
+
+                }
+                else if (DateTime.Now.Hour == SJRK20H && DateTime.Now.Minute == SJRK20M)
                 {
-                    YBdt = DateTime.Now;
-                    YBsc = 8;
-                    Thread thread = new Thread(YBRK);
+                    try
+                    {
+                        string GWList = "";
+
+                        using (StreamReader sr = new StreamReader(Environment.CurrentDirectory + @"\config\GWList.txt",
+                            Encoding.Default))
+                        {
+                            string line = "";
+                            while ((line = sr.ReadLine()) != null)
+                            {
+                                if (line.Split('=')[0] == "20岗位列表")
+                                {
+                                    GWList = line.Split('=')[1];
+                                    break;
+                                }
+                            }
+                        }
+
+                        Class1 c1 = new Class1();
+                        for (int i = 0; i < GWList.Split(',').Length; i++)
+                        {
+                            for (int j = 0; j < 7; j++)
+                            {
+                                try
+                                {
+                                    string strDate = DateTime.Now.AddDays(-1 * j).ToString("yyyyMMdd");
+                                    string ssLs = c1.Sjyb(strDate, "20", GWList.Split(',')[i]);
+                                    this.t1.Dispatcher.Invoke(
+                                        new Action(
+                                            delegate
+                                            {
+                                                t1.AppendText(ssLs);
+                                            //将光标移至文本框最后
+                                            t1.Focus();
+                                                t1.CaretIndex = (t1.Text.Length);
+                                            }
+                                        ));
+                                    SaveJL(ssLs);
+                                }
+                                catch (Exception ex)
+                                {
+                                    try
+                                    {
+                                        this.t1.Dispatcher.Invoke(
+                                                new Action(
+                                                    delegate
+                                                    {
+                                                        t1.AppendText(ex.Message + "\r\n");
+                                    //将光标移至文本框最后
+                                    t1.Focus();
+                                                        t1.CaretIndex = (t1.Text.Length);
+                                                    }
+                                                ));
+                                    }
+                                    catch { }
+                                }
+                            }
+                        }
+                    }
+                    catch (Exception ex)
+                    {
+                        try
+                        {
+                            this.t1.Dispatcher.Invoke(
+                                    new Action(
+                                        delegate
+                                        {
+                                            t1.AppendText(ex.Message + "\r\n");
+                                    //将光标移至文本框最后
+                                    t1.Focus();
+                                            t1.CaretIndex = (t1.Text.Length);
+                                        }
+                                    ));
+                        }
+                        catch { }
+                    }
+                }
+                if (DateTime.Now.Hour == ZYRK8H && DateTime.Now.Minute == ZYRK8M)
+                {
+                  try
+                  {
+                        Class1 c1 = new Class1();
+                        string ss = "";
+
+                        if (c1.ZYZDRK(DateTime.Now, "08", ref ss))
+                        {
+                            this.t1.Dispatcher.Invoke(
+                                new Action(
+                                    delegate
+                                    {
+                                        t1.AppendText(ss);
+                                    //将光标移至文本框最后
+                                    t1.Focus();
+                                        t1.CaretIndex = (t1.Text.Length);
+                                    }
+                                ));
+                            SaveJL(ss);
+                        }
+
+                        for (int i = 0; i < 6; i++)
+                        {
+                           try
+                           {
+                                ss = c1.ZYZDCIMISS(DateTime.Now.AddDays(-1 * i - 1).ToString("yyyyMMdd"), "08");
+                                this.t1.Dispatcher.Invoke(
+                                    new Action(
+                                        delegate
+                                        {
+                                            t1.AppendText(ss);
+                                        //将光标移至文本框最后
+                                        t1.Focus();
+                                            t1.CaretIndex = (t1.Text.Length);
+                                        }
+                                    ));
+                                SaveJL(ss);
+                            }
+                            catch (Exception ex)
+                            {
+                                try
+                                {
+                                    this.t1.Dispatcher.Invoke(
+                                            new Action(
+                                                delegate
+                                                {
+                                                    t1.AppendText(ex.Message + "\r\n");
+                                    //将光标移至文本框最后
+                                    t1.Focus();
+                                                    t1.CaretIndex = (t1.Text.Length);
+                                                }
+                                            ));
+                                }
+                                catch { }
+                            }
+                        }
+                        
+                    }
+                    catch (Exception ex)
+                    {
+                        try
+                        {
+                            this.t1.Dispatcher.Invoke(
+                                    new Action(
+                                        delegate
+                                        {
+                                            t1.AppendText(ex.Message + "\r\n");
+                                    //将光标移至文本框最后
+                                    t1.Focus();
+                                            t1.CaretIndex = (t1.Text.Length);
+                                        }
+                                    ));
+                        }
+                        catch { }
+                    }
+                }
+                else if (DateTime.Now.Hour == ZYRK20H && DateTime.Now.Minute == ZYRK20M)
+                {
+                   try
+                   {
+                        Class1 c1 = new Class1();
+                        string ss = "";
+                        if (c1.ZYZDRK(DateTime.Now, "20", ref ss))
+                        {
+                            this.t1.Dispatcher.Invoke(
+                                new Action(
+                                    delegate
+                                    {
+                                        t1.AppendText(ss);
+                                    //将光标移至文本框最后
+                                    t1.Focus();
+                                        t1.CaretIndex = (t1.Text.Length);
+                                    }
+                                ));
+                            SaveJL(ss);
+                        }
+                        for (int i = 0; i < 6; i++)
+                        {
+                            try
+                            {
+                                ss = c1.ZYZDCIMISS(DateTime.Now.AddDays(-1 * i - 1).ToString("yyyyMMdd"), "20");
+                                this.t1.Dispatcher.Invoke(
+                                    new Action(
+                                        delegate
+                                        {
+                                            t1.AppendText(ss);
+                                        //将光标移至文本框最后
+                                        t1.Focus();
+                                            t1.CaretIndex = (t1.Text.Length);
+                                        }
+                                    ));
+                                SaveJL(ss);
+                            }
+                            catch (Exception ex)
+                            {
+                                try
+                                {
+                                    this.t1.Dispatcher.Invoke(
+                                            new Action(
+                                                delegate
+                                                {
+                                                    t1.AppendText(ex.Message + "\r\n");
+                                    //将光标移至文本框最后
+                                    t1.Focus();
+                                                    t1.CaretIndex = (t1.Text.Length);
+                                                }
+                                            ));
+                                }
+                                catch { }
+                            }
+                        }
+                    }
+                    catch (Exception ex)
+                    {
+                        try
+                        {
+                            this.t1.Dispatcher.Invoke(
+                                    new Action(
+                                        delegate
+                                        {
+                                            t1.AppendText(ex.Message + "\r\n");
+                                    //将光标移至文本框最后
+                                    t1.Focus();
+                                            t1.CaretIndex = (t1.Text.Length);
+                                        }
+                                    ));
+                        }
+                        catch { }
+                    }
+                }
+                if ((DateTime.Now.Hour == QJZNHH08 || DateTime.Now.AddHours(-1).Hour == QJZNHH08 || DateTime.Now.AddHours(-2).Hour == QJZNHH08) && DateTime.Now.Minute == QJZNMM08)
+                {
+                    try
+                    {
+                        //指定备份时间未来三个小时都对当天的预报进行入库，对过去5天的预报进行重新入库
+                        QJZNdt = DateTime.Now;
+                        QJZNsc = 8;
+                        Thread th1 = new Thread(new ThreadStart(QJZNRK));
+                        th1.Start();
+                        Thread.Sleep(100);
+                        if (DateTime.Now.AddHours(-2).Hour == QJZNHH08)
+                        {
+                            for (Int16 i = -1; i > -6; i--)
+                            {
+                               try
+                               {
+                                    QJZNdt = DateTime.Now.AddDays(i);
+                                    QJZNsc = 8;
+                                    Thread th2 = new Thread(new ThreadStart(QJZNRK));
+                                    th2.Start();
+                                    Thread.Sleep(100);
+                                }
+                                catch (Exception ex)
+                                {
+                                    try
+                                    {
+                                        this.t1.Dispatcher.Invoke(
+                                                new Action(
+                                                    delegate
+                                                    {
+                                                        t1.AppendText(ex.Message + "\r\n");
+                                    //将光标移至文本框最后
+                                    t1.Focus();
+                                                        t1.CaretIndex = (t1.Text.Length);
+                                                    }
+                                                ));
+                                    }
+                                    catch { }
+                                }
+                            }
+                        }
+                    }
+                    catch (Exception ex)
+                    {
+                        try
+                        {
+                            this.t1.Dispatcher.Invoke(
+                                    new Action(
+                                        delegate
+                                        {
+                                            t1.AppendText(ex.Message + "\r\n");
+                                    //将光标移至文本框最后
+                                    t1.Focus();
+                                            t1.CaretIndex = (t1.Text.Length);
+                                        }
+                                    ));
+                        }
+                        catch { }
+                    }
+                }
+                else if ((DateTime.Now.Hour == QJZNHH20 || DateTime.Now.AddHours(-1).Hour == QJZNHH20 || DateTime.Now.AddHours(-2).Hour == QJZNHH20) && DateTime.Now.Minute == QJZNMM20)
+                {
+                    try
+                    {
+                        //指定备份时间未来三个小时都对当天的预报进行入库，对过去5天的预报进行重新入库
+                        QJZNdt = DateTime.Now;
+                        QJZNsc = 20;
+                        Thread th1 = new Thread(new ThreadStart(QJZNRK));
+                        th1.Start();
+                        Thread.Sleep(100);
+                        if (DateTime.Now.AddHours(-2).Hour == QJZNHH20)
+                        {
+                            for (Int16 i = -1; i > -6; i--)
+                            {
+                              try
+                              {
+                                    QJZNdt = DateTime.Now.AddDays(i);
+                                    QJZNsc = 20;
+                                    Thread th2 = new Thread(new ThreadStart(QJZNRK));
+                                    th2.Start();
+                                    Thread.Sleep(100);
+                                }
+                                catch (Exception ex)
+                                {
+                                    try
+                                    {
+                                        this.t1.Dispatcher.Invoke(
+                                                new Action(
+                                                    delegate
+                                                    {
+                                                        t1.AppendText(ex.Message + "\r\n");
+                                    //将光标移至文本框最后
+                                    t1.Focus();
+                                                        t1.CaretIndex = (t1.Text.Length);
+                                                    }
+                                                ));
+                                    }
+                                    catch { }
+                                }
+                            }
+                        }
+                    }
+                    catch (Exception ex)
+                    {
+                        try
+                        {
+                            this.t1.Dispatcher.Invoke(
+                                    new Action(
+                                        delegate
+                                        {
+                                            t1.AppendText(ex.Message + "\r\n");
+                                    //将光标移至文本框最后
+                                    t1.Focus();
+                                            t1.CaretIndex = (t1.Text.Length);
+                                        }
+                                    ));
+                        }
+                        catch { }
+                    }
+                }
+                if ((DateTime.Now.Hour == GJZNHH08 || DateTime.Now.AddHours(-1).Hour == GJZNHH08 || DateTime.Now.AddHours(-2).Hour == GJZNHH08) && DateTime.Now.Minute == GJZNMM08)
+                {
+                    try
+                    {
+                        //指定备份时间未来三个小时都对当天的预报进行入库，对过去5天的预报进行重新入库
+                        GJZNdt = DateTime.Now;
+                        GJZNsc = 8;
+                        Thread th1 = new Thread(new ThreadStart(GJZNRK));
+                        th1.Start();
+                        Thread.Sleep(100);
+                        if (DateTime.Now.AddHours(-2).Hour == GJZNHH08)
+                        {
+                            for (Int16 i = -1; i > -6; i--)
+                            {
+                                try
+                                {
+                                    GJZNdt = DateTime.Now.AddDays(i);
+                                    GJZNsc = 8;
+                                    Thread th2 = new Thread(new ThreadStart(GJZNRK));
+                                    th2.Start();
+                                    Thread.Sleep(100);
+                                }
+                                catch (Exception ex)
+                                {
+                                    try
+                                    {
+                                        this.t1.Dispatcher.Invoke(
+                                                new Action(
+                                                    delegate
+                                                    {
+                                                        t1.AppendText(ex.Message + "\r\n");
+                                    //将光标移至文本框最后
+                                    t1.Focus();
+                                                        t1.CaretIndex = (t1.Text.Length);
+                                                    }
+                                                ));
+                                    }
+                                    catch { }
+                                }
+                            }
+                        }
+                    }
+                    catch (Exception ex)
+                    {
+                        try
+                        {
+                            this.t1.Dispatcher.Invoke(
+                                    new Action(
+                                        delegate
+                                        {
+                                            t1.AppendText(ex.Message + "\r\n");
+                                    //将光标移至文本框最后
+                                    t1.Focus();
+                                            t1.CaretIndex = (t1.Text.Length);
+                                        }
+                                    ));
+                        }
+                        catch { }
+                    }
+                }
+                else if ((DateTime.Now.Hour == GJZNHH20 || DateTime.Now.AddHours(-1).Hour == GJZNHH20 || DateTime.Now.AddHours(-2).Hour == GJZNHH20) && DateTime.Now.Minute == GJZNMM20)
+                {
+                    try
+                    {
+                        //指定备份时间未来三个小时都对当天的预报进行入库，对过去5天的预报进行重新入库
+                        GJZNdt = DateTime.Now;
+                        GJZNsc = 20;
+                        Thread th1 = new Thread(new ThreadStart(GJZNRK));
+                        th1.Start();
+                        Thread.Sleep(100);
+                        if (DateTime.Now.AddHours(-2).Hour == GJZNHH20)
+                        {
+                            for (Int16 i = -1; i > -6; i--)
+                            {
+                               try
+                               {
+                                    GJZNdt = DateTime.Now.AddDays(i);
+                                    GJZNsc = 20;
+                                    Thread th2 = new Thread(new ThreadStart(GJZNRK));
+                                    th2.Start();
+                                    Thread.Sleep(100);
+                                }
+                                catch (Exception ex)
+                                {
+                                    try
+                                    {
+                                        this.t1.Dispatcher.Invoke(
+                                                new Action(
+                                                    delegate
+                                                    {
+                                                        t1.AppendText(ex.Message + "\r\n");
+                                    //将光标移至文本框最后
+                                    t1.Focus();
+                                                        t1.CaretIndex = (t1.Text.Length);
+                                                    }
+                                                ));
+                                    }
+                                    catch { }
+                                }
+                            }
+                        }
+                    }
+                    catch (Exception ex)
+                    {
+                        try
+                        {
+                            this.t1.Dispatcher.Invoke(
+                                    new Action(
+                                        delegate
+                                        {
+                                            t1.AppendText(ex.Message + "\r\n");
+                                    //将光标移至文本框最后
+                                    t1.Focus();
+                                            t1.CaretIndex = (t1.Text.Length);
+                                        }
+                                    ));
+                        }
+                        catch { }
+                    }
+                }
+                if ((DateTime.Now.Hour == ECHH08 || DateTime.Now.AddHours(-1).Hour == ECHH08 || DateTime.Now.AddHours(-2).Hour == ECHH08) && DateTime.Now.Minute == ECMM08)
+                {
+                    try
+                    {
+                        //指定备份时间未来三个小时都对当天的预报进行入库，对过去5天的预报进行重新入库
+                        ECdt = DateTime.Now;
+                        ECsc = 8;
+                        Thread th1 = new Thread(new ThreadStart(ECRK));
+                        th1.Start();
+                        Thread.Sleep(1000);
+                        if (DateTime.Now.AddHours(-2).Hour == ECHH08)
+                        {
+                            for (Int16 i = -1; i > -6; i--)
+                            {
+                               try
+                               {
+                                    ECdt = DateTime.Now.AddDays(i);
+                                    ECsc = 8;
+                                    Thread th2 = new Thread(new ThreadStart(ECRK));
+                                    th2.Start();
+                                    Thread.Sleep(1000);
+                                }
+                                catch (Exception ex)
+                                {
+                                    try
+                                    {
+                                        this.t1.Dispatcher.Invoke(
+                                                new Action(
+                                                    delegate
+                                                    {
+                                                        t1.AppendText(ex.Message + "\r\n");
+                                    //将光标移至文本框最后
+                                    t1.Focus();
+                                                        t1.CaretIndex = (t1.Text.Length);
+                                                    }
+                                                ));
+                                    }
+                                    catch { }
+                                }
+                            }
+                        }
+                    }
+                    catch (Exception ex)
+                    {
+                        try
+                        {
+                            this.t1.Dispatcher.Invoke(
+                                    new Action(
+                                        delegate
+                                        {
+                                            t1.AppendText(ex.Message + "\r\n");
+                                    //将光标移至文本框最后
+                                    t1.Focus();
+                                            t1.CaretIndex = (t1.Text.Length);
+                                        }
+                                    ));
+                        }
+                        catch { }
+                    }
+                }
+                else if ((DateTime.Now.Hour == ECHH20 || DateTime.Now.AddHours(-1).Hour == ECHH20 || DateTime.Now.AddHours(-2).Hour == ECHH20) && DateTime.Now.Minute == ECMM20)
+                {
+                    try
+                    {
+                        //指定备份时间未来三个小时都对当天的预报进行入库，对过去5天的预报进行重新入库
+                        ECdt = DateTime.Now.AddDays(-1);
+                        ECsc = 20;
+                        Thread th1 = new Thread(new ThreadStart(ECRK));
+                        th1.Start();
+                        Thread.Sleep(1000);
+                        if (DateTime.Now.AddHours(-2).Hour == ECHH20)
+                        {
+                            for (Int16 i = -1; i > -6; i--)
+                            {
+                                try
+                                {
+                                    ECdt = DateTime.Now.AddDays(i);
+                                    ECsc = 20;
+                                    Thread th2 = new Thread(new ThreadStart(ECRK));
+                                    th2.Start();
+                                    Thread.Sleep(1000);
+                                }
+                                catch (Exception ex)
+                                {
+                                    try
+                                    {
+                                        this.t1.Dispatcher.Invoke(
+                                                new Action(
+                                                    delegate
+                                                    {
+                                                        t1.AppendText(ex.Message + "\r\n");
+                                    //将光标移至文本框最后
+                                    t1.Focus();
+                                                        t1.CaretIndex = (t1.Text.Length);
+                                                    }
+                                                ));
+                                    }
+                                    catch { }
+                                }
+                            }
+                        }
+                    }
+                    catch (Exception ex)
+                    {
+                        try
+                        {
+                            this.t1.Dispatcher.Invoke(
+                                    new Action(
+                                        delegate
+                                        {
+                                            t1.AppendText(ex.Message + "\r\n");
+                                    //将光标移至文本框最后
+                                    t1.Focus();
+                                            t1.CaretIndex = (t1.Text.Length);
+                                        }
+                                    ));
+                        }
+                        catch { }
+                    }
+                }
+
+                if ((DateTime.Now.Hour == YBHH08 || DateTime.Now.AddHours(-1).Hour == YBHH08 || DateTime.Now.AddHours(-2).Hour == YBHH08) && DateTime.Now.Minute == YBMM08)
+                {
+                    try
+                    {
+                        YBdt = DateTime.Now;
+                        YBsc = 8;
+                        Thread thread = new Thread(YBRK);
+                        thread.Start();
+                    }
+                    catch (Exception ex)
+                    {
+                        try
+                        {
+                            this.t1.Dispatcher.Invoke(
+                                    new Action(
+                                        delegate
+                                        {
+                                            t1.AppendText(ex.Message + "\r\n");
+                                    //将光标移至文本框最后
+                                    t1.Focus();
+                                            t1.CaretIndex = (t1.Text.Length);
+                                        }
+                                    ));
+                        }
+                        catch { }
+                    }
+                }
+                else if ((DateTime.Now.Hour == YBHH20 || DateTime.Now.AddHours(-1).Hour == YBHH20 || DateTime.Now.AddHours(-2).Hour == YBHH20) && DateTime.Now.Minute == YBMM20)
+                {
+                    try
+                    {
+                        YBdt = DateTime.Now;
+                        YBsc = 20;
+                        Thread thread = new Thread(YBRK);
+                        thread.Start();
+                    }
+                    catch (Exception ex)
+                    {
+                        try
+                        {
+                            this.t1.Dispatcher.Invoke(
+                                    new Action(
+                                        delegate
+                                        {
+                                            t1.AppendText(ex.Message + "\r\n");
+                                    //将光标移至文本框最后
+                                    t1.Focus();
+                                            t1.CaretIndex = (t1.Text.Length);
+                                        }
+                                    ));
+                        }
+                        catch { }
+                    }
+                }
+
+                if (DateTime.Now.Minute == 10)//每小时的10分入库实况小时数据
+                {
+                    Thread thread = new Thread(HourSKRK);
                     thread.Start();
                 }
-                catch { }
             }
-            else if ((DateTime.Now.Hour == YBHH20 || DateTime.Now.AddHours(-1).Hour == YBHH20 || DateTime.Now.AddHours(-2).Hour == YBHH20) && DateTime.Now.Minute == YBMM20)
+            catch(Exception ex)
             {
                 try
                 {
-                    YBdt = DateTime.Now;
-                    YBsc = 20;
-                    Thread thread = new Thread(YBRK);
-                    thread.Start();
+                    this.t1.Dispatcher.Invoke(
+                            new Action(
+                                delegate
+                                {
+                                    t1.AppendText(ex.Message + "\r\n");
+                                    //将光标移至文本框最后
+                                    t1.Focus();
+                                    t1.CaretIndex = (t1.Text.Length);
+                                }
+                            ));
                 }
                 catch { }
-            }
-
-            if (DateTime.Now.Minute == 10)//每小时的10分入库实况小时数据
-            {
-                Thread thread = new Thread(HourSKRK);
-                thread.Start();
             }
         }
 
@@ -983,32 +1521,36 @@ namespace 呼和浩特市精细化天气预报评分系统_数据库
                 {
                     for (Int16 i = -1; i > -3; i--)
                     {
-                        insertBS = false;
-                        error = "";
-                        insertBS = classSZYB.CLYB(YBdt.AddDays(i), YBsc, ref error);
-                        if (error.Trim().Length == 0 && insertBS)
-                        {
-                            error = DateTime.Now.ToString() + "保存" + YBdt.ToString("yyyyMMdd") + YBsc + "时数值预报成功！\r\n";
-                            SaveJL(error);
+                       try
+                       {
+                            insertBS = false;
+                            error = "";
+                            insertBS = classSZYB.CLYB(YBdt.AddDays(i), YBsc, ref error);
+                            if (error.Trim().Length == 0 && insertBS)
+                            {
+                                error = DateTime.Now.ToString() + "保存" + YBdt.ToString("yyyyMMdd") + YBsc + "时数值预报成功！\r\n";
+                                SaveJL(error);
+                            }
+                            else if (insertBS)
+                            {
+                                error = DateTime.Now.ToString() + "保存" + YBdt.ToString("yyyyMMdd") + YBsc + "时数值预报：！\r\n" + error;
+                            }
+                            if (error.Trim().Length > 0 || insertBS)
+                            {
+                                this.t1.Dispatcher.Invoke(
+                                  new Action(
+                                      delegate
+                                      {
+                                          t1.AppendText(error);
+                                      //将光标移至文本框最后
+                                      t1.Focus();
+                                          t1.CaretIndex = (t1.Text.Length);
+                                      }
+                                  ));
+                                SaveJL(error);
+                            }
                         }
-                        else if (insertBS)
-                        {
-                            error = DateTime.Now.ToString() + "保存" + YBdt.ToString("yyyyMMdd") + YBsc + "时数值预报：！\r\n" + error;
-                        }
-                        if (error.Trim().Length > 0 || insertBS)
-                        {
-                            this.t1.Dispatcher.Invoke(
-                              new Action(
-                                  delegate
-                                  {
-                                      t1.AppendText(error);
-                              //将光标移至文本框最后
-                              t1.Focus();
-                                      t1.CaretIndex = (t1.Text.Length);
-                                  }
-                              ));
-                            SaveJL(error);
-                        }
+                        catch { }
                     }
                 }
             }

@@ -556,7 +556,7 @@ namespace 呼和浩特市精细化天气预报评分系统_数据库
                                     {
                                         jlCount = sqlman.ExecuteNonQuery();
                                     }
-                                    catch
+                                    catch(Exception ex)
                                     {
 
                                     }

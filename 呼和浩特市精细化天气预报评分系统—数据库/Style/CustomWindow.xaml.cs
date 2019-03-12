@@ -24,8 +24,8 @@ namespace 呼和浩特市精细化天气预报评分系统_数据库.Style
         // 关闭  
         private void CustomWindowBtnClose_Click(object sender, RoutedEventArgs e)
         {
-            Window win = (Window)((FrameworkElement)sender).TemplatedParent;
-            win.Close();
+            MainWindow win = (MainWindow)((FrameworkElement)sender).TemplatedParent;
+            win.InitialTray();
         }
 
         // 最小化  

@@ -98,11 +98,10 @@ namespace 呼和浩特市精细化天气预报评分系统_数据库
 
         private void SJYBHF_Click(object sender, RoutedEventArgs e)
         {
-            ClassSZYB classSZYB = new ClassSZYB();
-            string error = "";
-            classSZYB.temByGJZNSK("53463", DateTime.Now, 8, ref error);
+
 
         }
+
         #region 窗口状态改变
         private void MainWindow_StateChanged(object sender, EventArgs e)
         {
@@ -1497,12 +1496,12 @@ namespace 呼和浩特市精细化天气预报评分系统_数据库
                 bool insertBS= classSZYB.CLYB(YBdt, YBsc, ref error);
                 if (error.Trim().Length == 0 && insertBS)
                 {
-                    error = DateTime.Now.ToString() + "保存" + YBdt.ToString("yyyyMMdd") +YBsc+ "时数值预报成功！\r\n";
+                    error = DateTime.Now.ToString() + "保存" + YBdt.ToString("yyyy年MM月dd日") +YBsc+ "时数值预报成功！\r\n";
                     SaveJL(error);
                 }
                 else if (insertBS)
                 {
-                    error = DateTime.Now.ToString() + "保存" + YBdt.ToString("yyyyMMdd") + YBsc + "时数值预报：！\r\n" + error;
+                    error = DateTime.Now.ToString() + "保存" + YBdt.ToString("yyyy年MM月dd日") + YBsc + "时数值预报：！\r\n" + error;
                 }
                 if (error.Trim().Length > 0 || insertBS)
                 {
@@ -1530,12 +1529,12 @@ namespace 呼和浩特市精细化天气预报评分系统_数据库
                             insertBS = classSZYB.CLYB(YBdt.AddDays(i), YBsc, ref error);
                             if (error.Trim().Length == 0 && insertBS)
                             {
-                                error = DateTime.Now.ToString() + "保存" + YBdt.ToString("yyyyMMdd") + YBsc + "时数值预报成功！\r\n";
+                                error = DateTime.Now.ToString() + "保存" + YBdt.AddDays(i).ToString("yyyy年MM月dd日") + YBsc + "时数值预报成功！\r\n";
                                 SaveJL(error);
                             }
                             else if (insertBS)
                             {
-                                error = DateTime.Now.ToString() + "保存" + YBdt.ToString("yyyyMMdd") + YBsc + "时数值预报：！\r\n" + error;
+                                error = DateTime.Now.ToString() + "保存" + YBdt.AddDays(i).ToString("yyyy年MM月dd日") + YBsc + "时数值预报：！\r\n" + error;
                             }
                             if (error.Trim().Length > 0 || insertBS)
                             {

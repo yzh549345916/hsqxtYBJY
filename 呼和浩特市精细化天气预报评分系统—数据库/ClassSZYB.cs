@@ -487,7 +487,8 @@ namespace 呼和浩特市精细化天气预报评分系统_数据库
                     error += ex.Message + "\r\n";
                 }
             }
-            for(int i=0;i<stationLists.Count;i++)
+            int countlS = stationLists.Count;
+            for (int i=0;i< countlS; i++)
             {
                 string temgs = stationLists[i].temGS;
                 string tmaxgs = stationLists[i].tmaxGS;
@@ -505,6 +506,9 @@ namespace 呼和浩特市精细化天气预报评分系统_数据库
                                 case "ECSK"://根据不同的公式定义，执行不同的计算
                                     stationLists[i].TEM = temByECSK(stationLists[i].Id, dt, sc, ref error);
                                     break;
+                                case "GJZNSK"://根据不同的公式定义，执行不同的计算
+                                    stationLists[i].TEM = temByGJZNSK(stationLists[i].Id, dt, sc, ref error);
+                                    break;
                                 default:
                                     stationLists[i].TEM = temByECSK(stationLists[i].Id, dt, sc, ref error);
                                     break;
@@ -519,6 +523,9 @@ namespace 呼和浩特市精细化天气预报评分系统_数据库
                                 case "ECSK"://根据不同的公式定义，执行不同的计算
                                     tem = temByECSK(stationLists[i].Id, dt, sc, ref error);
                                     break;
+                                case "GJZNSK"://根据不同的公式定义，执行不同的计算
+                                    tem = temByGJZNSK(stationLists[i].Id, dt, sc, ref error);
+                                    break;
                                 default:
                                     tem = temByECSK(stationLists[i].Id, dt, sc, ref error);
                                     break;
@@ -530,6 +537,7 @@ namespace 呼和浩特市精细化天气预报评分系统_数据库
                                 TEM=tem,
                             });
                         }
+                        count++;
                     }
                 }
                 else
@@ -538,6 +546,9 @@ namespace 呼和浩特市精细化天气预报评分系统_数据库
                     {
                         case "ECSK"://根据不同的公式定义，执行不同的计算
                             stationLists[i].TEM = temByECSK(stationLists[i].Id, dt, sc, ref error);
+                            break;
+                        case "GJZNSK"://根据不同的公式定义，执行不同的计算
+                            stationLists[i].TEM = temByGJZNSK(stationLists[i].Id, dt, sc, ref error);
                             break;
                         default:
                             stationLists[i].TEM = temByECSK(stationLists[i].Id, dt, sc, ref error);
@@ -559,6 +570,9 @@ namespace 呼和浩特市精细化天气预报评分系统_数据库
                                 case "ECSK"://根据不同的公式定义，执行不同的计算
                                     stationLists[i].Tmax = tmaxByECSK(stationLists[i].Id, dt, sc, ref error);
                                     break;
+                                case "GJZNSK"://根据不同的公式定义，执行不同的计算
+                                    stationLists[i].Tmax = tmaxByGJZNSK(stationLists[i].Id, dt, sc, ref error);
+                                    break;
                                 default:
                                     stationLists[i].Tmax = tmaxByECSK(stationLists[i].Id, dt, sc, ref error);
                                     break;
@@ -573,6 +587,9 @@ namespace 呼和浩特市精细化天气预报评分系统_数据库
                                 case "ECSK"://根据不同的公式定义，执行不同的计算
                                     tem = tmaxByECSK(stationLists[i].Id, dt, sc, ref error);
                                     break;
+                                case "GJZNSK"://根据不同的公式定义，执行不同的计算
+                                    tem = tmaxByGJZNSK(stationLists[i].Id, dt, sc, ref error);
+                                    break;
                                 default:
                                     tem = tmaxByECSK(stationLists[i].Id, dt, sc, ref error);
                                     break;
@@ -584,6 +601,7 @@ namespace 呼和浩特市精细化天气预报评分系统_数据库
                                 Tmax = tem,
                             });
                         }
+                        count++;
                     }
                 }
                 else
@@ -592,6 +610,9 @@ namespace 呼和浩特市精细化天气预报评分系统_数据库
                     {
                         case "ECSK"://根据不同的公式定义，执行不同的计算
                             stationLists[i].Tmax = tmaxByECSK(stationLists[i].Id, dt, sc, ref error);
+                            break;
+                        case "GJZNSK"://根据不同的公式定义，执行不同的计算
+                            stationLists[i].Tmax = tmaxByGJZNSK(stationLists[i].Id, dt, sc, ref error);
                             break;
                         default:
                             stationLists[i].Tmax = tmaxByECSK(stationLists[i].Id, dt, sc, ref error);
@@ -613,6 +634,9 @@ namespace 呼和浩特市精细化天气预报评分系统_数据库
                                 case "ECSK"://根据不同的公式定义，执行不同的计算
                                     stationLists[i].Tmin = tminByECSK(stationLists[i].Id, dt, sc, ref error);
                                     break;
+                                case "GJZNSK"://根据不同的公式定义，执行不同的计算
+                                    stationLists[i].Tmin = tminByGJZNSK(stationLists[i].Id, dt, sc, ref error);
+                                    break;
                                 default:
                                     stationLists[i].Tmin = tminByECSK(stationLists[i].Id, dt, sc, ref error);
                                     break;
@@ -627,6 +651,9 @@ namespace 呼和浩特市精细化天气预报评分系统_数据库
                                 case "ECSK"://根据不同的公式定义，执行不同的计算
                                     tem = tminByECSK(stationLists[i].Id, dt, sc, ref error);
                                     break;
+                                case "GJZNSK"://根据不同的公式定义，执行不同的计算
+                                    tem = tminByGJZNSK(stationLists[i].Id, dt, sc, ref error);
+                                    break;
                                 default:
                                     tem = tminByECSK(stationLists[i].Id, dt, sc, ref error);
                                     break;
@@ -638,6 +665,7 @@ namespace 呼和浩特市精细化天气预报评分系统_数据库
                                 Tmin = tem,
                             });
                         }
+                        count++;
                     }
                 }
                 else
@@ -646,6 +674,9 @@ namespace 呼和浩特市精细化天气预报评分系统_数据库
                     {
                         case "ECSK"://根据不同的公式定义，执行不同的计算
                             stationLists[i].Tmin = tminByECSK(stationLists[i].Id, dt, sc, ref error);
+                            break;
+                        case "GJZNSK"://根据不同的公式定义，执行不同的计算
+                            stationLists[i].Tmin = tminByGJZNSK(stationLists[i].Id, dt, sc, ref error);
                             break;
                         default:
                             stationLists[i].Tmin = tminByECSK(stationLists[i].Id, dt, sc, ref error);
@@ -774,7 +805,7 @@ namespace 呼和浩特市精细化天气预报评分系统_数据库
                             sqlman.Parameters.AddWithValue("@sc", sc);
                             sqlman.Parameters.AddWithValue("@tem", Math.Round(eCList.ys, 2));
                             sqlman.Parameters.AddWithValue("@sx", eCList.sx);
-                            sqlman.Parameters.AddWithValue("@gs", stationList.tmaxGS);
+                            sqlman.Parameters.AddWithValue("@gs", stationList.tminGS);
                             sw.Start();
                             try
                             {
@@ -794,7 +825,7 @@ namespace 呼和浩特市精细化天气预报评分系统_数据库
                                 sqlman.Parameters.AddWithValue("@sc", sc);
                                 sqlman.Parameters.AddWithValue("@tem", Math.Round(eCList.ys, 2));
                                 sqlman.Parameters.AddWithValue("@sx", eCList.sx);
-                                sqlman.Parameters.AddWithValue("@gs", stationList.tmaxGS);
+                                sqlman.Parameters.AddWithValue("@gs", stationList.tminGS);
                                 sw.Start();
                                 try
                                 {
@@ -1209,15 +1240,7 @@ namespace 呼和浩特市精细化天气预报评分系统_数据库
                 {
                     eCLists[count].ys = Convert.ToSingle(Math.Round(eCListCZ.ys + eCLists[count].ys, 2));
                 }
-                if (i >= 72)
-                {
-                    i = i + 3;
-                    eCLists.Add(new ECList()
-                    {
-                        ys = 888888,
-                        sx = i
-                    });
-                }
+                
 
 
             }
@@ -1404,6 +1427,180 @@ namespace 呼和浩特市精细化天气预报评分系统_数据库
             return eCLists;
         }
 
+        public List<ECList> tmaxByGJZNSK(string stationID, DateTime dt, int sc, ref string error)
+        {
+            List<SKList> sKLists = new List<SKList>();
+            List<ECList> eCLists = new List<ECList>();
+            List<ECList> ecTmaxLists = new List<ECList>();
+            SKList sKTmax = new SKList();
+            DateTime dtls = Convert.ToDateTime(dt.ToString("yyyy-MM-dd " + sc.ToString().PadLeft(2, '0') + ":00:00"));
+            using (SqlConnection mycon = new SqlConnection(con))
+            {
+                try
+                {
+                    mycon.Open();//打开
+
+                    string sqlString = "";
+                    for (int i = -24; i < 0; i++)
+                    {
+                        DateTime dtls2 = dtls.AddHours(i);
+                        sqlString += string.Format("(Date = '{0:yyyy-MM-dd}') AND (sc = '{0:HH" + "}') OR", dtls2);
+                    }
+                    try
+                    {
+                        sqlString = sqlString.Substring(0, sqlString.Length - 3);
+                    }
+                    catch { }
+                    string sql = String.Format("select * from SK where Tmax<200 and Tmax>-200 and StationID='{0}' and (" + sqlString + ')', stationID);  //SQL查询语句 (Name,StationID,Date)。按照数据库中的表的字段顺序保存
+                    SqlCommand sqlman = new SqlCommand(sql, mycon);
+                    SqlDataReader sqlreader = sqlman.ExecuteReader();
+                    while (sqlreader.Read())
+                    {
+                        try
+                        {
+                            sKLists.Add(new SKList()
+                            {
+                                ys = sqlreader.IsDBNull(sqlreader.GetOrdinal("Tmax")) ? 999999 : sqlreader.GetFloat(sqlreader.GetOrdinal("Tmax")),
+                                sx = 24 - Convert.ToInt32(dtls.Subtract(sqlreader.GetDateTime(sqlreader.GetOrdinal("date")).AddHours(sqlreader.GetInt32(sqlreader.GetOrdinal("sc")))).TotalHours)//用24减是为了时效与EC预报对齐
+                            });
+                        }
+                        catch (Exception ex)
+                        {
+                            error += ex.Message + "\r\n";
+                        }
+                    }
+
+
+                }
+                catch (Exception ex)
+                {
+
+                    error += ex.Message + "\r\n";
+                }
+            }
+            XmlConfig util = new XmlConfig(Environment.CurrentDirectory + @"\config\智能网格设置.xml");
+            string con2 = util.Read("OtherConfig", "DB");
+            using (SqlConnection mycon = new SqlConnection(con2))
+            {
+                try
+                {
+                    mycon.Open();//打开
+                    string sql = String.Format("select * from 全国智能网格预报服务产品3h240 where StatioID='{0}' and date='{1:yyyy-MM-dd}' and sc='{2}' and sx<'96'", stationID, dt.AddDays(-1), sc);  //SQL查询语句 (Name,StationID,Date)。按照数据库中的表的字段顺序保存
+                    SqlCommand sqlman = new SqlCommand(sql, mycon);
+                    SqlDataReader sqlreader = sqlman.ExecuteReader();
+                    while (sqlreader.Read())
+                    {
+                        try
+                        {
+                            eCLists.Add(new ECList()
+                            {
+                                ys = sqlreader.IsDBNull(sqlreader.GetOrdinal("TEM")) ? -999999 : sqlreader.GetFloat(sqlreader.GetOrdinal("TEM")),
+                                sx = sqlreader.GetInt16(sqlreader.GetOrdinal("SX"))
+                            });
+                        }
+                        catch (Exception ex)
+                        {
+                            error += ex.Message + "\r\n";
+                        }
+                    }
+
+
+                }
+                catch (Exception ex)
+                {
+
+                    error += ex.Message + "\r\n";
+                }
+            }
+            List<ECList> listLS = eCLists.FindAll(y => y.sx < 24);
+            float tmaxls = -999999;
+            foreach (ECList eCList in listLS)
+            {
+                if (eCList.ys > tmaxls)
+                    tmaxls = eCList.ys;
+            }
+            ecTmaxLists.Add(new ECList()
+            {
+                ys = tmaxls,
+                sx = 24
+            });
+            listLS = eCLists.FindAll(y => y.sx >= 24 && y.sx < 48);
+            tmaxls = -999999;
+            foreach (ECList eCList in listLS)
+            {
+                if (eCList.ys > tmaxls)
+                    tmaxls = eCList.ys;
+            }
+            ecTmaxLists.Add(new ECList()
+            {
+                ys = tmaxls,
+                sx = 48
+            });
+            listLS = eCLists.FindAll(y => y.sx >= 48 && y.sx < 72);
+            tmaxls = -999999;
+            foreach (ECList eCList in listLS)
+            {
+                if (eCList.ys > tmaxls)
+                    tmaxls = eCList.ys;
+            }
+            ecTmaxLists.Add(new ECList()
+            {
+                ys = tmaxls,
+                sx = 72
+            });
+            listLS = eCLists.FindAll(y => y.sx >= 72 && y.sx < 96);
+            tmaxls = -999999;
+            foreach (ECList eCList in listLS)
+            {
+                if (eCList.ys > tmaxls)
+                    tmaxls = eCList.ys;
+            }
+            ecTmaxLists.Add(new ECList()
+            {
+                ys = tmaxls,
+                sx = 96
+            });
+            List<SKList> sklistLS = sKLists.FindAll(y => y.sx < 24);
+            tmaxls = -999999;
+            foreach (SKList sk in sKLists)
+            {
+                if (sk.ys > tmaxls)
+                    tmaxls = sk.ys;
+            }
+            sKTmax.sx = 24;
+            sKTmax.ys = tmaxls;
+            ECList eCListLS = ecTmaxLists.Find(y => y.sx == 24);
+            ecTmaxLists[ecTmaxLists.IndexOf(eCListLS)].ys = sKTmax.ys - eCListLS.ys;
+            eCListLS = ecTmaxLists.Find(y => y.sx == 24);
+            foreach (ECList ee in ecTmaxLists)
+            {
+                if (ee.sx > 24)
+                {
+                    int count = ecTmaxLists.IndexOf(ee);
+                    ecTmaxLists[count].ys += eCListLS.ys;
+                }
+            }
+            eCLists = new List<ECList>();
+            foreach (ECList ee in ecTmaxLists)
+            {
+
+                if (ee.sx > 24)
+                {
+                    if (ee.ys > 200 || ee.ys < -200)
+                    {
+                        error += stationID + dt.ToString("yyyy年MM月dd日") + (ee.sx - 24) + "小时高温异常\r\n";
+                    }
+                    eCLists.Add(new ECList()
+                    {
+                        ys = ee.ys,
+                        sx = ee.sx - 24
+                    });
+                }
+            }
+            eCLists = eCLists.OrderBy(y => y.sx).ToList();
+            return eCLists;
+        }
+
         public List<ECList> tminByECSK(string stationID, DateTime dt, int sc, ref string error)
         {
             List<SKList> sKLists = new List<SKList>();
@@ -1470,6 +1667,180 @@ namespace 呼和浩特市精细化天气预报评分系统_数据库
                             eCLists.Add(new ECList()
                             {
                                 ys = sqlreader.IsDBNull(sqlreader.GetOrdinal("TEF0")) ? -999999 : sqlreader.GetFloat(sqlreader.GetOrdinal("TEF0")),
+                                sx = sqlreader.GetInt16(sqlreader.GetOrdinal("SX"))
+                            });
+                        }
+                        catch (Exception ex)
+                        {
+                            error += ex.Message + "\r\n";
+                        }
+                    }
+
+
+                }
+                catch (Exception ex)
+                {
+
+                    error += ex.Message + "\r\n";
+                }
+            }
+            List<ECList> listLS = eCLists.FindAll(y => y.sx < 24);
+            float tminls = 999999;
+            foreach (ECList eCList in listLS)
+            {
+                if (eCList.ys < tminls)
+                    tminls = eCList.ys;
+            }
+            ecTminLists.Add(new ECList()
+            {
+                ys = tminls,
+                sx = 24
+            });
+            listLS = eCLists.FindAll(y => y.sx >= 24 && y.sx < 48);
+            tminls = 999999;
+            foreach (ECList eCList in listLS)
+            {
+                if (eCList.ys < tminls)
+                    tminls = eCList.ys;
+            }
+            ecTminLists.Add(new ECList()
+            {
+                ys = tminls,
+                sx = 48
+            });
+            listLS = eCLists.FindAll(y => y.sx >= 48 && y.sx < 72);
+            tminls = 999999;
+            foreach (ECList eCList in listLS)
+            {
+                if (eCList.ys < tminls)
+                    tminls = eCList.ys;
+            }
+            ecTminLists.Add(new ECList()
+            {
+                ys = tminls,
+                sx = 72
+            });
+            listLS = eCLists.FindAll(y => y.sx >= 72 && y.sx < 96);
+            tminls = 999999;
+            foreach (ECList eCList in listLS)
+            {
+                if (eCList.ys < tminls)
+                    tminls = eCList.ys;
+            }
+            ecTminLists.Add(new ECList()
+            {
+                ys = tminls,
+                sx = 96
+            });
+            List<SKList> sklistLS = sKLists.FindAll(y => y.sx < 24);
+            tminls = 999999;
+            foreach (SKList sk in sKLists)
+            {
+                if (sk.ys < tminls)
+                    tminls = sk.ys;
+            }
+            sKTmin.sx = 24;
+            sKTmin.ys = tminls;
+            ECList eCListLS = ecTminLists.Find(y => y.sx == 24);
+            ecTminLists[ecTminLists.IndexOf(eCListLS)].ys = sKTmin.ys - eCListLS.ys;
+            eCListLS = ecTminLists.Find(y => y.sx == 24);
+            foreach (ECList ee in ecTminLists)
+            {
+                if (ee.sx > 24)
+                {
+                    int count = ecTminLists.IndexOf(ee);
+                    ecTminLists[count].ys += eCListLS.ys;
+                }
+            }
+            eCLists = new List<ECList>();
+            foreach (ECList ee in ecTminLists)
+            {
+
+                if (ee.sx > 24)
+                {
+                    if (ee.ys > 200 || ee.ys < -200)
+                    {
+                        error += stationID + dt.ToString("yyyy年MM月dd日") + (ee.sx - 24) + "小时低温异常\r\n";
+                    }
+                    eCLists.Add(new ECList()
+                    {
+                        ys = ee.ys,
+                        sx = ee.sx - 24
+                    });
+                }
+            }
+            eCLists = eCLists.OrderBy(y => y.sx).ToList();
+            return eCLists;
+        }
+
+        public List<ECList> tminByGJZNSK(string stationID, DateTime dt, int sc, ref string error)
+        {
+            List<SKList> sKLists = new List<SKList>();
+            List<ECList> eCLists = new List<ECList>();
+            List<ECList> ecTminLists = new List<ECList>();
+            SKList sKTmin = new SKList();
+            DateTime dtls = Convert.ToDateTime(dt.ToString("yyyy-MM-dd " + sc.ToString().PadLeft(2, '0') + ":00:00"));
+            using (SqlConnection mycon = new SqlConnection(con))
+            {
+                try
+                {
+                    mycon.Open();//打开
+
+                    string sqlString = "";
+                    for (int i = -24; i < 0; i++)
+                    {
+                        DateTime dtls2 = dtls.AddHours(i);
+                        sqlString += string.Format("(Date = '{0:yyyy-MM-dd}') AND (sc = '{0:HH" + "}') OR", dtls2);
+                    }
+                    try
+                    {
+                        sqlString = sqlString.Substring(0, sqlString.Length - 3);
+                    }
+                    catch { }
+                    string sql = String.Format("select * from SK where Tmin<200 and Tmin>-200 and StationID='{0}' and (" + sqlString + ')', stationID);  //SQL查询语句 (Name,StationID,Date)。按照数据库中的表的字段顺序保存
+                    SqlCommand sqlman = new SqlCommand(sql, mycon);
+                    SqlDataReader sqlreader = sqlman.ExecuteReader();
+                    while (sqlreader.Read())
+                    {
+                        try
+                        {
+                            sKLists.Add(new SKList()
+                            {
+                                ys = sqlreader.IsDBNull(sqlreader.GetOrdinal("Tmin")) ? 999999 : sqlreader.GetFloat(sqlreader.GetOrdinal("Tmin")),
+                                sx = 24 - Convert.ToInt32(dtls.Subtract(sqlreader.GetDateTime(sqlreader.GetOrdinal("date")).AddHours(sqlreader.GetInt32(sqlreader.GetOrdinal("sc")))).TotalHours)//用24减是为了时效与EC预报对齐
+                            });
+                        }
+                        catch (Exception ex)
+                        {
+                            error += ex.Message + "\r\n";
+                        }
+                    }
+
+
+                }
+                catch (Exception ex)
+                {
+
+                    error += ex.Message + "\r\n";
+                }
+            }
+            XmlConfig util = new XmlConfig(Environment.CurrentDirectory + @"\config\智能网格设置.xml");
+            string con2 = util.Read("OtherConfig", "DB");
+            using (SqlConnection mycon = new SqlConnection(con2))
+            {
+                try
+                {
+                    mycon.Open();//打开
+                    string sql = String.Format("select * from 全国智能网格预报服务产品3h240 where StatioID='{0}' and date='{1:yyyy-MM-dd}' and sc='{2}' and sx<'96'", stationID, dt.AddDays(-1), sc);  //SQL查询语句 (Name,StationID,Date)。按照数据库中的表的字段顺序保存
+                    SqlCommand sqlman = new SqlCommand(sql, mycon);
+                    SqlDataReader sqlreader = sqlman.ExecuteReader();
+                    while (sqlreader.Read())
+                    {
+                        try
+                        {
+                            eCLists.Add(new ECList()
+                            {
+                                ys = sqlreader.IsDBNull(sqlreader.GetOrdinal("TEM")) ? -999999 : sqlreader.GetFloat(sqlreader.GetOrdinal("TEM")),
                                 sx = sqlreader.GetInt16(sqlreader.GetOrdinal("SX"))
                             });
                         }

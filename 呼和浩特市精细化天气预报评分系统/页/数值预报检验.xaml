@@ -1,0 +1,129 @@
+﻿<Page x:Class="呼和浩特市精细化天气预报评分系统.数值预报检验"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:呼和浩特市精细化天气预报评分系统"
+      mc:Ignorable="d" 
+      d:DesignHeight="550" d:DesignWidth="1000"
+      Title="数值预报检验">
+
+    <Page.Resources>
+        <Style x:Key="contentCenterStyle"  
+            TargetType="{x:Type TextBlock}">
+            <Setter Property="HorizontalAlignment"  
+                Value="Center" />
+        </Style>
+        <Style x:Key="DataGridStyle1" TargetType="{x:Type DataGrid}">
+            <Setter Property="Background" Value="{DynamicResource {x:Static SystemColors.ControlBrushKey}}"/>
+            <Setter Property="Foreground" Value="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}"/>
+            <Setter Property="BorderBrush" Value="#FF688CAF"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="RowDetailsVisibilityMode" Value="VisibleWhenSelected"/>
+            <Setter Property="ScrollViewer.CanContentScroll" Value="true"/>
+            <Setter Property="ScrollViewer.PanningMode" Value="Both"/>
+            <Setter Property="Stylus.IsFlicksEnabled" Value="False"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type DataGrid}">
+                        <Border BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" Background="{TemplateBinding Background}" Padding="{TemplateBinding Padding}" SnapsToDevicePixels="True">
+                            <ScrollViewer x:Name="DG_ScrollViewer" Focusable="false" FontSize="13">
+                                <ScrollViewer.Template>
+                                    <ControlTemplate TargetType="{x:Type ScrollViewer}">
+                                        <Grid>
+                                            <Grid.ColumnDefinitions>
+                                                <ColumnDefinition Width="Auto"/>
+                                                <ColumnDefinition Width="*"/>
+                                                <ColumnDefinition Width="Auto"/>
+                                            </Grid.ColumnDefinitions>
+                                            <Grid.RowDefinitions>
+                                                <RowDefinition Height="Auto"/>
+                                                <RowDefinition Height="*"/>
+                                                <RowDefinition Height="Auto"/>
+                                            </Grid.RowDefinitions>
+                                            <Button Command="{x:Static DataGrid.SelectAllCommand}" Focusable="false" Style="{DynamicResource {ComponentResourceKey ResourceId=DataGridSelectAllButtonStyle, TypeInTargetAssembly={x:Type DataGrid}}}" Visibility="{Binding HeadersVisibility, ConverterParameter={x:Static DataGridHeadersVisibility.All}, Converter={x:Static DataGrid.HeadersVisibilityConverter}, RelativeSource={RelativeSource AncestorType={x:Type DataGrid}}}" Width="{Binding CellsPanelHorizontalOffset, RelativeSource={RelativeSource AncestorType={x:Type DataGrid}}}"/>
+                                            <DataGridColumnHeadersPresenter x:Name="PART_ColumnHeadersPresenter" Grid.Column="1" Visibility="{Binding HeadersVisibility, ConverterParameter={x:Static DataGridHeadersVisibility.Column}, Converter={x:Static DataGrid.HeadersVisibilityConverter}, RelativeSource={RelativeSource AncestorType={x:Type DataGrid}}}"/>
+                                            <ScrollContentPresenter x:Name="PART_ScrollContentPresenter" CanContentScroll="{TemplateBinding CanContentScroll}" Grid.ColumnSpan="2" Grid.Row="1"/>
+                                            <ScrollBar x:Name="PART_VerticalScrollBar" Grid.Column="2" Maximum="{TemplateBinding ScrollableHeight}" Orientation="Vertical" Grid.Row="1" Visibility="{TemplateBinding ComputedVerticalScrollBarVisibility}" Value="{Binding VerticalOffset, Mode=OneWay, RelativeSource={RelativeSource TemplatedParent}}" ViewportSize="{TemplateBinding ViewportHeight}"/>
+                                            <Grid Grid.Column="1" Grid.Row="2">
+                                                <Grid.ColumnDefinitions>
+                                                    <ColumnDefinition Width="{Binding NonFrozenColumnsViewportHorizontalOffset, RelativeSource={RelativeSource AncestorType={x:Type DataGrid}}}"/>
+                                                    <ColumnDefinition Width="*"/>
+                                                </Grid.ColumnDefinitions>
+                                                <ScrollBar x:Name="PART_HorizontalScrollBar" Grid.Column="1" Maximum="{TemplateBinding ScrollableWidth}" Orientation="Horizontal" Visibility="{TemplateBinding ComputedHorizontalScrollBarVisibility}" Value="{Binding HorizontalOffset, Mode=OneWay, RelativeSource={RelativeSource TemplatedParent}}" ViewportSize="{TemplateBinding ViewportWidth}"/>
+                                            </Grid>
+                                        </Grid>
+                                    </ControlTemplate>
+                                </ScrollViewer.Template>
+                                <ItemsPresenter SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}"/>
+                            </ScrollViewer>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Style.Triggers>
+                <MultiTrigger>
+                    <MultiTrigger.Conditions>
+                        <Condition Property="IsGrouping" Value="true"/>
+
+                    </MultiTrigger.Conditions>
+                    <Setter Property="ScrollViewer.CanContentScroll" Value="false"/>
+                </MultiTrigger>
+            </Style.Triggers>
+        </Style>
+    </Page.Resources>
+    <Grid Margin="10,10,0,0">
+        <DataGrid x:Name="GRPFList"  ItemsSource="{Binding}" HorizontalAlignment="Left" Height="361" Margin="24,116,0,0" VerticalAlignment="Top"  AutoGenerateColumns="False" VerticalContentAlignment="Center" VerticalScrollBarVisibility="Visible" FontSize="14" IsReadOnly="True" BorderBrush="#FF1654AE" Style="{DynamicResource DataGridStyle1}" HorizontalContentAlignment="Center" >
+            <DataGrid.ColumnHeaderStyle>
+                <Style 
+                    TargetType="{x:Type DataGridColumnHeader}">
+                    <Setter 
+                        Property="HorizontalContentAlignment" Value="Center"/>
+                </Style>
+
+
+            </DataGrid.ColumnHeaderStyle>
+
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="站点名称" Binding="{Binding Name}" Width="100" ElementStyle="{StaticResource contentCenterStyle}" FontSize="16" />
+                <DataGridTextColumn x:Name="Dgc0" Header="0小时" Binding="{Binding Zql0}" Width="75" ElementStyle="{StaticResource contentCenterStyle}" FontSize="16" />
+                <DataGridTextColumn x:Name="Dgc3" Header="3小时" Binding="{Binding Zql3}" FontSize="18" Width="75" ElementStyle="{StaticResource contentCenterStyle}" />
+                <DataGridTextColumn x:Name="Dgc6" Header="6小时" Binding="{Binding Zql6}" Width="75" ElementStyle="{StaticResource contentCenterStyle}" FontSize="16" />
+                <DataGridTextColumn  x:Name="Dgc9" Header="9小时" Binding="{Binding Zql9}" Width="75" ElementStyle="{StaticResource contentCenterStyle}" FontSize="16" />
+                <DataGridTextColumn  x:Name="Dgc12" Header="12小时" Binding="{Binding Zql12}" Width="75" ElementStyle="{StaticResource contentCenterStyle}" FontSize="16" />
+                <DataGridTextColumn x:Name="Dgc15" Header="15小时" Binding="{Binding Zql15}" FontSize="18" Width="75" ElementStyle="{StaticResource contentCenterStyle}" SortMemberPath=""  />
+                <DataGridTextColumn x:Name="Dgc18" Header="18小时" Binding="{Binding Zql18}" FontSize="18" Width="75" ElementStyle="{StaticResource contentCenterStyle}" />
+                <DataGridTextColumn x:Name="Dgc21" Header="21小时" Binding="{Binding Zql21}" FontSize="18" Width="75" ElementStyle="{StaticResource contentCenterStyle}" />
+                <DataGridTextColumn Header="平均准确率" Binding="{Binding ZqlPJ}" FontSize="18" Width="75" ElementStyle="{StaticResource contentCenterStyle}"  />
+                <DataGridTextColumn Header="高温准确率" Binding="{Binding ZqlGW}" FontSize="18" Width="75" ElementStyle="{StaticResource contentCenterStyle}"  />
+                <DataGridTextColumn Header="低温准确率" Binding="{Binding ZqlDW}" FontSize="18" Width="75" ElementStyle="{StaticResource contentCenterStyle}" />
+
+            </DataGrid.Columns>
+
+        </DataGrid>
+        <DatePicker x:Name="sDate"  HorizontalAlignment="Left" Margin="441,40,0,0" VerticalAlignment="Top" Height="28" Width="130" BorderBrush="Black"  Background="White" IsTodayHighlighted="True" SelectedDateFormat="Long" SelectedDateChanged="sDate_SelectedDateChanged"/>
+        <DatePicker x:Name="eDate" HorizontalAlignment="Left" Margin="584,41,0,0" VerticalAlignment="Top" Height="28" Width="130" BorderBrush="Black" Background="White" IsTodayHighlighted="False" SelectedDateFormat="Long"/>
+        <Label x:Name="labelStartdate" Content="开始日期" HorizontalAlignment="Left" Margin="473,9,0,0" VerticalAlignment="Top" Height="26" Width="58" RenderTransformOrigin="-2.466,0.5"/>
+        <Label x:Name="labelEnddate" Content="结束日期" HorizontalAlignment="Left" Margin="615,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.362,3" Height="26" Width="58"/>
+        <Label x:Name="BTLabel" Content="" HorizontalAlignment="Left" Margin="141,78,0,0" VerticalAlignment="Top" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Width="659" FontSize="20" FontFamily="楷体"/>
+        <Button x:Name="CXButton" Content="查询" HorizontalAlignment="Left" Margin="726,43,0,0" VerticalAlignment="Top" Width="110" Height="27" Click="CXButton_Click" Background="#FF5BABEE" Foreground="White"/>
+
+        <Button x:Name="DCButton" Content="导出" HorizontalAlignment="Left" Margin="850,42,0,0" VerticalAlignment="Top" Width="110" Height="27" Background="#FF5BABEE" Foreground="White" Click="DCButton_Click"/>
+        <ComboBox x:Name="SXSelect" SelectedIndex="0" HorizontalAlignment="Left" SelectionChanged="SXSelect_SelectionChanged" Margin="48,42,0,0" VerticalAlignment="Top" Width="110" Background="#FF5BABEE" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Height="27" FontSize="16" FontStretch="ExtraExpanded" >
+            <ComboBoxItem Content="24小时" Height="30" Width="100"/>
+            <ComboBoxItem Content="48小时" Height="30" Width="100"/>
+            <ComboBoxItem Content="72小时" Height="30" Width="100"/>
+        </ComboBox>
+        <Label Content="时效" HorizontalAlignment="Left" Margin="79,11,0,0" VerticalAlignment="Top"/>
+        <ComboBox x:Name="GSSelect" SelectedIndex="0" HorizontalAlignment="Left" Margin="303,42,0,0" VerticalAlignment="Top" Width="110" Background="#FF5BABEE" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Height="27" FontSize="16" FontStretch="ExtraExpanded" >
+
+        </ComboBox>
+        <Label Content="公式" HorizontalAlignment="Left" Margin="334,11,0,0" VerticalAlignment="Top"/>
+        <ComboBox x:Name="SCSelect" SelectedIndex="0" HorizontalAlignment="Left"  Margin="179,41,0,0" VerticalAlignment="Top" Width="110" Background="#FF5BABEE" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Height="27" FontSize="16" FontStretch="ExtraExpanded" >
+            <ComboBoxItem Content="08" Height="30" Width="100"/>
+            <ComboBoxItem Content="20" Height="30" Width="100"/>
+        </ComboBox>
+        <Label Content="时次" HorizontalAlignment="Left" Margin="210,10,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Page>

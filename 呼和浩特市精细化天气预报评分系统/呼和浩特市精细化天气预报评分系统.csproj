@@ -85,10 +85,15 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="ConfigClass1.cs" />
     <Compile Include="Style\CustomWindow.xaml.cs" />
     <Compile Include="tjClass.cs" />
+    <Compile Include="XmlConfig.cs" />
     <Compile Include="中央导入窗口.xaml.cs">
       <DependentUpon>中央导入窗口.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="页\数值预报检验.xaml.cs">
+      <DependentUpon>数值预报检验.xaml</DependentUpon>
     </Compile>
     <Compile Include="页\登录记录查询页.xaml.cs">
       <DependentUpon>登录记录查询页.xaml</DependentUpon>
@@ -129,6 +134,10 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Include="中央导入窗口.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="页\数值预报检验.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>

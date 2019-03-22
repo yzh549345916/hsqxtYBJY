@@ -27,6 +27,10 @@ namespace 呼和浩特市精细化天气预报评分系统
         {
             this.frame.Source = new Uri("/页/预报考核查询页.xaml", UriKind.Relative);
         }
+        private void 数值预报检验_Selected(object sender, RoutedEventArgs e)
+        {
+            this.frame.Source = new Uri("/页/数值预报检验.xaml", UriKind.Relative);
+        }
         private void 个人评分72小时_Selected(object sender, RoutedEventArgs e)
         {
             this.frame.Source = new Uri("/页/个人评分72h页.xaml", UriKind.Relative);

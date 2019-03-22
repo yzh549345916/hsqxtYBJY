@@ -98,7 +98,9 @@ namespace 呼和浩特市精细化天气预报评分系统_数据库
 
         private void SJYBHF_Click(object sender, RoutedEventArgs e)
         {
-          
+            ClassSZYB classSZYB = new ClassSZYB();
+            string error = "";
+            classSZYB.temByGJZNSK("53463", DateTime.Now, 8, ref error);
 
         }
         #region 窗口状态改变

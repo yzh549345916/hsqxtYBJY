@@ -13,7 +13,8 @@
                     <TreeViewItem Header="预报考核查询" Height="30" HorizontalAlignment="Left" Width="212" Selected="预报考核查询_Selected"/>
                     <TreeViewItem Header="个人评分72小时" Height="30" HorizontalAlignment="Left" Width="212" Selected="个人评分72小时_Selected"/>
                     <TreeViewItem Header="逐日详情查询" Height="30" HorizontalAlignment="Left" Width="212" Selected="逐日详情查询_Selected"/>
-                  <TreeViewItem Header="值班记录查询" Height="30" HorizontalAlignment="Left" Width="212" Selected="登录记录查询_Selected"/>
+                    <TreeViewItem Header="数值预报检验" Height="30" HorizontalAlignment="Left" Width="212" Selected="数值预报检验_Selected"/>
+                    <TreeViewItem Header="值班记录查询" Height="30" HorizontalAlignment="Left" Width="212" Selected="登录记录查询_Selected"/>
                 </TreeViewItem>
             </TreeView>
             <Frame x:Name="frame" Content="" HorizontalAlignment="Left" Height="550" Margin="268,22,0,0" VerticalAlignment="Top" Width="1124"/>

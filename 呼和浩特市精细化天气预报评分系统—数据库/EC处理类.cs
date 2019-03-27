@@ -34,6 +34,11 @@ namespace 呼和浩特市精细化天气预报评分系统_数据库
             
             List<ZDList> d = HQJWDSQL(ref error);
             double[] dbsz1 = HQWDJDFW(d,ref error);
+            error=ECGKRK(d,dbsz1, strTime, sc, ref count);
+            if(error.Length>0)
+            {
+                error = "获取EC高空数据异常：" + error;
+            }
             List<SXList> sXLists = new List<SXList>();
             using (SqlConnection mycon = new SqlConnection(con))
             {
@@ -106,6 +111,100 @@ namespace 呼和浩特市精细化天气预报评分系统_数据库
             return error;
         }
 
+        public string ECGKRK(List<ZDList> d,double[] dbsz1, string strTime, Int16 sc, ref int count)
+        {
+            string error = "";
+            try
+            {
+                count = 0;
+                
+                List<SXList> sXLists = new List<SXList>();
+                using (SqlConnection mycon = new SqlConnection(con))
+                {
+                    try
+                    {
+                        mycon.Open();//打开
+                        string sql = "select * from SX where dataname='EC东北亚地区' ORDER BY XH";  //SQL查询语句 (Name,StationID,Date)。按照数据库中的表的字段顺序保存
+                        SqlCommand sqlman = new SqlCommand(sql, mycon);
+                        SqlDataReader sqlreader = sqlman.ExecuteReader();
+                        while (sqlreader.Read())
+                        {
+                            try
+                            {
+                                string ysname = sqlreader.GetString(sqlreader.GetOrdinal("YSName"));
+                                //要素名最后_分割高度层次，防止前面出现_字符，因此如下赋值
+                                sXLists.Add(new SXList()
+                                {
+                                    ysName = ysname.Replace('_' + ysname.Split('_')[ysname.Split('_').Length - 1], ""),
+                                    sx = sqlreader.GetString(sqlreader.GetOrdinal("sx")),
+                                    fcstLevel = Convert.ToInt32(ysname.Split('_')[ysname.Split('_').Length - 1]),
+                                    minSX = sqlreader.GetInt32(sqlreader.GetOrdinal("minXS")),
+                                    maxSX = sqlreader.GetInt32(sqlreader.GetOrdinal("maxXS")),
+                                });
+                            }
+                            catch (Exception ex)
+                            {
+                                error += ex.Message + "\r\n";
+                            }
+                        }
+
+
+                    }
+                    catch (Exception ex)
+                    {
+
+                        error += ex.Message + "\r\n";
+                    }
+                }
+                if (sXLists.Count > 0)
+                {
+                    foreach (SXList sXList in sXLists)
+                    {
+                        try
+                        {
+                            string[] szls = sXList.sx.Split(',');
+
+                            foreach (string sx in szls)
+                            {
+                                if (PDECSJ(strTime, sc, sx, sXList.ysName + '_' + sXList.fcstLevel, sXList.minSX, sXList.maxSX))
+                                {
+                                    string strData = CIMISSECGKbyTimeJWD(strTime, sc, sx, sXList.fcstLevel.ToString(), sXList.ysName, dbsz1[0], dbsz1[1], dbsz1[2], dbsz1[3], ref error);
+                                    if (strData.Length > 0 && d.Count > 0)
+                                    {
+                                        CLEC(strTime, sc, sx, sXList.ysName + '_' + sXList.fcstLevel, strData, d, sXList.minSX, sXList.maxSX, ref error);
+                                        count++;
+                                    }
+
+                                }
+                            }
+                            //时效间隔3小时
+                            if (sXList.minSX == 3)
+                            {
+
+                            }
+                            //24小时
+                            else
+                            {
+
+                            }
+
+
+                        }
+                        catch (Exception ex)
+                        {
+                        }
+                    }
+                }
+            }
+            catch(Exception ex)
+            {
+                error += ex.Message + "\r\n";
+            }
+
+
+            return error;
+        }
+
         /// <summary>
         /// 如果有数据不存在则返回true
         /// </summary>
@@ -121,7 +220,7 @@ namespace 呼和浩特市精细化天气预报评分系统_数据库
                 using (SqlConnection mycon = new SqlConnection(con))
                 {
                     mycon.Open();//打开
-                    string sql = String.Format("SELECT * from EC预报 where date='{0}' and sc='{1}' and sx='{2}' and {3} is  null", strTime, sc, sx, ysName);  //SQL查询语句 (Name,StationID,Date)。按照数据库中的表的字段顺序保存
+                    string sql = String.Format("SELECT * from EC预报 where date='{0}' and sc='{1}' and sx='{2}' and ({3} is  null or {3}<-10000)", strTime, sc, sx, ysName);  //SQL查询语句 (Name,StationID,Date)。按照数据库中的表的字段顺序保存
                     SqlCommand sqlman = new SqlCommand(sql, mycon);
                     SqlDataReader dr = sqlman.ExecuteReader(); dr.Read();
                     if (dr.HasRows)
@@ -223,6 +322,86 @@ namespace 呼和浩特市精细化天气预报评分系统_数据库
 
                     //error += strData + "\r\n";
                     error += strTime + "日" + (sc+8) + "时" + sx.ToString().PadLeft(2, '0') + fcstEle +
+                             "获取失败\r\n";
+
+                    strData = "";
+                }
+            }
+            catch
+            {
+                strData = "";
+            }
+            return strData;
+        }
+
+        /// <summary>
+        /// 根据起报时间、时效、预报要素、经纬度范围从CIMISS获取EC地面要素格点数据
+        /// </summary>
+        /// <param name="strTime">起报时间，北京时格式：YYYYMMDD</param>
+        /// <param name="sx">预报时效</param>
+        /// <param name="cc">预报层次，如果没有则空，区局智能网格除了风要素是10意外都为空</param>
+        /// <param name="fcstEle">预报要素</param>
+        /// <param name="swd">起始纬度</param>
+        /// <param name="ewd">结束纬度</param>
+        /// <param name="sjd">起始经度</param>
+        /// <param name="ejd">结束经度</param>
+        /// <returns></returns>
+        public string CIMISSECGKbyTimeJWD(string strTime, Int16 sc, string sx, string cc, string fcstEle, double swd, double ewd, double sjd, double ejd, ref string error)
+        {
+            /* 1. 定义client对象 */
+            DataQueryClient client = new DataQueryClient();
+
+            /* 2.   调用方法的参数定义，并赋值 */
+            /*   2.1 用户名&密码 */
+            String userId = "BEHT_BFHT_2131";// 
+            String pwd = "YZHHGDJM";// 
+            /*   2.2 接口ID */
+            String interfaceId1 = "getNafpEleGridInRectByTimeAndLevelAndValidtime";
+            /*   2.3 接口参数，多个参数间无顺序 */
+            Dictionary<String, String> paramsqx = new Dictionary<String, String>();
+            // 必选参数
+            paramsqx.Add("dataCode", "NAFP_FOR_FTM_HIGH_EC_ANEA"); // 资料代码
+            //检索时间段
+            if (sc == 8)
+                sc = 0;
+            else if (sc == 20)
+                sc = 12;
+            paramsqx.Add("time", strTime + sc.ToString().PadLeft(2, '0') + "0000");
+            paramsqx.Add("minLon", sjd.ToString());
+            paramsqx.Add("maxLon", ejd.ToString());
+            paramsqx.Add("minLat", swd.ToString());
+            paramsqx.Add("maxLat", ewd.ToString());
+            paramsqx.Add("fcstEle", fcstEle);
+            paramsqx.Add("validTime", sx);
+            if (cc.Trim().Length > 0)
+                paramsqx.Add("fcstLevel", cc);
+
+            // 可选参数
+            //paramsqx.Add("orderby", "Station_ID_C:ASC"); // 排序：按照站号从小到大
+            /*   2.4 返回文件的格式 */
+            String dataFormat = "Text";
+            StringBuilder QXSK = new StringBuilder();//返回字符串
+            // 初始化接口服务连接资源
+            client.initResources();
+            // 调用接口
+            int rst = client.callAPI_to_serializedStr(userId, pwd, interfaceId1, paramsqx, dataFormat, QXSK);
+            // 释放接口服务连接资源
+            client.destroyResources();
+            string strData = Convert.ToString(QXSK);
+
+            try
+            {
+                string strLS = strData.Split('\n')[0].Split()[0].Split('=')[1];
+                rst = Convert.ToInt32(Regex.Replace(strLS, "\"", ""));
+                if (rst == 0)
+                {
+                    return strData;
+                }
+                else
+                {
+
+                    //error += strData + "\r\n";
+                    error += strTime + "日" + (sc + 8) + "时" + sx.ToString().PadLeft(2, '0') + fcstEle +
                              "获取失败\r\n";
 
                     strData = "";
@@ -459,6 +638,7 @@ namespace 呼和浩特市精细化天气预报评分系统_数据库
         {
             public string ysName { get; set; }
             public string sx { get; set; }
+            public int fcstLevel { get; set; }
             public int minSX { get; set; }
             public int maxSX { get; set; }
         }

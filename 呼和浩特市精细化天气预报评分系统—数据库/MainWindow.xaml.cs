@@ -98,7 +98,9 @@ namespace 呼和浩特市精细化天气预报评分系统_数据库
 
         private void SJYBHF_Click(object sender, RoutedEventArgs e)
         {
-
+            EC处理类 eC = new EC处理类();
+            int count = 0;
+            eC.ECYBRK("20190326", 20, ref count);
 
         }
 

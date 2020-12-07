@@ -469,8 +469,10 @@ namespace 呼和浩特市精细化天气预报评分系统_数据库
                                 tmaxGS = sqlreader.IsDBNull(sqlreader.GetOrdinal("tmaxGS")) ? "ECSK" : sqlreader.GetString(sqlreader.GetOrdinal("tmaxGS")),
                                 tminGS = sqlreader.IsDBNull(sqlreader.GetOrdinal("tminGS")) ? "ECSK" : sqlreader.GetString(sqlreader.GetOrdinal("tminGS")),
                                 PREGS = sqlreader.IsDBNull(sqlreader.GetOrdinal("PREGS")) ? "EC" : sqlreader.GetString(sqlreader.GetOrdinal("PREGS")),
-                                FXGS = sqlreader.IsDBNull(sqlreader.GetOrdinal("FXGS")) ? "ECSK" : sqlreader.GetString(sqlreader.GetOrdinal("FXGS")),
-                                FSGS = sqlreader.IsDBNull(sqlreader.GetOrdinal("FSGS")) ? "ECSK" : sqlreader.GetString(sqlreader.GetOrdinal("FSGS")),
+                                wind10vuGS = sqlreader.IsDBNull(sqlreader.GetOrdinal("wind10vuGS")) ? "ECSK" : sqlreader.GetString(sqlreader.GetOrdinal("wind10vuGS")),
+                             
+                                wind10jdvuGS = sqlreader.IsDBNull(sqlreader.GetOrdinal("wind10jdvuGS")) ? "ECSK" : sqlreader.GetString(sqlreader.GetOrdinal("wind10jdvuGS")),
+                                
                             });
                         }
                         catch(Exception ex)
@@ -493,6 +495,8 @@ namespace 呼和浩特市精细化天气预报评分系统_数据库
                 string temgs = stationLists[i].temGS;
                 string tmaxgs = stationLists[i].tmaxGS;
                 string tmings = stationLists[i].tminGS;
+                string wind10vuGS = stationLists[i].wind10vuGS;
+                string wind10jdvuGS = stationLists[i].wind10jdvuGS;
                 if (temgs.Split(',').Length>1)
                 {
                     Int16 count = 0;
@@ -684,9 +688,302 @@ namespace 呼和浩特市精细化天气预报评分系统_数据库
 
                     }
                 }
+                if (wind10vuGS.Split(',').Length > 1)
+                {
+                    Int16 count = 0;
+                    foreach (string gs in wind10vuGS.Split(','))
+                    {
+                        if (count == 0)
+                        {
+                            stationLists[i].wind10vuGS = gs;
+                            switch (gs)
+                            {
+                                case "ECSK"://根据不同的公式定义，执行不同的计算
+                                    stationLists[i].win10vu = wind10uvByECSK(stationLists[i].Id, dt, sc, ref error);
+                                    break;
+
+                                default:
+                                    stationLists[i].win10vu = wind10uvByECSK(stationLists[i].Id, dt, sc, ref error);
+                                    break;
+
+                            }
+                        }
+                        else
+                        {
+                            List<ECList> win10vu = new List<ECList>();
+                            switch (gs)
+                            {
+                                case "ECSK"://根据不同的公式定义，执行不同的计算
+                                    win10vu = wind10uvByECSK(stationLists[i].Id, dt, sc, ref error);
+                                    break;
+
+                                default:
+                                    win10vu = wind10uvByECSK(stationLists[i].Id, dt, sc, ref error);
+                                    break;
+                            }
+                            stationLists.Add(new StationList()
+                            {
+                                Id = stationLists[i].Id,
+                                wind10vuGS = gs,
+                                win10vu = win10vu,
+                            });
+                        }
+                        count++;
+                    }
+                }
+                else
+                {
+                    switch (wind10vuGS)
+                    {
+                        case "ECSK"://根据不同的公式定义，执行不同的计算
+                            stationLists[i].win10vu = wind10uvByECSK(stationLists[i].Id, dt, sc, ref error);
+                            break;
+                        default:
+                            stationLists[i].win10vu = wind10uvByECSK(stationLists[i].Id, dt, sc, ref error);
+                            break;
+
+                    }
+                }
+                if (wind10jdvuGS.Split(',').Length > 1)
+                {
+                    Int16 count = 0;
+                    foreach (string gs in wind10jdvuGS.Split(','))
+                    {
+                        if (count == 0)
+                        {
+                            stationLists[i].wind10jdvuGS = gs;
+                            switch (gs)
+                            {
+                                case "ECSK"://根据不同的公式定义，执行不同的计算
+                                    stationLists[i].win10vujd = wind10vujdByECSK(stationLists[i].Id, dt, sc, ref error);
+                                    break;
+
+                                default:
+                                    stationLists[i].win10vujd = wind10vujdByECSK(stationLists[i].Id, dt, sc, ref error);
+                                    break;
+
+                            }
+                        }
+                        else
+                        {
+                            List<ECList> win10vujd = new List<ECList>();
+                            switch (gs)
+                            {
+                                case "ECSK"://根据不同的公式定义，执行不同的计算
+                                    win10vujd = wind10vujdByECSK(stationLists[i].Id, dt, sc, ref error);
+                                    break;
+
+                                default:
+                                    win10vujd = wind10vujdByECSK(stationLists[i].Id, dt, sc, ref error);
+                                    break;
+                            }
+                            stationLists.Add(new StationList()
+                            {
+                                Id = stationLists[i].Id,
+                                wind10jdvuGS = gs,
+                                win10vujd = win10vujd,
+                            });
+                        }
+                        count++;
+                    }
+                }
+                else
+                {
+                    switch (wind10jdvuGS)
+                    {
+                        case "ECSK"://根据不同的公式定义，执行不同的计算
+                            stationLists[i].win10vujd = wind10vujdByECSK(stationLists[i].Id, dt, sc, ref error);
+                            break;
+                        default:
+                            stationLists[i].win10vujd = wind10vujdByECSK(stationLists[i].Id, dt, sc, ref error);
+                            break;
+
+                    }
+                }
 
             }
             return YBRK(stationLists, dt, sc, ref error);
+        }
+        public bool CLYBLS(DateTime dt, int sc, ref string error)
+        {
+            List<StationList> stationLists = new List<StationList>();
+            using (SqlConnection mycon = new SqlConnection(con))
+            {
+                try
+                {
+                    mycon.Open();//打开
+                    string sql = "select * from Station";  //SQL查询语句 (Name,StationID,Date)。按照数据库中的表的字段顺序保存
+                    SqlCommand sqlman = new SqlCommand(sql, mycon);
+                    SqlDataReader sqlreader = sqlman.ExecuteReader();
+                    while (sqlreader.Read())
+                    {
+                        try
+                        {
+                            stationLists.Add(new StationList()
+                            {
+                                Id = sqlreader.GetString(sqlreader.GetOrdinal("StatioID")),
+                                temGS = sqlreader.IsDBNull(sqlreader.GetOrdinal("temGS")) ? "ECSK" : sqlreader.GetString(sqlreader.GetOrdinal("temGS")),
+                                tmaxGS = sqlreader.IsDBNull(sqlreader.GetOrdinal("tmaxGS")) ? "ECSK" : sqlreader.GetString(sqlreader.GetOrdinal("tmaxGS")),
+                                tminGS = sqlreader.IsDBNull(sqlreader.GetOrdinal("tminGS")) ? "ECSK" : sqlreader.GetString(sqlreader.GetOrdinal("tminGS")),
+                                PREGS = sqlreader.IsDBNull(sqlreader.GetOrdinal("PREGS")) ? "EC" : sqlreader.GetString(sqlreader.GetOrdinal("PREGS")),
+                                wind10vuGS = sqlreader.IsDBNull(sqlreader.GetOrdinal("wind10vuGS")) ? "ECSK" : sqlreader.GetString(sqlreader.GetOrdinal("wind10vuGS")),
+
+                                wind10jdvuGS = sqlreader.IsDBNull(sqlreader.GetOrdinal("wind10jdvuGS")) ? "ECSK" : sqlreader.GetString(sqlreader.GetOrdinal("wind10jdvuGS")),
+
+                            });
+                        }
+                        catch (Exception ex)
+                        {
+                            error += ex.Message + "\r\n";
+                        }
+                    }
+
+
+                }
+                catch (Exception ex)
+                {
+
+                    error += ex.Message + "\r\n";
+                }
+            }
+            int countlS = stationLists.Count;
+            for (int i = 0; i < countlS; i++)
+            {
+
+                string wind10vuGS = stationLists[i].wind10vuGS;
+                string wind10jdvuGS = stationLists[i].wind10jdvuGS;
+                if (wind10vuGS.Split(',').Length > 1)
+                {
+                    Int16 count = 0;
+                    foreach (string gs in wind10vuGS.Split(','))
+                    {
+                        if (count == 0)
+                        {
+                            stationLists[i].wind10vuGS = gs;
+                            switch (gs)
+                            {
+                                case "ECSK"://根据不同的公式定义，执行不同的计算
+                                    stationLists[i].win10vu = wind10uvByECSK(stationLists[i].Id, dt, sc, ref error);
+                                    break;
+
+                                default:
+                                    stationLists[i].win10vu = wind10uvByECSK(stationLists[i].Id, dt, sc, ref error);
+                                    break;
+
+                            }
+                        }
+                        else
+                        {
+                            List<ECList> win10vu = new List<ECList>();
+                            switch (gs)
+                            {
+                                case "ECSK"://根据不同的公式定义，执行不同的计算
+                                    win10vu = wind10uvByECSK(stationLists[i].Id, dt, sc, ref error);
+                                    break;
+
+                                default:
+                                    win10vu = wind10uvByECSK(stationLists[i].Id, dt, sc, ref error);
+                                    break;
+                            }
+                            stationLists.Add(new StationList()
+                            {
+                                Id = stationLists[i].Id,
+                                wind10vuGS = gs,
+                                win10vu = win10vu,
+                            });
+                        }
+                        count++;
+                    }
+                }
+                else
+                {
+                    switch (wind10vuGS)
+                    {
+                        case "ECSK"://根据不同的公式定义，执行不同的计算
+                            stationLists[i].win10vu = wind10uvByECSK(stationLists[i].Id, dt, sc, ref error);
+                            break;
+                        default:
+                            stationLists[i].win10vu = wind10uvByECSK(stationLists[i].Id, dt, sc, ref error);
+                            break;
+
+                    }
+                }
+                if (wind10jdvuGS.Split(',').Length > 1)
+                {
+                    Int16 count = 0;
+                    foreach (string gs in wind10jdvuGS.Split(','))
+                    {
+                        if (count == 0)
+                        {
+                            stationLists[i].wind10jdvuGS = gs;
+                            switch (gs)
+                            {
+                                case "ECSK"://根据不同的公式定义，执行不同的计算
+                                    stationLists[i].win10vujd = wind10vujdByECSK(stationLists[i].Id, dt, sc, ref error);
+                                    break;
+
+                                default:
+                                    stationLists[i].win10vujd = wind10vujdByECSK(stationLists[i].Id, dt, sc, ref error);
+                                    break;
+
+                            }
+                        }
+                        else
+                        {
+                            List<ECList> win10vujd = new List<ECList>();
+                            switch (gs)
+                            {
+                                case "ECSK"://根据不同的公式定义，执行不同的计算
+                                    win10vujd = wind10vujdByECSK(stationLists[i].Id, dt, sc, ref error);
+                                    break;
+
+                                default:
+                                    win10vujd = wind10vujdByECSK(stationLists[i].Id, dt, sc, ref error);
+                                    break;
+                            }
+                            stationLists.Add(new StationList()
+                            {
+                                Id = stationLists[i].Id,
+                                wind10jdvuGS = gs,
+                                win10vu = win10vujd,
+                            });
+                        }
+                        count++;
+                    }
+                }
+                else
+                {
+                    switch (wind10jdvuGS)
+                    {
+                        case "ECSK"://根据不同的公式定义，执行不同的计算
+                            stationLists[i].win10vujd = wind10vujdByECSK(stationLists[i].Id, dt, sc, ref error);
+                            break;
+                        default:
+                            stationLists[i].win10vujd = wind10vujdByECSK(stationLists[i].Id, dt, sc, ref error);
+                            break;
+
+                    }
+                }
+
+            }
+            return YBRKLS(stationLists, dt, sc, ref error);
+        }
+        public bool YBRKLS(List<StationList> stationLists, DateTime dt, int sc, ref string error)
+        {
+            bool insertBS = false;
+            foreach (StationList stationList in stationLists)
+            {
+
+                if (stationList.win10vu != null && wind10uvRK(stationList, dt, sc, ref error))
+                {
+                    insertBS = true;
+                }
+                if (stationList.win10vujd != null && wind10uvjdRK(stationList, dt, sc, ref error))
+                {
+                    insertBS = true;
+                }
+            }
+            return insertBS;
         }
         public bool YBRK(List<StationList> stationLists, DateTime dt, int sc, ref string error)
         {
@@ -706,6 +1003,14 @@ namespace 呼和浩特市精细化天气预报评分系统_数据库
                     {
                         insertBS = true;
                     }
+                if (stationList.win10vu != null && wind10uvRK(stationList, dt, sc, ref error))
+                {
+                    insertBS = true;
+                }
+                if (stationList.win10vujd != null && wind10uvjdRK(stationList, dt, sc, ref error))
+                {
+                    insertBS = true;
+                }
             }
             return insertBS;
         }
@@ -897,6 +1202,154 @@ namespace 呼和浩特市精细化天气预报评分系统_数据库
                                 sqlman.Parameters.AddWithValue("@tem", Math.Round(eCList.ys, 2));
                                 sqlman.Parameters.AddWithValue("@sx", eCList.sx);
                                 sqlman.Parameters.AddWithValue("@gs", stationList.tmaxGS);
+                                sw.Start();
+                                try
+                                {
+                                    jlCount = sqlman.ExecuteNonQuery();
+                                }
+                                catch (Exception ex)
+                                {
+                                    error += ex.Message + "\r\n";
+                                }
+                            }
+                        }
+                        else
+                        {
+                            insertBS = true;
+                        }
+                    }
+
+                }
+
+            }
+            catch (Exception ex)
+            {
+                error += ex.Message + "\r\n";
+            }
+            return insertBS;
+        }
+        public bool wind10uvRK(StationList wind10List, DateTime dt, int sc, ref string error)
+        {
+            bool insertBS = false;
+            try
+            {
+                string sqlInsert = "insert into YB_WIN10" + "(StatioID,Date,SC,SX,WIV10,WIU10,GS) VALUES(@id,@date,@sc,@sx,@win10v,@win10u,@gs)";
+                string sqlupdate = "update YB_WIN10 set  WIV10=@win10v, WIU10=@win10u  where StatioID=@id and date=@date and sc=@sc and sx=@sx and gs=@gs";
+                Stopwatch sw = new Stopwatch();
+                using (SqlConnection mycon = new SqlConnection(con))
+                {
+                    mycon.Open();//打开
+                    int jlCount = 0;
+                    foreach (ECList eCList in wind10List.win10vu)
+                    {
+                        if (eCList.ys == 888888)//对于不进行计算的时次不做入库处理
+                            continue;
+                        jlCount = 0;
+
+                        using (SqlCommand sqlman = new SqlCommand(sqlInsert, mycon))
+                        {
+                            sqlman.Parameters.AddWithValue("@id", wind10List.Id);
+                            sqlman.Parameters.AddWithValue("@date", dt.ToString("yyyy-MM-dd"));
+                            sqlman.Parameters.AddWithValue("@sc", sc);
+                            sqlman.Parameters.AddWithValue("@win10v", eCList.ys);
+                            sqlman.Parameters.AddWithValue("@win10u", eCList.ys2);
+                            sqlman.Parameters.AddWithValue("@sx", eCList.sx);
+                            sqlman.Parameters.AddWithValue("@gs", wind10List.wind10vuGS);
+                            sw.Start();
+                            try
+                            {
+                                jlCount = sqlman.ExecuteNonQuery();
+                            }
+                            catch
+                            {
+
+                            }
+                        }
+                        if (jlCount == 0)
+                        {
+                            using (SqlCommand sqlman = new SqlCommand(sqlupdate, mycon))
+                            {
+                                sqlman.Parameters.AddWithValue("@id", wind10List.Id);
+                                sqlman.Parameters.AddWithValue("@date", dt.ToString("yyyy-MM-dd"));
+                                sqlman.Parameters.AddWithValue("@sc", sc);
+                                sqlman.Parameters.AddWithValue("@win10v", eCList.ys);
+                                sqlman.Parameters.AddWithValue("@win10u", eCList.ys2);
+                                sqlman.Parameters.AddWithValue("@sx", eCList.sx);
+                                sqlman.Parameters.AddWithValue("@gs", wind10List.wind10vuGS );
+                                sw.Start();
+                                try
+                                {
+                                    jlCount = sqlman.ExecuteNonQuery();
+                                }
+                                catch (Exception ex)
+                                {
+                                    error += ex.Message + "\r\n";
+                                }
+                            }
+                        }
+                        else
+                        {
+                            insertBS = true;
+                        }
+                    }
+
+                }
+
+            }
+            catch (Exception ex)
+            {
+                error += ex.Message + "\r\n";
+            }
+            return insertBS;
+        }
+        public bool wind10uvjdRK(StationList wind10List, DateTime dt, int sc, ref string error)
+        {
+            bool insertBS = false;
+            try
+            {
+                string sqlInsert = "insert into YB_WIN10JD" + "(StatioID,Date,SC,SX,WIV10,WIU10,GS) VALUES(@id,@date,@sc,@sx,@win10v,@win10u,@gs)";
+                string sqlupdate = "update YB_WIN10JD set  WIV10=@win10v, WIU10=@win10u  where StatioID=@id and date=@date and sc=@sc and sx=@sx and gs=@gs";
+                Stopwatch sw = new Stopwatch();
+                using (SqlConnection mycon = new SqlConnection(con))
+                {
+                    mycon.Open();//打开
+                    int jlCount = 0;
+                    foreach (ECList eCList in wind10List.win10vujd)
+                    {
+                        if (eCList.ys == 888888)//对于不进行计算的时次不做入库处理
+                            continue;
+                        jlCount = 0;
+
+                        using (SqlCommand sqlman = new SqlCommand(sqlInsert, mycon))
+                        {
+                            sqlman.Parameters.AddWithValue("@id", wind10List.Id);
+                            sqlman.Parameters.AddWithValue("@date", dt.ToString("yyyy-MM-dd"));
+                            sqlman.Parameters.AddWithValue("@sc", sc);
+                            sqlman.Parameters.AddWithValue("@win10v", eCList.ys);
+                            sqlman.Parameters.AddWithValue("@win10u", eCList.ys2);
+                            sqlman.Parameters.AddWithValue("@sx", eCList.sx);
+                            sqlman.Parameters.AddWithValue("@gs", wind10List.wind10vuGS);
+                            sw.Start();
+                            try
+                            {
+                                jlCount = sqlman.ExecuteNonQuery();
+                            }
+                            catch
+                            {
+
+                            }
+                        }
+                        if (jlCount == 0)
+                        {
+                            using (SqlCommand sqlman = new SqlCommand(sqlupdate, mycon))
+                            {
+                                sqlman.Parameters.AddWithValue("@id", wind10List.Id);
+                                sqlman.Parameters.AddWithValue("@date", dt.ToString("yyyy-MM-dd"));
+                                sqlman.Parameters.AddWithValue("@sc", sc);
+                                sqlman.Parameters.AddWithValue("@win10v", eCList.ys);
+                                sqlman.Parameters.AddWithValue("@win10u", eCList.ys2);
+                                sqlman.Parameters.AddWithValue("@sx", eCList.sx);
+                                sqlman.Parameters.AddWithValue("@gs", wind10List.wind10vuGS);
                                 sw.Start();
                                 try
                                 {
@@ -1772,6 +2225,111 @@ namespace 呼和浩特市精细化天气预报评分系统_数据库
             eCLists = eCLists.OrderBy(y => y.sx).ToList();
             return eCLists;
         }
+        public List<ECList> wind10uvByECSK(string stationID, DateTime dt, int sc, ref string error)
+        {
+
+            List<ECList> eCLists = new List<ECList>();
+            List<ECList> wind10uLists = new List<ECList>();
+            using (SqlConnection mycon = new SqlConnection(con))
+            {
+                try
+                {
+                    mycon.Open();//打开
+                    string sql = String.Format("select * from EC预报 where StatioID='{0}' and date='{1:yyyy-MM-dd}' and sc='{2}' and sx<'96'", stationID, dt.AddDays(-1), sc);  //SQL查询语句 (Name,StationID,Date)。按照数据库中的表的字段顺序保存
+                    SqlCommand sqlman = new SqlCommand(sql, mycon);
+                    SqlDataReader sqlreader = sqlman.ExecuteReader();
+                    while (sqlreader.Read())
+                    {
+                        try
+                        {
+                            eCLists.Add(new ECList()
+                            {
+                                ys2 = sqlreader.IsDBNull(sqlreader.GetOrdinal("WIU10")) ? -999999 : sqlreader.GetFloat(sqlreader.GetOrdinal("WIU10")),
+                                ys = sqlreader.IsDBNull(sqlreader.GetOrdinal("WIV10")) ? -999999 : sqlreader.GetFloat(sqlreader.GetOrdinal("WIV10")),
+                                sx = sqlreader.GetInt16(sqlreader.GetOrdinal("SX"))
+                            });
+                        }
+                        catch (Exception ex)
+                        {
+                            error += ex.Message + "\r\n";
+                        }
+                    }
+
+
+                }
+                catch (Exception ex)
+                {
+
+                    error += ex.Message + "\r\n";
+                }
+            }
+            List<ECList> listLS  = eCLists.FindAll(y => y.sx >= 24 && y.sx < 96).OrderBy(y=>y.sx).ToList();
+            foreach (ECList eCList in listLS)
+            {
+                wind10uLists.Add(new ECList()
+                {
+                    ys = eCList.ys,
+                    ys2 = eCList.ys2,
+                    sx = eCList.sx-24
+                });
+            }
+              
+            eCLists = wind10uLists.OrderBy(y => y.sx).ToList();
+            return eCLists;
+        }
+
+        public List<ECList> wind10vujdByECSK(string stationID, DateTime dt, int sc, ref string error)
+        {
+
+            List<ECList> eCLists = new List<ECList>();
+            List<ECList> wind10uLists = new List<ECList>();
+            using (SqlConnection mycon = new SqlConnection(con))
+            {
+                try
+                {
+                    mycon.Open();//打开
+                    string sql = String.Format("select * from EC预报 where StatioID='{0}' and date='{1:yyyy-MM-dd}' and sc='{2}' and sx<'96'", stationID, dt.AddDays(-1), sc);  //SQL查询语句 (Name,StationID,Date)。按照数据库中的表的字段顺序保存
+                    SqlCommand sqlman = new SqlCommand(sql, mycon);
+                    SqlDataReader sqlreader = sqlman.ExecuteReader();
+                    while (sqlreader.Read())
+                    {
+                        try
+                        {
+                            eCLists.Add(new ECList()
+                            {
+                                ys2 = sqlreader.IsDBNull(sqlreader.GetOrdinal("GUST10T3")) ? -999999 : sqlreader.GetFloat(sqlreader.GetOrdinal("GUST10T3")),
+                                ys = sqlreader.IsDBNull(sqlreader.GetOrdinal("GUST10T3")) ? -999999 : 0,
+                                sx = sqlreader.GetInt16(sqlreader.GetOrdinal("SX"))
+                            });
+                        }
+                        catch (Exception ex)
+                        {
+                            error += ex.Message + "\r\n";
+                        }
+                    }
+
+
+                }
+                catch (Exception ex)
+                {
+
+                    error += ex.Message + "\r\n";
+                }
+            }
+            List<ECList> listLS = eCLists.FindAll(y => y.sx >= 24 && y.sx < 96).OrderBy(y => y.sx).ToList();
+            foreach (ECList eCList in listLS)
+            {
+                wind10uLists.Add(new ECList()
+                {
+                    ys = eCList.ys,
+                    ys2 = eCList.ys2,
+                    sx = eCList.sx - 24
+                });
+            }
+
+            eCLists = wind10uLists.OrderBy(y => y.sx).ToList();
+            return eCLists;
+        }
 
         public List<ECList> tminByGJZNSK(string stationID, DateTime dt, int sc, ref string error)
         {
@@ -1957,7 +2515,7 @@ namespace 呼和浩特市精细化天气预报评分系统_数据库
         {
             public int sx { get; set; }
             public float ys { get; set; }
-
+            public float ys2 { get; set; }
         }
         public class WindList
         {
@@ -1978,14 +2536,16 @@ namespace 呼和浩特市精细化天气预报评分系统_数据库
             public List<ECList> Tmax { get; set; }
             public List<ECList> Tmin { get; set; }
             public float[] PRE { get; set; }
-            public float[] FS { get; set; }
-            public string[] FX { get; set; }
+
+            public List<ECList> win10vu { get; set; }
+            public List<ECList> win10vujd { get; set; }
+
             public string temGS { get; set; }
             public string tmaxGS { get; set; }
             public string tminGS { get; set; }
             public string PREGS { get; set; }
-            public string FXGS { get; set; }
-            public string FSGS { get; set; }
+            public string wind10vuGS { get; set; }
+            public string wind10jdvuGS { get; set; }
         }
     }
 }

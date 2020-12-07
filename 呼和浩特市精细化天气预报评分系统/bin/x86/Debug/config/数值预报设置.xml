@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <XmlConfig>
   <OtherConfig>
-    <DB>Server=172.18.142.157;Database=智能网格;user id=sa;password=134679;</DB>
-    <SZDB>Server=172.18.142.157;Database=数值预报;user id=sa;password=134679;</SZDB>
+    <DB>Server=172.18.143.127;Database=智能网格;user id=sa;password=134679;</DB>
+    <SZDB>Server=172.18.143.127;Database=数值预报;user id=sa;password=134679;</SZDB>
   </OtherConfig>
 </XmlConfig>

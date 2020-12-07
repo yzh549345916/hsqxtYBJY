@@ -140,15 +140,7 @@ namespace 呼和浩特市精细化天气预报评分系统
                     for (int i = 0; i < szID.Length; i++)
                     {
 
-                        int gw1 = 0,
-                            gw2 = 0,
-                            gw3 = 0,
-                            dw1 = 0,
-                            dw2 = 0,
-                            dw3 = 0,
-                            qy1 = 0,
-                            qy2 = 0,
-                            allCount = 0;
+                        int gw1 = 0,gw2 = 0,gw3 = 0,dw1 = 0,dw2 = 0,dw3 = 0,qy1 = 0,qy2 = 0,allCount = 0;
                         try
                         {
                             using (SqlConnection mycon = new SqlConnection(con))

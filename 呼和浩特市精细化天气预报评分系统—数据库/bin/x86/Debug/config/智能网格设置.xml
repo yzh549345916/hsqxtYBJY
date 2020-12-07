@@ -24,8 +24,9 @@
     <HH20>15</HH20>
     <MM20>20</MM20>
   </YBTime>
+  <Path6Hour>\\172.18.142.167\sevp\6小时指导预报\</Path6Hour>
   <OtherConfig>
-    <DB>Server=172.18.142.157;Database=智能网格;user id=sa;password=134679;</DB>
-    <SZDB>Server=172.18.142.157;Database=数值预报;user id=sa;password=134679;</SZDB>
+    <DB>Server=172.18.143.127;Database=智能网格;user id=sa;password=134679;</DB>
+    <SZDB>Server=172.18.143.127;Database=数值预报;user id=sa;password=134679;</SZDB>
   </OtherConfig>
 </XmlConfig>

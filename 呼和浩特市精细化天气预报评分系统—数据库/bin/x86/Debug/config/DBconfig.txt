@@ -1,4 +1,4 @@
-sql管理员=Server=172.18.142.157;Database=hhhtjxh;user id=sa;password=134679;
+sql管理员=Server=172.18.143.127;Database=hhhtjxh;user id=sa;password=134679;
 实况入库08小时=18
 实况入库08分钟=20
 市局预报08入库小时=10

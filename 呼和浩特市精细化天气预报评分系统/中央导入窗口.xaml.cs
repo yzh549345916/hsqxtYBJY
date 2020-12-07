@@ -1822,7 +1822,7 @@ namespace 呼和浩特市精细化天气预报评分系统
                             DateTime dt2 = Convert.ToDateTime(dt1.ToString("yyyy-MM-dd HH:mm"));
 
                             DateTime dt3 = Convert.ToDateTime(bjTime);
-                            if (DateTime.Compare(dt2, dt3) <= 0)
+                            if (DateTime.Compare(dt2, dt3) != 0)
                             {
                                 DRJLXS.Text = "开始导入\n";
                                 try

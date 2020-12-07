@@ -81,6 +81,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Cimiss.cs" />
     <Compile Include="Class1.cs" />
     <Compile Include="ClassSZYB.cs" />
     <Compile Include="Style\CustomWindow.xaml.cs">
@@ -92,6 +93,7 @@
     <Compile Include="XmlConfig.cs" />
     <Compile Include="EC处理类.cs" />
     <Compile Include="国家级智能网格.cs" />
+    <Compile Include="市局指导预报同步.cs" />
     <Compile Include="数据恢复窗口.xaml.cs">
       <DependentUpon>数据恢复窗口.xaml</DependentUpon>
     </Compile>

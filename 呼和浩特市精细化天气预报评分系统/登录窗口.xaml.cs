@@ -50,8 +50,8 @@ namespace 呼和浩特市精细化天气预报评分系统
         public void CSH()
         {
             ((DataGrid)(this.FindName("ZBList"))).ItemsSource = zbjl;
-            sDate.BlackoutDates.Add(new CalendarDateRange((DateTime.Now.Date).AddDays(+1), DateTime.MaxValue));//开始时间不可选的范围，当前日期以后
-            sDate.BlackoutDates.Add(new CalendarDateRange(DateTime.MinValue,DateTime.Now.Date.AddDays(-2)));//开始时间不可选的范围，当前日期以后
+            sDate.BlackoutDates.Add(new CalendarDateRange((DateTime.Now.Date).AddDays(+1), DateTime.MaxValue));//
+            sDate.BlackoutDates.Add(new CalendarDateRange(DateTime.MinValue,DateTime.Now.Date.AddDays(-2)));//
             sDate.SelectedDate = DateTime.Now;
             try
             {
@@ -70,7 +70,6 @@ namespace 呼和浩特市精细化天气预报评分系统
                 {
                     string line;
 
-                    // 从文件读取并显示行，直到文件的末尾 
                     while ((line = sr.ReadLine()) != null)
                     {
                         if (line.Contains("sql管理员"))
@@ -79,7 +78,7 @@ namespace 呼和浩特市精细化天气预报评分系统
                         }
                     }
                 }
-                //初始化岗位选择框
+                
                 int gwchooseCount = 0;
                 Dictionary<int, string> mydic = new Dictionary<int, string>();
                 using (StreamReader sr = new StreamReader(GWconfigPath, Encoding.Default))

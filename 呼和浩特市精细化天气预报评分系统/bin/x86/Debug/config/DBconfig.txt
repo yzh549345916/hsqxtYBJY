@@ -1,5 +1,5 @@
-sql管理员=Server=172.18.142.157;Database=hhhtjxh;user id=sa;password=134679;
-sql旗县=Server=172.18.142.157;Database=hhhtjxh;user id=qx;password=4348050;
+sql管理员=Server=172.18.143.127;Database=hhhtjxh;user id=sa;password=134679;
+sql旗县=Server=172.18.143.127;Database=hhhtjxh;user id=qx;password=4348050;
 实况入库小时=7
 实况入库分钟=0
 实况时次=20

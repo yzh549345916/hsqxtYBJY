@@ -1,5 +1,24 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <XmlConfig>
+  <emailConfig>
+    <emailFrom>
+      <address>hsqxjdzzh@163.com</address>
+      <password>MTNOZEPSJGLAGLNZ</password>
+    </emailFrom>
+    <空气邮件查收记录>20210106,20210107,20210108,20210109,20210110,20210111,20210112,20210113</空气邮件查收记录>
+    <emailCount>2</emailCount>
+    <myCount>1</myCount>
+    <emailFrom0>
+      <address>hsqxjdzzh@163.com</address>
+      <password>MTNOZEPSJGLAGLNZ</password>
+    </emailFrom0>
+    <emailFrom1>
+      <address>hsqxjdzzh@163.com</address>
+      <password>MTNOZEPSJGLAGLNZ</password>
+    </emailFrom1>
+    <emailTo>549345916@qq.com,hswxxyk@163.com</emailTo>
+    <errorEmailTo>549345916@qq.com</errorEmailTo>
+  </emailConfig>
   <GJTime>
     <HH08>4</HH08>
     <MM08>30</MM08>
@@ -24,6 +43,9 @@
     <HH20>15</HH20>
     <MM20>20</MM20>
   </YBTime>
+  <路径>
+    <Path空气质量中长期预报>\\172.18.142.10\share\呼和浩特空气质量中长期预报\</Path空气质量中长期预报>
+  </路径>
   <Path6Hour>\\172.18.142.167\sevp\6小时指导预报\</Path6Hour>
   <OtherConfig>
     <DB>Server=172.18.143.127;Database=智能网格;user id=sa;password=134679;</DB>

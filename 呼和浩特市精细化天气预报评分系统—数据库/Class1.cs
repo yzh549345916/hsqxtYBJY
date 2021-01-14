@@ -2101,7 +2101,7 @@ namespace 呼和浩特市精细化天气预报评分系统_数据库
                         else
                         {
                             SJSKRain2424 = 0;//如果不一致为0
-                        }
+                        } 
                     }
                 }
                 double SJSKTmin48 = 0, SJSKTmax48 = 0;//标致市局预报与实况降水是否一致，一致为1，不一致为0，999999为缺测，-999999为缺报，999998为不观测
@@ -6575,52 +6575,63 @@ namespace 呼和浩特市精细化天气预报评分系统_数据库
 
                     for (int i = 0; i < strQXSK.Split('\n').Length; i++)
                     {
-                        string[] szLS1 = strQXSK.Split('\n')[i].Split(' ');
-                        float myTmax, myTmin, myRain;
-                        try
+                        string[] szLS2 = strQXSK.Split('\n');
+                        for (int j = 0; j < szLS2.Length; j++)
                         {
-                            myRain = Convert.ToSingle(szLS1[5]);
-                        }
-                        catch
-                        {
-                            myRain = 999999;
-                        }
-                        try
-                        {
-                            myTmax = Convert.ToSingle(szLS1[3]);
-                        }
-                        catch
-                        {
-                            myTmax = 999999;
-                        }
-                        try
-                        {
-                            myTmin = Convert.ToSingle(szLS1[4]);
-                        }
-                        catch
-                        {
-                            myTmin = 999999;
+                            string[] szLS1 = szLS2[j].Split(' ');
+                            if (szLS1[2] == QXID.Split(',')[i])
+                            {
+                                float myTmax, myTmin, myRain;
+                                try
+                                {
+                                    myRain = Convert.ToSingle(szLS1[5]);
+                                }
+                                catch
+                                {
+                                    myRain = 999999;
+                                }
+                                try
+                                {
+                                    myTmax = Convert.ToSingle(szLS1[3]);
+                                }
+                                catch
+                                {
+                                    myTmax = 999999;
+                                }
+                                try
+                                {
+                                    myTmin = Convert.ToSingle(szLS1[4]);
+                                }
+                                catch
+                                {
+                                    myTmin = 999999;
+                                }
+
+                                if (myTmin == myTmax)//如果最高最低温度相等，按照缺测处理
+                                {
+                                    myTmin = 999999;
+                                    myTmax = 999999;
+                                }
+                                string myDate = strDate.Substring(0, 4) + '-' + strDate.Substring(4, 2) + '-' + strDate.Substring(6, 2);
+                                string sql = string.Format(@"insert into SK (Name,StationID,Date,SC,Tmax,Tmin,Rain) values('{0}','{1}','{2}','{3}','{4}','{5}','{6}')", QXName.Split(',')[i], QXID.Split(',')[i], myDate, strTime, myTmax, myTmin, myRain);  //SQL查询语句 (Name,StationID,Date)。按照数据库中的表的字段顺序保存
+                                try
+                                {
+                                    SqlCommand sqlman = new SqlCommand(sql, mycon);
+                                    SKRKGS += sqlman.ExecuteNonQuery();                            //执行数据库语句并返回一个int值（受影响的行数）     
+
+
+
+                                }
+                                catch (Exception ex)
+                                {
+                                    // MessageBox.Show("数据库添加失败\n" + ex.Message);
+                                }
+                                break;
+                            }
                         }
 
-                        if (myTmin == myTmax)//如果最高最低温度相等，按照缺测处理
-                        {
-                            myTmin = 999999;
-                            myTmax = 999999;
-                        }
-                        string myDate = strDate.Substring(0, 4) + '-' + strDate.Substring(4, 2) + '-' + strDate.Substring(6, 2);
-                        string sql = string.Format(@"insert into SK (Name,StationID,Date,SC,Tmax,Tmin,Rain) values('{0}','{1}','{2}','{3}','{4}','{5}','{6}')", QXName.Split(',')[i], QXID.Split(',')[i], myDate, strTime, myTmax, myTmin, myRain);  //SQL查询语句 (Name,StationID,Date)。按照数据库中的表的字段顺序保存
-                        try
-                        {
-                            SqlCommand sqlman = new SqlCommand(sql, mycon);
-                            SKRKGS += sqlman.ExecuteNonQuery();                            //执行数据库语句并返回一个int值（受影响的行数）     
-
-
-
-                        }
-                        catch (Exception ex)
-                        {
-                            // MessageBox.Show("数据库添加失败\n" + ex.Message);
-                        }
+                        
+                       
                     }
                 }
             }

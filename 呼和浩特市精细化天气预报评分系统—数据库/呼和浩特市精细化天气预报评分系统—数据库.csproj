@@ -54,6 +54,9 @@
     <ApplicationIcon>ooopic_1496834599.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Aspose.Email">
+      <HintPath>..\..\..\..\..\demo\c#\旧的\Aspose.Email.dll</HintPath>
+    </Reference>
     <Reference Include="Ice">
       <HintPath>..\..\..\20180208乡镇精细化预报\xzjxhyb_DBmain\bin\Debug\Ice.dll</HintPath>
     </Reference>
@@ -98,6 +101,7 @@
       <DependentUpon>数据恢复窗口.xaml</DependentUpon>
     </Compile>
     <Compile Include="智能网格类1.cs" />
+    <Compile Include="邮件接收.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
